@@ -7,5 +7,5 @@
     <img src="https://img.shields.io/badge/-Algorithm-blue.svg">
 </div>
 
-## [链表(及其相关结构)](Linked List/)
-* - [删除链表中含有指定元素的节点.py](Linked List/Remove Linked List Elements.py)
+## [链表(及其相关结构)](LinkedList/)
+* - [删除链表中含有指定元素的节点.py](LinkedList/RemoveLinkedListElements.py)

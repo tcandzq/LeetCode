@@ -13,10 +13,10 @@
 
 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/submissions/
 
-注意： 1.问题是已经排序了,所以所有重复的节点会连在一起
+注意： 1.问题是已经排序了,所以所有重复的结点会连在一起
 
-      2.当遇到某个节点与前一个节点重复时，此时前一个节点会指向重复节点的下一个节点，而当前
-       节点不能向后滑动，需要与新指向的节点再次比较。
+      2.当前结点遇到与下一个结点值一样的结点时，需要让当前结点的前一个结点指向重复结点的下一个结点，而这个前
+       一个结点不能向后滑动，需要与新指向的结点再次比较。
 
       3.if语句中的cur.next可能会空
 
@@ -32,8 +32,8 @@ def deleteDuplicates(head):
     if not head or not head.next:
         return head
     headNode = ListNode(1)
-    headNode.next = head #创建一个头节点
-    cur = headNode.next   #创建一个当前节点
+    headNode.next = head #创建一个哑结点
+    cur = headNode.next   #创建一个当前结点
     while cur and cur.next:
         if cur.val == cur.next.val:
             cur.next = cur.next.next

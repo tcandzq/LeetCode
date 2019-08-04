@@ -1,4 +1,4 @@
-<h3 align="center">Leetcode及算法(write Leetcode with Python3)</h3>
+<h3 align="center">LeetCode+算法+数据结构(write LeetCode with Python3)</h3>
 <div align="center">
     <img src="0_icons/book.png">
 </div>

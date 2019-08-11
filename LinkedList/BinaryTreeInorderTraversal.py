@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/8/8 22:11
 # @Author  : tc
-# @Site    : 
 # @File    : BinaryTreeInorderTraversal.py
 """
 给定一个二叉树，返回它的中序 遍历。

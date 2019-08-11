@@ -41,7 +41,6 @@ def helper(root,node_list):
             helper(root.right,node_list)
 #解法2:
 
-
 if __name__ == '__main__':
 
     root = TreeNode(1)

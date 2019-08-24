@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/BinarySearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/MedianOfTwoSortedArrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/PowxN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/SearchInsertPosition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/ShortestSubarrayWithSumAtLeastK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/KMP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/SearchA2DMatrixII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DistinctSubsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DungeonGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/HouseRobber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointer/MinimumSizeSubarraySum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointer/MinimumWindowSubstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/BinaryTreeInorderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,53 +32,53 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="8" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.5" value="11" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="6" />
+          <entry key="md" value="9" />
           <entry key="png" value="1" />
-          <entry key="py" value="24" />
+          <entry key="py" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="6" />
-          <entry key="Python" value="24" />
+          <entry key="Markdown" value="9" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="115" />
-          <entry key="py" value="6420" />
+          <entry key="md" value="188" />
+          <entry key="py" value="14226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="115" />
-          <entry key="Python" value="6420" />
+          <entry key="Markdown" value="188" />
+          <entry key="Python" value="14226" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="648">
-                <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+              <first_editor relative-caret-position="409">
+                <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,19 +86,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/ShortestSubarrayWithSumAtLeastK.py">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="181">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding>
+                <marker date="1566644784153" expanded="true" signature="715:716" ph="..." />
+                <marker date="1566644784153" expanded="true" signature="715:994" ph="..." />
+                <marker date="1566644784153" expanded="true" signature="715:995" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearch/MedianOfTwoSortedArrays.py">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1446">
-              <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+            <state relative-caret-position="168">
+              <caret line="19" column="113" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="113" />
+              <folding>
+                <marker date="1566640974244" expanded="true" signature="569:570" ph="..." />
+                <marker date="1566640974244" expanded="true" signature="569:574" ph="..." />
+                <marker date="1566640974244" expanded="true" signature="569:903" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,13 +154,28 @@
         <option value="D:/working/code/scripts/tmp.py" />
         <option value="$PROJECT_DIR$/LinkedList/BinaryTreeInorderTraversal.py" />
         <option value="$PROJECT_DIR$/BinarySearch/MedianOfTwoSortedArrays.py" />
-        <option value="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" />
         <option value="$PROJECT_DIR$/BinarySearch/SearchInsertPosition.py" />
         <option value="$PROJECT_DIR$/BinarySearch/PowxN.py" />
         <option value="$PROJECT_DIR$/BinarySearch/BinarySearch.py" />
         <option value="$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py" />
+        <option value="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" />
+        <option value="$PROJECT_DIR$/BinarySearch/SearchA2DMatrixII.py" />
+        <option value="$PROJECT_DIR$/BinaryTree/MinimumSizeSubarraySum.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MinimumSizeSubarraySum.py" />
+        <option value="$PROJECT_DIR$/TwoPointer/MinimumWindowSubstring.py" />
+        <option value="$PROJECT_DIR$/Algorithm/KMP.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/DungeonGame.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/DistinctSubsequences.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py" />
+        <option value="$PROJECT_DIR$/array/SubarraySumEqualsK.py" />
+        <option value="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/BinarySearch/ShortestSubarrayWithSumAtLeastK.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/HouseRobber.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py" />
       </list>
     </option>
   </component>
@@ -150,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +205,16 @@
             <path>
               <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,19 +225,34 @@
             <path>
               <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="TwoPointer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/DynamicProgramming/HouseRobber.py" />
     <property name="last_opened_file_path" value="D:/working/GitLab/cangjie-gateway" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github_project\My-LeetCode\TwoPointer" />
+      <recent name="C:\github_project\My-LeetCode\DynamicProgramming" />
       <recent name="C:\github_project\My-LeetCode\BinaryTree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -207,8 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindFirstAndLastPositionOfElementInSortedArray">
-    <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.HouseRobber">
+    <configuration name="BestTimeToBuyAndSellStock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +280,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/BinarySearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DistinctSubsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,11 +301,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/DistinctSubsequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PowxN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DungeonGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,11 +322,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/PowxN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/DungeonGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,7 +335,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchA2DMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HouseRobber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,11 +343,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/HouseRobber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +356,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchInsertPosition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MaximumProductSubarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,11 +364,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/SearchInsertPosition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,19 +378,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BinarySearch" />
-      <item itemvalue="Python.SearchInsertPosition" />
-      <item itemvalue="Python.SearchA2DMatrix" />
-      <item itemvalue="Python.PowxN" />
-      <item itemvalue="Python.FindFirstAndLastPositionOfElementInSortedArray" />
+      <item itemvalue="Python.DungeonGame" />
+      <item itemvalue="Python.DistinctSubsequences" />
+      <item itemvalue="Python.BestTimeToBuyAndSellStock" />
+      <item itemvalue="Python.MaximumProductSubarray" />
+      <item itemvalue="Python.HouseRobber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FindFirstAndLastPositionOfElementInSortedArray" />
-        <item itemvalue="Python.BinarySearch" />
-        <item itemvalue="Python.PowxN" />
-        <item itemvalue="Python.SearchA2DMatrix" />
-        <item itemvalue="Python.SearchInsertPosition" />
+        <item itemvalue="Python.HouseRobber" />
+        <item itemvalue="Python.MaximumProductSubarray" />
+        <item itemvalue="Python.BestTimeToBuyAndSellStock" />
+        <item itemvalue="Python.DistinctSubsequences" />
+        <item itemvalue="Python.DungeonGame" />
       </list>
     </recent_temporary>
   </component>
@@ -344,15 +408,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22181243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12689805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16052061" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveLinkedListElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="46" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/SwapNodesInPairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -419,16 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <marker date="1566294233902" expanded="true" signature="286:287" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -436,20 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding>
-            <marker date="1566368026954" expanded="true" signature="973:1341" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInsertPosition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1566208230304" expanded="true" signature="391:392" ph="..." />
-            <marker date="1566208230304" expanded="true" signature="391:770" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,43 +490,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <marker date="1566368823133" expanded="true" signature="545:693" ph="..." />
-            <marker date="1566368823133" expanded="true" signature="730:731" ph="..." />
-            <marker date="1566368823133" expanded="true" signature="1230:1231" ph="..." />
-            <marker date="1566368823133" expanded="true" signature="1230:1236" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/MedianOfTwoSortedArrays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1446">
+        <state relative-caret-position="2160">
           <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveLinkedListElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="46" selection-start-line="46" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchA2DMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <marker date="1566443162792" expanded="true" signature="732:1223" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchA2DMatrixII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1094">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/KMP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointer/MinimumWindowSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwoPointer/MinimumSizeSubarraySum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInsertPosition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
+        <state relative-caret-position="365">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1566618665945" expanded="true" signature="313:314" ph="..." />
+            <marker date="1566618665945" expanded="true" signature="313:319" ph="..." />
+            <marker date="1566618665945" expanded="true" signature="313:750" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/SubarraySumEqualsK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1566621675875" expanded="true" signature="358:369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/DungeonGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1566551905189" expanded="true" signature="344:345" ph="..." />
+            <marker date="1566551905189" expanded="true" signature="344:871" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/DistinctSubsequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1085">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1566575183667" expanded="true" signature="944:945" ph="..." />
+            <marker date="1566575183667" expanded="true" signature="944:949" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding>
+            <marker date="1566572754177" expanded="true" signature="544:545" ph="..." />
+            <marker date="1566572754177" expanded="true" signature="544:546" ph="..." />
+            <marker date="1566572754177" expanded="true" signature="1101:1464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <marker date="1566618313079" expanded="true" signature="525:526" ph="..." />
+            <marker date="1566618313079" expanded="true" signature="525:1041" ph="..." />
+            <marker date="1566618313079" expanded="true" signature="525:1116" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/ShortestSubarrayWithSumAtLeastK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="113" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="113" />
+          <folding>
+            <marker date="1566640974244" expanded="true" signature="569:570" ph="..." />
+            <marker date="1566640974244" expanded="true" signature="569:574" ph="..." />
+            <marker date="1566640974244" expanded="true" signature="569:903" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="648">
-            <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <first_editor relative-caret-position="409">
+            <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <marker date="1566644784153" expanded="true" signature="715:716" ph="..." />
+            <marker date="1566644784153" expanded="true" signature="715:994" ph="..." />
+            <marker date="1566644784153" expanded="true" signature="715:995" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>

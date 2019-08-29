@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/InsertInterval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/MergeIntervals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/TwoSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/ValidateBinarySearchTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,54 +23,56 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="37" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="11" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.5" value="14" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="9" />
           <entry key="png" value="1" />
-          <entry key="py" value="73" />
+          <entry key="py" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="9" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="188" />
-          <entry key="py" value="16761" />
+          <entry key="md" value="206" />
+          <entry key="py" value="19657" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="188" />
-          <entry key="Python" value="16761" />
+          <entry key="Markdown" value="206" />
+          <entry key="Python" value="19657" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="918">
-                <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+              <first_editor relative-caret-position="321">
+                <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,53 +80,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobber.py">
+        <entry file="file://$PROJECT_DIR$/Array/TwoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state relative-caret-position="241">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/InsertInterval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
-                <marker date="1566644784153" expanded="true" signature="715:716" ph="..." />
-                <marker date="1566644784153" expanded="true" signature="715:994" ph="..." />
+                <marker date="1567056642235" expanded="true" signature="500:505" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py">
+        <entry file="file://$PROJECT_DIR$/Array/MergeIntervals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="201">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1566739193742" expanded="true" signature="1476:1822" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-              <folding>
-                <marker date="1566740576879" expanded="true" signature="525:526" ph="..." />
-                <marker date="1566740576879" expanded="true" signature="525:1493" ph="..." />
-                <marker date="1566740576879" expanded="true" signature="1192:1493" ph="..." />
+                <marker date="1567049183409" expanded="true" signature="460:461" ph="..." />
+                <marker date="1567049183409" expanded="true" signature="460:462" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py">
+        <entry file="file://$PROJECT_DIR$/Array/SubarraySumEqualsK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            <state relative-caret-position="309">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <marker date="1566572754177" expanded="true" signature="544:545" ph="..." />
-                <marker date="1566572754177" expanded="true" signature="544:546" ph="..." />
-                <marker date="1566572754177" expanded="true" signature="1101:1464" ph="..." />
+                <marker date="1567091355503" expanded="true" signature="607:972" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinarySearchTree/ValidateBinarySearchTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-582">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <marker date="1566828644128" expanded="true" signature="567:568" ph="..." />
               </folding>
             </state>
           </provider>
@@ -173,18 +184,22 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/DistinctSubsequences.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py" />
         <option value="$PROJECT_DIR$/array/SubarraySumEqualsK.py" />
-        <option value="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/BinarySearch/ShortestSubarrayWithSumAtLeastK.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/HouseRobber.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" />
+        <option value="$PROJECT_DIR$/BinarySearchTree/ValidateBinarySearchTree.py" />
+        <option value="$PROJECT_DIR$/Array/MergeIntervals.py" />
+        <option value="$PROJECT_DIR$/Array/InsertInterval.py" />
+        <option value="$PROJECT_DIR$/Array/TwoSum.py" />
+        <option value="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -276,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BestTimeToBuyAndSellStock">
+  <component name="RunManager" selected="Python.TwoSum">
     <configuration name="BestTimeToBuyAndSellStock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStockWithTransactionFee" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="InsertInterval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,11 +321,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/InsertInterval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +334,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HouseRobber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MergeIntervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +342,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/HouseRobber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/MergeIntervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +355,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HouseRobberII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SubarraySumEqualsK" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +363,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +376,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MaximumProductSubarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TwoSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,11 +384,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/TwoSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,18 +399,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.BestTimeToBuyAndSellStock" />
-      <item itemvalue="Python.MaximumProductSubarray" />
-      <item itemvalue="Python.HouseRobber" />
-      <item itemvalue="Python.HouseRobberII" />
-      <item itemvalue="Python.BestTimeToBuyAndSellStockWithTransactionFee" />
+      <item itemvalue="Python.MergeIntervals" />
+      <item itemvalue="Python.InsertInterval" />
+      <item itemvalue="Python.SubarraySumEqualsK" />
+      <item itemvalue="Python.TwoSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TwoSum" />
+        <item itemvalue="Python.SubarraySumEqualsK" />
+        <item itemvalue="Python.InsertInterval" />
+        <item itemvalue="Python.MergeIntervals" />
         <item itemvalue="Python.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Python.BestTimeToBuyAndSellStockWithTransactionFee" />
-        <item itemvalue="Python.HouseRobberII" />
-        <item itemvalue="Python.HouseRobber" />
-        <item itemvalue="Python.MaximumProductSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -413,15 +428,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.170706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18161435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15292841" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22950819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,24 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/SubarraySumEqualsK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -606,28 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="918">
-            <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding>
-            <marker date="1566572754177" expanded="true" signature="544:545" ph="..." />
-            <marker date="1566572754177" expanded="true" signature="544:546" ph="..." />
-            <marker date="1566572754177" expanded="true" signature="1101:1464" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -637,34 +616,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="648">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <marker date="1566644784153" expanded="true" signature="715:716" ph="..." />
-            <marker date="1566644784153" expanded="true" signature="715:994" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
+        <state relative-caret-position="815">
           <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <marker date="1566739193742" expanded="true" signature="1476:1822" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfRepeatedSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="815">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="54" column="23" selection-start-line="45" selection-start-column="4" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/SubarraySumEqualsK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1566740576879" expanded="true" signature="525:526" ph="..." />
-            <marker date="1566740576879" expanded="true" signature="525:1493" ph="..." />
-            <marker date="1566740576879" expanded="true" signature="1192:1493" ph="..." />
+            <marker date="1567091355503" expanded="true" signature="607:972" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearchTree/ValidateBinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <marker date="1566828644128" expanded="true" signature="567:568" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/TwoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/InsertInterval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <marker date="1567056642235" expanded="true" signature="500:505" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/MergeIntervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1567049183409" expanded="true" signature="460:461" ph="..." />
+            <marker date="1567049183409" expanded="true" signature="460:462" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="321">
+            <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

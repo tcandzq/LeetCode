@@ -22,8 +22,6 @@ Output1:中位数是 (2 + 3)/2 = 2.5
 https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/4-xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-shu/
 
 """
-
-
 def findMedianSortedArrays(nums1, nums2):
     n = len(nums1)
     m = len(nums2)

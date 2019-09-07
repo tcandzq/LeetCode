@@ -4,7 +4,7 @@
 # @Author  : tc
 # @File    : BinaryTreeInorderTraversal.py
 """
-给定一个二叉树，返回它的中序 遍历。
+给定一个二叉树，返回它的中序遍历。
 Input:[1,null,2,3]
    1
     \

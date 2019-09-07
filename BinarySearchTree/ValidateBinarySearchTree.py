@@ -29,6 +29,11 @@ Input2:
 Output2:false
 输入为: [5,1,4,null,null,3,6]。
 根节点的值为 5 ，但是其右子节点值为 4 。
+
+注意二叉搜索树的定义:对树上的每个结点都满足其左子树上所有结点的数据域均小于或等于根结点,右子树的所有结点的数据域均大于根结点的数据域
+即不仅仅右结点要大于根结点,而且以该右结点为根的右子树的元素都要大于该结点
+
+参考:https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode/
 """
 
 class TreeNode:
@@ -37,17 +42,28 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
+#解法1参考:https://leetcode-cn.com/problems/validate-binary-search-tree/solution/die-dai-yu-di-gui-by-powcai/
 def isValidBST(root):
+    res = []
+    def helper(root):
+        if not root:
+            return
+        helper(root.left)
+        res.append(root.val)
+        helper(root.right)
+    helper(root)
+    return res == sorted(res)
 
-    if not root:
-        return True
+if __name__ == '__main__':
+    root = TreeNode(5)
+    node2 = TreeNode(1)
+    node3 = TreeNode(4)
+    node4 = TreeNode(3)
+    node5 = TreeNode(6)
 
-    if isValidBST(root.left) and isValidBST(root.right):
-
-        return
-
-    if root.left.val < root.val and root.right.val > root.val:
-
-        return True
+    root.left = node2
+    root.right = node3
+    node3.left = node4
+    node3.right = node5
+    print(isValidBST(root))
 

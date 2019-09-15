@@ -34,6 +34,9 @@
 2.右子树不平衡:
 3.左子树的与右子树的高度差大于1
 
+这是解法1,依赖于leetcode的二叉树最大深度;
+
+解法2很有意思,参考:https://leetcode-cn.com/problems/balanced-binary-tree/comments/
 """
 def isBalanced(root):
     if not root:

@@ -42,18 +42,13 @@ class ListNode:
 # 递归解法:
 
 def swapPairs1(head):
-
     if not head or not head.next:
         return head        # 第一步,递归的终止条件
-
     #一共三个结点:head,head.next,swapPairs(next.next)(已经完成交换,处理好的结点,看成一个黑盒子,关心输入输出就行了)
     next_head = head.next
-
     head.next = swapPairs1(next_head.next)  # 这个入参的确定需要注意:记住你本级递归返回给上级递归的是已经完成交换处理的链表，
                                             # 所以入参当然是指向已经完成交换处理链表的指针???(待确定)
-
     next_head.next = head
-
     #根据第二步:返回给上一级递归的是当前已经完成交换后，即处理好了的链表部分
     return next_head
 

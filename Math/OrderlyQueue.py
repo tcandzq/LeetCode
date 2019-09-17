@@ -31,4 +31,16 @@ S 只由小写字母组成。
 
 这是瓜子2020届算法工程师校招编程题第1题
 
+这题用数学求解真的是太巧妙了,关键是如何将题目K>1时的情况转换成冒泡排序,这很数学,打死我都想不到
+
+详解参考:https://leetcode-cn.com/problems/orderly-queue/solution/you-xu-dui-lie-by-leetcode/
 """
+class Solution:
+    def orderlyQueue(self, S: str, K: int) -> str:
+        if K == 1:
+            return min(S[i:] + S[:i] for i in range(len(S)))
+        return "".join(sorted(S))
+
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.orderlyQueue("cba", K=1))

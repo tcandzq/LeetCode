@@ -34,13 +34,6 @@ def maxProduct(nums):
     return res
 
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
     nums = [2, -5, -2, -4, 3]
 

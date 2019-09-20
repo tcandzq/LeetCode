@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +19,9 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="66" />
+          <entry key="project.closed" value="67" />
           <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -33,7 +31,7 @@
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="67" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,14 +52,14 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="md" value="343" />
-          <entry key="py" value="34705" />
+          <entry key="py" value="35595" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="343" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="34705" />
+          <entry key="Python" value="35595" />
         </counts>
       </usages-collector>
     </session>
@@ -84,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="449">
+              <first_editor relative-caret-position="1026">
                 <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
               </first_editor>
               <second_editor />
@@ -92,32 +90,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConvertSortedArrayToBinarySearchTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+            <state relative-caret-position="662">
+              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
-                <marker date="1568908782457" expanded="true" signature="941:1092" ph="..." />
-                <marker date="1568908782457" expanded="true" signature="1118:1274" ph="..." />
+                <marker date="1568962382647" expanded="true" signature="611:909" ph="..." />
+                <marker date="1568962382647" expanded="true" signature="935:940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -145,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/BinarySearch/KthSmallestElementInASortedMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="69" />
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -235,8 +215,8 @@
         <option value="$PROJECT_DIR$/TwoPointer/ValidPalindrome.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py" />
       </list>
     </option>
   </component>
@@ -251,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,11 +317,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/working/code/city_luo" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -368,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PalindromicSubstrings">
+  <component name="RunManager" selected="Python.SplitArrayLargestSum">
     <configuration name="DecodeWays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -432,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReverseLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SplitArrayLargestSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,11 +420,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -475,19 +455,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ReverseLinkedList" />
       <item itemvalue="Python.DecodeWays" />
       <item itemvalue="Python.OrderlyQueue" />
       <item itemvalue="Python.PalindromicSubstrings" />
       <item itemvalue="Python.ValidPalindrome" />
+      <item itemvalue="Python.SplitArrayLargestSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SplitArrayLargestSum" />
         <item itemvalue="Python.PalindromicSubstrings" />
         <item itemvalue="Python.ValidPalindrome" />
         <item itemvalue="Python.OrderlyQueue" />
         <item itemvalue="Python.DecodeWays" />
-        <item itemvalue="Python.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -505,16 +485,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18545838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18535127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21800433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32131147" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.12622951" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,6 +509,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BinarySearch/PowxN.py">
@@ -746,40 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/DecodeWays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="15" selection-start-line="33" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <marker date="1568688285624" expanded="true" signature="558:563" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConvertSortedArrayToBinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwoPointer/ValidPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="449">
-            <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
@@ -838,10 +795,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py">
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="492">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConvertSortedArrayToBinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/DecodeWays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="15" selection-start-line="33" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <marker date="1568688285624" expanded="true" signature="558:563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1026">
+            <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -862,17 +846,24 @@
     <entry file="file://$PROJECT_DIR$/BinarySearch/KthSmallestElementInASortedMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="69" />
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/PalindromicSubstrings.py">
+    <entry file="file://$PROJECT_DIR$/TwoPointer/ValidPalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        <state relative-caret-position="1161">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/SplitArrayLargestSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
-            <marker date="1568908782457" expanded="true" signature="941:1092" ph="..." />
-            <marker date="1568908782457" expanded="true" signature="1118:1274" ph="..." />
+            <marker date="1568962382647" expanded="true" signature="611:909" ph="..." />
+            <marker date="1568962382647" expanded="true" signature="935:940" ph="..." />
           </folding>
         </state>
       </provider>

@@ -74,6 +74,8 @@
 * - [有序队列.py](Math/OrderlyQueue.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
+## [分治算法(及其相关结构)](DivideAndConquer/)
+* - [求众数.py](DivideAndConquer/MajorityElement.py)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

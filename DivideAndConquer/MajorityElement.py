@@ -17,6 +17,8 @@
 输入: [2,2,1,1,1,2,2]
 输出: 2
 
+这题其实应该放在HashTable里
+
 max(dict,dict.get):https://blog.csdn.net/weixin_41788255/article/details/79634142
 """
 # Hash表解法
@@ -32,5 +34,5 @@ def majorityElement(nums):
     return max(appear_dict,key=appear_dict.get)  # 这个max(dict,dict.get)是最骚的
 
 if __name__ == '__main__':
-    nums = [3,2,3]
+    nums = [3, 2, 3]
     print(majorityElement(nums))

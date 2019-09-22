@@ -54,6 +54,7 @@
 * - [最短无序连续子数组.py](Array/ShortestUnsortedContinuousSubarray.py)
 * - [合并两个有序数组.py](Array/MergeSortedArray.py)
 * - [最长连续序列.py](Array/longestConsecutiveSequence.py)
+* - [下一个排列.py](Array/NextPermutation.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)

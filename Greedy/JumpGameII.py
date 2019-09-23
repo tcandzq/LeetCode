@@ -37,7 +37,7 @@ def jump(nums):
                 dp[i] = min(dp[i], dp[j]+1)
     return dp[-1]
 
-# 贪心算法
+# 贪心算法(这种写法不是很好理解)
 def jump2(nums):
     steps = 0
     end = 0  # 当前能跳的边界
@@ -46,10 +46,30 @@ def jump2(nums):
         max_position = max(max_position,nums[i]+i)  # 可跳范围内能达到的最远位置
         print(max_position)
         if i == end:
-            end = max_position 
+            end = max_position
             steps += 1
     return steps
 
+# 我自己写的这种写法问题很大
+def jump3(nums):
+    start = 0
+    end = 0
+    steps = 0
+    if not nums or len(nums) <= 1:
+        return 0
+    while start <= len(nums) - 1:
+        steps += 1
+        for i in range(1,nums[start]+1):
+            if start + i >= len(nums) - 1:
+                return steps + 1
+            if nums[start+i] >= end:
+                end = start+i
+                print(end)
+        start = start + end
+
+    return steps
+
+
 if __name__ == '__main__':
-    nums = [2,3,1,1,4]
-    print(jump2(nums))
+    nums = [1,1,1,2,1]
+    print(jump3(nums))

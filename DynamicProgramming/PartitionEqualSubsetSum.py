@@ -5,6 +5,7 @@
 # @File    : PartitionEqualSubsetSum.py
 
 """
+题号：416 分割等和子集
 得两个子集的元素和相等。
 注意:
 每个数组中的元素不会超过 100

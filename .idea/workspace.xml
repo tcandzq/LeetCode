@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +18,9 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="75" />
+          <entry key="project.closed" value="76" />
           <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.1" value="15" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -33,49 +31,62 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="15" />
           <entry key="png" value="1" />
-          <entry key="py" value="199" />
+          <entry key="py" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="15" />
-          <entry key="Python" value="199" />
+          <entry key="Python" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="md" value="401" />
-          <entry key="py" value="42597" />
+          <entry key="py" value="42740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="401" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="42597" />
+          <entry key="Python" value="42740" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+              <first_editor relative-caret-position="-27">
+                <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="44" column="15" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="44" selection-end-column="15" />
+              <folding>
+                <marker date="1569599325578" expanded="true" signature="501:502" ph="..." />
+                <marker date="1569599325578" expanded="true" signature="501:506" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
+            <state relative-caret-position="189">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <marker date="1569482642560" expanded="true" signature="575:580" ph="..." />
@@ -108,10 +119,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="162">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
               <folding>
-                <marker date="1569510983972" expanded="true" signature="460:974" ph="..." />
                 <marker date="1569510983972" expanded="true" signature="685:872" ph="..." />
               </folding>
             </state>
@@ -147,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DynamicProgramming/BestTimeToBuyAndSellStock.py" />
         <option value="$PROJECT_DIR$/Array/MergeIntervals.py" />
         <option value="$PROJECT_DIR$/Array/InsertInterval.py" />
         <option value="$PROJECT_DIR$/Array/TwoSum.py" />
@@ -198,6 +207,7 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py" />
         <option value="$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py" />
       </list>
     </option>
   </component>
@@ -478,13 +488,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.13593256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.2186512" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.12622951" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,13 +513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/UglyNumberII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwoPointer/MinimumSizeSubarraySum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -807,6 +811,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-27">
+            <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/0-1KnapsackProblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -818,20 +832,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <marker date="1569510983972" expanded="true" signature="460:974" ph="..." />
-            <marker date="1569510983972" expanded="true" signature="685:872" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
+        <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <marker date="1569482642560" expanded="true" signature="575:580" ph="..." />
@@ -839,13 +842,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1569510983972" expanded="true" signature="685:872" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <marker date="1569599325578" expanded="true" signature="501:502" ph="..." />
+            <marker date="1569599325578" expanded="true" signature="501:506" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

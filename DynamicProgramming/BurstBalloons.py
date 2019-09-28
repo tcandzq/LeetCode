@@ -29,19 +29,22 @@
 状态转移方程的定义是关键:其实是从暴力法的求解中不断优化而来,思考下:对于数组如果我想求得获得硬币最大数量的戳气球方法,那一定是要遍历
 数组的每一个元素,即尝试每一种情况比较最大值即可。对于这种优化,可以考虑用动态规划,用动态规划维护一个数组dp[i][j]来存储中间的状态,其实就是
 自底向上的方法。
+
 dp[i][j]:表示打爆区间 [i,j] 中的所有气球能得到的最多金币
+
 状态转移方程:dp[i][j] = max(dp[i][j],nums[i-1]*nums[k][j+1]+dp[i][k-1]+dp[k+1][j])  for k in [i,j]
 """
 def maxCoins(nums):
-    nums.insert(0,1)
-    nums.append(1)
     n = len(nums)
+    nums.insert(0, 1)
+    nums.append(1)
     print(nums)
-    dp = [[0]*(n+2) for _ in range(n+2)]
+    dp = [[0]*(n+2) for _ in range(n+2)]  # 注意这里的n是在数组nums开头和尾部插入1之前的长度
     for length in range(1,n+1):
-        for i in range(1,n+1-length+1):
+        for i in range(1,n+1-length+1):  # 注意这里是用length,不是常规的for i in range(n) for j in (i)这种
             j = i+length-1
             for k in range(i,j+1):
+                print(dp)
                 dp[i][j] = max(dp[i][j],nums[i-1]*nums[k]*nums[j+1]+dp[i][k-1]+dp[k+1][j])
     return dp[1][n]
 

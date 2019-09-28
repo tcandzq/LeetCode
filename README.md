@@ -45,6 +45,7 @@
 * - [回文子串.py](DynamicProgramming/PalindromicSubstrings.py)
 * - [单词拆分.py](DynamicProgramming/WordBreak.py)
 * - [分割等和子集.py](DynamicProgramming/PartitionEqualSubsetSum.py)
+* - [戳气球.py](DynamicProgramming/BurstBalloons.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

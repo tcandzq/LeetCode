@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +19,9 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="76" />
+          <entry key="project.closed" value="77" />
           <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="15" />
+          <entry key="project.open.time.1" value="16" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -31,35 +32,35 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="78" />
+          <entry key="project.opened" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="15" />
           <entry key="png" value="1" />
-          <entry key="py" value="200" />
+          <entry key="py" value="201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="15" />
-          <entry key="Python" value="200" />
+          <entry key="Python" value="201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="401" />
-          <entry key="py" value="42740" />
+          <entry key="md" value="402" />
+          <entry key="py" value="43873" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="401" />
+          <entry key="Markdown" value="402" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="42740" />
+          <entry key="Python" value="43873" />
         </counts>
       </usages-collector>
     </session>
@@ -70,22 +71,35 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-27">
-                <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+              <first_editor relative-caret-position="-216">
+                <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="44" column="15" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="44" selection-end-column="15" />
+            <state relative-caret-position="707">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <marker date="1569599325578" expanded="true" signature="501:502" ph="..." />
                 <marker date="1569599325578" expanded="true" signature="501:506" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <marker date="1569686018729" expanded="true" signature="981:982" ph="..." />
+                <marker date="1569686018729" expanded="true" signature="981:1401" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Array/MergeIntervals.py" />
         <option value="$PROJECT_DIR$/Array/InsertInterval.py" />
         <option value="$PROJECT_DIR$/Array/TwoSum.py" />
         <option value="$PROJECT_DIR$/Array/SubarraySumEqualsK.py" />
@@ -206,8 +219,9 @@
         <option value="$PROJECT_DIR$/Algorithm/0-1KnapsackProblem.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py" />
         <option value="$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py" />
       </list>
     </option>
   </component>
@@ -222,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,6 +332,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MaximumAverageSubarrayI">
+  <component name="RunManager" selected="Python.BurstBalloons">
     <configuration name="0-1KnapsackProblem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,6 +378,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/0-1KnapsackProblem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BurstBalloons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,41 +470,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Heap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Heap/SlidingWindowMaximum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.SlidingWindowMaximum" />
       <item itemvalue="Python.LowestCommonAncestorOfABinaryTree" />
       <item itemvalue="Python.0-1KnapsackProblem" />
       <item itemvalue="Python.PartitionEqualSubsetSum" />
       <item itemvalue="Python.MaximumAverageSubarrayI" />
+      <item itemvalue="Python.BurstBalloons" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BurstBalloons" />
         <item itemvalue="Python.MaximumAverageSubarrayI" />
         <item itemvalue="Python.PartitionEqualSubsetSum" />
         <item itemvalue="Python.0-1KnapsackProblem" />
         <item itemvalue="Python.LowestCommonAncestorOfABinaryTree" />
-        <item itemvalue="Python.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -490,12 +504,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.2186512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.2186512" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.12622951" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,13 +527,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TwoPointer/MinimumSizeSubarraySum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -811,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-27">
-            <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/0-1KnapsackProblem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -854,11 +851,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="44" column="15" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="44" selection-end-column="15" />
+        <state relative-caret-position="707">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <marker date="1569599325578" expanded="true" signature="501:502" ph="..." />
             <marker date="1569599325578" expanded="true" signature="501:506" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-216">
+            <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <marker date="1569686018729" expanded="true" signature="981:982" ph="..." />
+            <marker date="1569686018729" expanded="true" signature="981:1401" ph="..." />
           </folding>
         </state>
       </provider>

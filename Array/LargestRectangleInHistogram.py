@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2019/9/30 11:42
+# @Author  : tc
+# @File    : LargestRectangleInHistogram.py
+"""
+题号: 84   柱状图中最大的矩形
+注:由于图片无法粘贴,详细题目参考:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
+给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
+
+ 
+以上是柱状图的示例，其中每个柱子的宽度为 1，给定的高度为 [2,1,5,6,2,3]。
+
+ 
+
+图中阴影部分为所能勾勒出的最大矩形面积，其面积为 10 个单位。
+
+
+示例:
+
+输入: [2,1,5,6,2,3]
+输出: 10
+
+本题比较经典,分治、单调栈1请参考:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode/
+单调栈2解法参考:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/
+
+"""
+from typing import List
+
+class Solution:
+    #  暴力版本(超时)
+    def largestRectangleArea(self, heights: List[int]) -> int:
+        n = len(heights)
+        max_area = 0
+        for i in range(n):
+            for j in range(i,n):
+                min_val = min(heights[i:j+1])
+                width = len(heights[i:j+1])
+                max_area = max(max_area,width*min_val)
+
+        return max_area
+
+    #  分治(超内存)
+    def largestRectangleArea2(self, heights: List[int]) -> int:
+        if not heights:
+            return 0
+        min_index = heights.index(min(heights))
+
+        return max(self.largestRectangleArea2(heights[:min_index]),self.largestRectangleArea2(heights[min_index+1:]),
+                   heights[min_index]*len(heights))
+
+    #   单调栈(最优)
+    def largestRectangleArea3(self, heights: List[int]) -> int:
+        stack = [-1] # 利用数组构造栈
+        max_area = 0
+        for i in range(len(heights)):
+            while stack[-1] != -1 and heights[stack[-1]] >= heights[i]:  # 如果栈里的元素开始递减
+                max_area = max(max_area,heights[stack.pop()]*(i-stack[-1] - 1))  # 弹出元素作为高,
+            stack.append(i)
+        while stack[-1] != -1:
+            max_area = max(max_area,heights[stack.pop()]*(len(heights)-stack[-1] - 1))
+        return max_area
+
+if __name__ == '__main__':
+    heights = [2,1,5,6,2,3]
+    solution = Solution()
+    print(solution.largestRectangleArea3(heights))

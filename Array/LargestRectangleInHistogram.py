@@ -24,7 +24,14 @@
 输出: 10
 
 本题比较经典,分治、单调栈1请参考:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode/
+
 单调栈2解法参考:https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhao-liang-bian-di-yi-ge-xiao-yu-ta-de-zhi-by-powc/
+
+关于单调栈的概念可以参考：
+https://cloud.tencent.com/developer/news/433986https://cloud.tencent.com/developer/news/433986
+https://blog.csdn.net/Prasnip_/article/details/83690038
+
+本题的单调栈解法可作为一个模板套用
 
 """
 from typing import List
@@ -51,9 +58,9 @@ class Solution:
         return max(self.largestRectangleArea2(heights[:min_index]),self.largestRectangleArea2(heights[min_index+1:]),
                    heights[min_index]*len(heights))
 
-    #   单调栈(最优)
+    #   单调栈(最优)第一种写法
     def largestRectangleArea3(self, heights: List[int]) -> int:
-        stack = [-1] # 利用数组构造栈
+        stack = [-1]  # 利用数组构造栈
         max_area = 0
         for i in range(len(heights)):
             while stack[-1] != -1 and heights[stack[-1]] >= heights[i]:  # 如果栈里的元素开始递减
@@ -63,7 +70,35 @@ class Solution:
             max_area = max(max_area,heights[stack.pop()]*(len(heights)-stack[-1] - 1))
         return max_area
 
+    #   单调栈(最优)第二种写法
+    def largestRectangleArea4(self, heights: List[int]) -> int:
+        max_area = 0
+        stack = []
+        p = 0
+        while(p < len(heights)):
+            if not stack:  #  栈空入栈
+                stack.append(p)
+                p += 1
+            else:
+                top = stack[-1]
+                if heights[p] > heights[top]:  # 当前高度大于栈顶,入栈
+                    stack.append(p)
+                    p += 1
+                else:
+                    height = heights[stack.pop()]  # 保存栈顶高度
+                    left_less_min = -1 if not stack else stack[-1]  # 左边以第一个小于柱子的下标
+                    right_less_min = p  # 右边第一个小于当前柱子的下标
+                    area = (right_less_min - left_less_min - 1) * height
+                    max_area = max(area,max_area)
+        while stack:
+            height = heights[stack.pop()]
+            left_less_min = -1 if not stack else stack[-1]  # 左边以第一个小于柱子的下标
+            right_less_min = len(heights)  # 右边没有小于当前高度的柱子，所以赋值为数组的长度便于计算
+            area = (right_less_min - left_less_min - 1) * height
+            max_area = max(max_area,area)
+        return max_area
+
 if __name__ == '__main__':
     heights = [2,1,5,6,2,3]
     solution = Solution()
-    print(solution.largestRectangleArea3(heights))
+    print(solution.largestRectangleArea4(heights))

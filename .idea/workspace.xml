@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack/DailyTemperatures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/LargestRectangleInHistogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/LargestRectangleInHistogram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +19,9 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="82" />
+          <entry key="project.closed" value="83" />
           <entry key="project.open.time.0" value="12" />
-          <entry key="project.open.time.1" value="20" />
+          <entry key="project.open.time.1" value="21" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -32,35 +32,35 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="84" />
+          <entry key="project.opened" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="17" />
+          <entry key="md" value="18" />
           <entry key="png" value="1" />
-          <entry key="py" value="206" />
+          <entry key="py" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="17" />
-          <entry key="Python" value="206" />
+          <entry key="Markdown" value="18" />
+          <entry key="Python" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="412" />
-          <entry key="py" value="48521" />
+          <entry key="md" value="416" />
+          <entry key="py" value="49349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="412" />
+          <entry key="Markdown" value="416" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="48521" />
+          <entry key="Python" value="49349" />
         </counts>
       </usages-collector>
     </session>
@@ -68,25 +68,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1674">
-                <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Stack/DailyTemperatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="264">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
-                <marker date="1569899627616" expanded="true" signature="643:1194" ph="..." />
-                <marker date="1569899627616" expanded="true" signature="643:1198" ph="..." />
+                <marker date="1569899731566" expanded="true" signature="653:1248" ph="..." />
+                <marker date="1569899731566" expanded="true" signature="653:1252" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,8 +92,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/LargestRectangleInHistogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="80" column="19" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="19" />
+            <state>
+              <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="326">
+                <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -132,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DynamicProgramming/MaximumSubarray.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/LongestConsecutiveSequence.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/longestConsecutiveSequence.py" />
         <option value="$PROJECT_DIR$/Array/longestConsecutiveSequence.py" />
@@ -180,13 +188,14 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py" />
         <option value="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" />
         <option value="$PROJECT_DIR$/Backtracking/WordSearch.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Array/LargestRectangleInHistogram.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" />
+        <option value="$PROJECT_DIR$/Stack/DailyTemperatures.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -282,6 +291,11 @@
             <path>
               <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="TwoPointer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,8 +339,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MaximalRectangle">
-    <configuration name="BurstBalloons" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DailyTemperatures">
+    <configuration name="DailyTemperatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,11 +348,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/BurstBalloons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/DailyTemperatures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,19 +446,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BurstBalloons" />
       <item itemvalue="Python.KthLargestElementInAnArray" />
       <item itemvalue="Python.WordSearch" />
       <item itemvalue="Python.LargestRectangleInHistogram" />
       <item itemvalue="Python.MaximalRectangle" />
+      <item itemvalue="Python.DailyTemperatures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DailyTemperatures" />
         <item itemvalue="Python.MaximalRectangle" />
         <item itemvalue="Python.LargestRectangleInHistogram" />
         <item itemvalue="Python.WordSearch" />
         <item itemvalue="Python.KthLargestElementInAnArray" />
-        <item itemvalue="Python.BurstBalloons" />
       </list>
     </recent_temporary>
   </component>
@@ -465,12 +479,12 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.16442451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.24887893" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.044262294" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47288504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,9 +502,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveDuplicatesFromSortedList.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -800,31 +811,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1674">
-            <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1569899731566" expanded="true" signature="653:1248" ph="..." />
+            <marker date="1569899731566" expanded="true" signature="653:1252" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Array/LargestRectangleInHistogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="80" column="19" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="19" />
+        <state>
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py">
+    <entry file="file://$PROJECT_DIR$/Stack/DailyTemperatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <marker date="1569899627616" expanded="true" signature="643:1194" ph="..." />
-            <marker date="1569899627616" expanded="true" signature="643:1198" ph="..." />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="326">
+            <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

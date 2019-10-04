@@ -56,7 +56,7 @@ class Solution:
 
     # 2.01背包问题
     def findTargetSumWays2(self, nums: List[int], S: int) -> int:
-
+        pass
 
 
     # 3.动态规划解法

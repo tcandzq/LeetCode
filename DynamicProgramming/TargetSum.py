@@ -54,7 +54,12 @@ class Solution:
         self.dfs(index+1,nums[index+1:],S-nums[index],count)  # 在该数字前加+
         self.dfs(index+1,nums[index+1:],S+nums[index],count)  # 在该数字前面加-
 
-    #  3.动态规划解法
+    # 2.01背包问题
+    def findTargetSumWays2(self, nums: List[int], S: int) -> int:
+
+
+
+    # 3.动态规划解法
     def findTargetSumWays3(self, nums: List[int], S: int) -> int:
         start = -sum(nums)
         end = sum(nums)

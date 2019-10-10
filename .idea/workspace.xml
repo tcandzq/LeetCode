@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/TrappingRainWater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/TrappingRainWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/TrappingRainWater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +20,9 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="90" />
+          <entry key="project.closed" value="92" />
           <entry key="project.open.time.0" value="16" />
-          <entry key="project.open.time.1" value="22" />
+          <entry key="project.open.time.1" value="24" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="5" />
@@ -31,58 +33,70 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="92" />
+          <entry key="project.opened" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="21" />
           <entry key="png" value="1" />
-          <entry key="py" value="232" />
+          <entry key="py" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="21" />
-          <entry key="Python" value="232" />
+          <entry key="Python" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="449" />
-          <entry key="py" value="56662" />
+          <entry key="md" value="471" />
+          <entry key="py" value="57089" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="449" />
+          <entry key="Markdown" value="471" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="56662" />
+          <entry key="Python" value="57089" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stack/TrappingRainWater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="597">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-133">
+                <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
-                <caret line="9" column="15" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="30" column="131" selection-start-line="30" selection-start-column="131" selection-end-line="30" selection-end-column="131" />
+              <folding>
+                <marker date="1570722614974" expanded="true" signature="582:583" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Backtracking/NQueens.py" />
         <option value="$PROJECT_DIR$/Algorithm/heap.py" />
         <option value="$PROJECT_DIR$/BinarySearch/KthSmallestElementInASortedMatrix.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree/UniqueBinarySearchTrees.py" />
@@ -184,8 +197,9 @@
         <option value="$PROJECT_DIR$/BinaryTree/SymmetricTree.py" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/BinaryTreeMaximumPathSum.py" />
         <option value="$PROJECT_DIR$/BinaryTree/BinaryTreeMaximumPathSum.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Stack/TrappingRainWater.py" />
+        <option value="$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -200,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,12 +487,12 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.16816144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.29895365" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.078688525" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21639344" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47288504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,9 +510,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobber.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximumProductSubarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -813,18 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Stack/TrappingRainWater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="9" column="15" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="597">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -835,6 +836,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1431">
           <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="131" selection-start-line="30" selection-start-column="131" selection-end-line="30" selection-end-column="131" />
+          <folding>
+            <marker date="1570722614974" expanded="true" signature="582:583" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-133">
+            <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -49,7 +49,7 @@ class Solution:
             return
         if self.pre:
             self.pre.right = root
-            self.pre.left =  None
+            self.pre.left = None
         self.pre = root
         right = root.right
         self.flatten(root.left)

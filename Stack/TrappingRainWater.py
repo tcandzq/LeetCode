@@ -18,6 +18,9 @@
 
 这题的关键是如何找到凹形数组,需要记录递减数组和递增数组
 
+直接上终极解法——单调递减栈 关键地方在于要对雨水的面积进行横向划分,这样可以看到雨水面积=宽度*高度
+
+
 参考:https://leetcode-cn.com/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
 
 """
@@ -41,7 +44,26 @@ class Solution:
                 sum = sum + (_min - height[i])
         return sum
 
+    # 栈解法
+    def trap2(self, height: List[int]) -> int:
+        sum = 0
+        stack = []
+        current = 0
+        while current < len(height):
+            while stack and height[current] > height[stack[-1]]:
+                h = height[stack[-1]]
+                stack.pop()
+                if not stack:
+                    break
+                distance = current - stack[-1] - 1  # 计算两堵墙之间的距离
+                _min = min(height[stack[-1]], height[current])  # 用底乘以高
+                sum += distance * (_min - h)
+            stack.append(current)
+            current += 1
+        return sum
+
 if __name__ == '__main__':
+
     height = [0,1,0,2,1,0,1,3,2,1,2,1]
     solution = Solution()
-    print(solution.trap(height))
+    print(solution.trap2(height))

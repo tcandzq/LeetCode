@@ -71,8 +71,8 @@ class Solution:
             while queue:
                 node = queue.popleft()
                 tmp.append(node.val)
-                if node.left:tmp_queue.append(node.left)
-                if node.right:tmp_queue.append(node.right)
+                if node.left: tmp_queue.append(node.left)
+                if node.right: tmp_queue.append(node.right)
             nums.append(tmp)
             queue = tmp_queue
         return nums

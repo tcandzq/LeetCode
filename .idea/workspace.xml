@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graph/CourseSchedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/Dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/FindTheTownJudge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/CourseSchedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/TopologicalSort/CourseSchedule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,7 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="95" />
+          <entry key="project.closed" value="97" />
           <entry key="project.open.time.0" value="16" />
           <entry key="project.open.time.1" value="25" />
           <entry key="project.open.time.10" value="2" />
@@ -29,39 +30,39 @@
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="18" />
-          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="97" />
+          <entry key="project.opened" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="22" />
           <entry key="png" value="1" />
-          <entry key="py" value="237" />
+          <entry key="py" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="22" />
-          <entry key="Python" value="237" />
+          <entry key="Python" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="471" />
-          <entry key="py" value="59262" />
+          <entry key="md" value="485" />
+          <entry key="py" value="60122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="471" />
+          <entry key="Markdown" value="485" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="59262" />
+          <entry key="Python" value="60122" />
         </counts>
       </usages-collector>
     </session>
@@ -69,31 +70,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stack/TrappingRainWater.py">
+        <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1458">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/CourseSchedule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321">
-              <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            <state relative-caret-position="422">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="444">
-                <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Graph/FindTheTownJudge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopologicalSort/CourseSchedule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -132,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BinarySearchTree/UniqueBinarySearchTrees.py" />
-        <option value="$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree/ValidateBinarySearchTree.py" />
         <option value="$PROJECT_DIR$/UnionFindSet/SurroundedRegions.py" />
         <option value="$PROJECT_DIR$/Array/ShortestUnsortedContinuousSubarray.py" />
@@ -177,16 +173,18 @@
         <option value="$PROJECT_DIR$/BinaryTree/SymmetricTree.py" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/BinaryTreeMaximumPathSum.py" />
         <option value="$PROJECT_DIR$/BinaryTree/BinaryTreeMaximumPathSum.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py" />
         <option value="$PROJECT_DIR$/Stack/TrappingRainWater.py" />
         <option value="$PROJECT_DIR$/Graph/graph.py" />
         <option value="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" />
         <option value="$PROJECT_DIR$/Graph/CourseSchedule.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Graph/Dijkstra.py" />
+        <option value="$PROJECT_DIR$/Graph/FindTheTownJudge.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -293,6 +291,11 @@
             <path>
               <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="TopologicalSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="TwoPointer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,15 +315,15 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github_project\My-LeetCode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github_project\My-LeetCode\TopologicalSort" />
       <recent name="C:\github_project\My-LeetCode\BinaryTree" />
       <recent name="C:\github_project\My-LeetCode\BinarySearch" />
       <recent name="C:\github_project\My-LeetCode\Array" />
       <recent name="C:\github_project\My-LeetCode\TwoPointer" />
-      <recent name="C:\github_project\My-LeetCode\DynamicProgramming" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,7 +393,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/CourseSchedule.py" />
+      <option name="SCRIPT_NAME" value="C:\github_project\My-LeetCode\TopologicalSort\CourseSchedule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -475,12 +478,12 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.2316891" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.26980567" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.19652265" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09508197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.09508197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47288504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,7 +491,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,20 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MinimumPathSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConvertSortedArrayToBinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -817,33 +806,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding>
-            <marker date="1570723853856" expanded="true" signature="582:583" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stack/TrappingRainWater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/CourseSchedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321">
-          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        <state relative-caret-position="98">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="444">
-            <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+          <first_editor relative-caret-position="353">
+            <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopologicalSort/CourseSchedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/FindTheTownJudge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
         </state>
       </provider>
     </entry>

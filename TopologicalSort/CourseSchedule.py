@@ -50,7 +50,7 @@ class Solution:
         queue = []
         for cur, pre in prerequisites:
             indegrees[cur] += 1  # 计算每个结点的入度
-            adjacency[pre].append(cur)  # 构造邻接矩阵,list的元素是指向该顶点的所有顶点
+            adjacency[pre].append(cur)  # 构造邻接矩阵,list的元素是从该顶点出发的所有边
         print(indegrees)
         print(adjacency)
         for i in range(len(indegrees)):
@@ -58,7 +58,7 @@ class Solution:
         while queue:  # 拓扑排序
             pre = queue.pop(0)  # 取队首顶点u
             numCourses -= 1
-            for cur in adjacency[pre]:
+            for cur in adjacency[pre]:  # 遍历顶点pre的所有出边
                 indegrees[cur] -= 1  # 顶点cur的入度减1
                 if not indegrees[cur]:queue.append(cur)  # 顶点cur的入度减为0则入队
         return not numCourses

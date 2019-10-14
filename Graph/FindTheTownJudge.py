@@ -47,15 +47,26 @@ trust[i] 是完全不同的
 trust[i][0] != trust[i][1]
 1 <= trust[i][0], trust[i][1] <= N
 
-其实就是寻找一个顶点,它的出度是0,入度是n-1
+其实就是寻找一个顶点,它的出度是0,入度是n-1,这也是leetcode题？
 """
 from typing import List
 
 
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
-        in_degrees = [0] * N
-        out_degrees = [0] * N
+        in_degrees = [0] * (N+1)
+        out_degrees = [0] * (N+1)
         for pre, cur in trust:
             in_degrees[cur] += 1
             out_degrees[pre] += 1
+        for i in range(1,N+1):
+            if in_degrees[i] == N-1 and out_degrees[i] == 0:
+                return i
+        return -1
+
+if __name__ == '__main__':
+    N = 3
+    trust = [[1,2],[2,3]]
+    solution = Solution()
+    print(solution.findJudge(N,trust))
+

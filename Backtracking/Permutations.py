@@ -46,13 +46,13 @@ def __dfs(nums, index, pre, used, res):
     for i in range(len(nums)):
         if not used[i]:
             # 如果没有用过，就用它
-            used[i] = True   #标记这个数已经被用过了
-            pre.append(nums[i]) #将这个数添加到pre中
+            used[i] = True   # 标记这个数已经被用过了
+            pre.append(nums[i])  # 将这个数添加到pre中
 
             # 在 dfs 前后，代码是对称的
-            __dfs(nums, index + 1, pre, used, res) #进入下一个分支
+            __dfs(nums, index + 1, pre, used, res)  # 进入下一个分支
             used[i] = False
-            pre.pop() #状态重置 这条路已经完整的走完了需要一直回退到上一个分支点 准备进入下一个岔路。而这个岔路是可以进入上一次走过的路径
+            pre.pop()  # 状态重置 这条路已经完整的走完了需要一直回退到上一个分支点 准备进入下一个岔路。而这个岔路是可以进入上一次走过的路径
 
 if __name__ == '__main__':
     nums = [1,2,3]

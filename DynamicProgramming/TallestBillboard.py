@@ -36,6 +36,9 @@
 0 <= rods.length <= 20
 1 <= rods[i] <= 1000
 钢筋的长度总和最多为 5000
+
+提示:其实是一种递归解法
+
 """
 from typing import List
 from functools import lru_cache

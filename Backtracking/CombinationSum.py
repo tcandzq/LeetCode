@@ -33,7 +33,7 @@ candidates 中的数字可以无限制重复被选取。
 
 "做搜索、回溯问题的套路是画图，代码其实就是根据画出的树形图写出来的。"
 
-又是一套拥有标准模板写法的题。
+又是一套拥有标准模板写法的题。这种题就是在所有可能的情况中选出满足target的组合,通过画图可以比较详细罗列所有的情况
 
 参考:https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
 
@@ -50,7 +50,7 @@ class Solution:
         # 要排序的理由：1、前面用过的数后面不能再用；2、下一层边上的数不能小于上一层边上的数。
         candidates.sort()
         # 在遍历的过程中记录路径，一般而言它是一个栈
-        path = []
+        path = []  # 使用栈
         res = []
         # 注意要传入 size ，在 range 中， size 取不到
         self.__dfs(candidates, 0, size, path, res, target)
@@ -71,6 +71,12 @@ class Solution:
             path.append(candidates[index])
             # 因为下一层不能比上一层还小，起始索引还从 index 开始
             self.__dfs(candidates, index, size, path, res, residue)
-            path.pop()
+            path.pop()  # 状态重置
+
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        pass
+    
+
+
 
 

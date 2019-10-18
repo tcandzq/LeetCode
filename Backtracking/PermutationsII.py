@@ -13,7 +13,7 @@ Output1:
   [2,1,1]
 ]
 
-关键:回溯+剪枝
+关键:回溯+剪
 "一个数组中去掉重复元素，除了使用哈希表，更容易想到的是将原始数组排序"
 参考:https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/
 """

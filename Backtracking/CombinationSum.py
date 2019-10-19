@@ -35,8 +35,8 @@ candidates 中的数字可以无限制重复被选取。
 
 又是一套拥有标准模板写法的题。这种题就是在所有可能的情况中选出满足target的组合,通过画图可以比较详细罗列所有的情况
 
-参考:https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
-
+参考1:https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
+参考2:https://leetcode-cn.com/problems/combination-sum/solution/xue-yi-tao-zou-tian-xia-hui-su-suan-fa-by-powcai/
 """
 from typing import List
 class Solution:
@@ -74,9 +74,57 @@ class Solution:
             path.pop()  # 状态重置
 
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        pass
-    
+        size = len(candidates)
+        if size == 0:
+            return []
+        candidates.sort()
+        print(candidates)
+        # 在遍历的过程中记录路径，一般而言它是一个栈
+        path = []  # 使用栈
+        res = []
+        # 注意要传入 size ，在 range 中， size 取不到
+        self.__dfs2(candidates,  path, res, 0,target)
+        return res
 
+    def __dfs2(self, candidates,path, res, _sum, target):
+        # 先写递归终止的情况
+        if _sum == target:
+            # Python 中可变对象是引用传递，因此需要将当前 path 里的值拷贝出来
+            # 或者使用 path.copy()
+            res.append(path[:])
+        if _sum > target:
+            return
+        for i in range(len(candidates)):
+            # “剪枝”操作，不必递归到下一层，并且后面的分支也不必执行
+            if _sum + candidates[i]> target:
+                return
+            path.append(candidates[i])
+            # 因为下一层不能比上一层还小，起始索引还从 index 开始
+            self.__dfs2(candidates, path, res, _sum + candidates[i],target)
+            path.pop()  # 状态重置
 
+    def combinationSum3(self, candidates: List[int], target: int) -> List[List[int]]:
+        candidates.sort()
+        n = len(candidates)
+        res = []
 
+        def backtrack(tmp_sum, tmp):
+            if tmp_sum > target:
+                return
+            if tmp_sum == target:
+                res.append(tmp)
+                return
+            for j in range(n):
+                tmp_sum = tmp_sum + candidates[j]
+                tmp += tmp + [candidates[j]]
+                if tmp_sum > target:
+                    break
+                backtrack(tmp_sum, tmp)
+        backtrack(0, [])
+        return res
 
+if __name__ == '__main__':
+    candidates = [2, 3,6,7]
+    target = 7
+    solution = Solution()
+    print(solution.combinationSum2(candidates,target))

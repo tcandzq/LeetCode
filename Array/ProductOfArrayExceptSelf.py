@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : ProductOfArrayExceptSelf.py
 """
+题号 238 除自身以外数组的乘积
 给定长度为 n 的整数数组 nums，其中 n > 1，返回输出数组 output ，其中 output[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积。
 
 示例:
@@ -14,13 +15,31 @@
 
 进阶：
 你可以在常数空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组不被视为额外空间。）
+
+就是用左右两个数组先预先存好要计算的值
+
 """
 from typing import List
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        product = 1
-        for num in nums:
-            product = num * product
-        res = {}
-        for i in range(len(nums)):
-            nums[i]
+        left = [0] * len(nums)
+        right = [0] * len(nums)
+        left[0] = nums[0]
+        right[0] = nums[-1]
+        res = [0] * len(nums)
+        for i in range(1,len(nums)):
+            left[i] = left[i-1] * nums[i]
+            right[i] = right[i-1] * nums[len(nums) - i -1]
+
+        for k in range(0, len(nums)):
+            if k == 0:
+                res[0] = right[len(nums) - 2]
+            elif k == len(nums) - 1:
+                res[-1] = left[len(nums) - 2]
+            else:
+                res[k] = left[k-1] * right[len(nums) - k - 2]
+        return res
+if __name__ == '__main__':
+    solution = Solution()
+    nums = [4,3,2,1,2]
+    print(solution.productExceptSelf(nums))

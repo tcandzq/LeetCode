@@ -67,6 +67,7 @@
 * - [下一个排列.py](Array/NextPermutation.py)
 * - [子数组最大平均数I.py](Array/MaximumAverageSubarrayI.py)
 * - [柱状图中最大的矩形.py](Array/LargestRectangleInHistogram.py)
+* - [除自身以外数组的乘积.py](Array/ProductOfArrayExceptSelf.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)

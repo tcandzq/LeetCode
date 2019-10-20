@@ -115,16 +115,15 @@ class Solution:
                 res.append(tmp)
                 return
             for j in range(n):
-                tmp_sum = tmp_sum + candidates[j]
-                tmp += tmp + [candidates[j]]
+
                 if tmp_sum > target:
                     break
-                backtrack(tmp_sum, tmp)
+                backtrack(tmp_sum + candidates[j], tmp + [candidates[j]])
         backtrack(0, [])
         return res
 
 if __name__ == '__main__':
-    candidates = [2, 3,6,7]
-    target = 7
+    candidates = [2, 3, 5]
+    target = 8
     solution = Solution()
-    print(solution.combinationSum2(candidates,target))
+    print(solution.combinationSum3(candidates,target))

@@ -18,11 +18,14 @@
 输出: -1
 说明:
 你可以认为每种硬币的数量是无限的。
-dp[i][j]前i个硬币所组成的金额恰为j所需要的最少的硬币数量
+
+典型的完全背包问题,但也可用回溯算法解法
+
 """
 from typing import List
 
 class Solution:
+    #  动态规划解法
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [float("inf")] * (amount + 1)
         dp[0] = 0
@@ -34,7 +37,9 @@ class Solution:
         # print(dp)
         return dp[-1] if dp[-1] != float("inf") else -1
 
-
+    #  回溯算法解法
+    def coinChange2(self, coins: List[int], amount: int) -> int:
+        pass
 if __name__ == '__main__':
     coins = [186,419,83,408]
     amount = 6249

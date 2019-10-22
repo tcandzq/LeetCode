@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : PathSumIII.py
 """
+题号 437 路径总和 III
 给定一个二叉树，它的每个结点都存放着一个整数值。
 
 找出路径和等于给定数值的路径总数。
@@ -30,8 +31,6 @@ root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8
 2.  5 -> 2 -> 1
 3.  -3 -> 11
 
-很明显,中序遍历
-
 """
 class TreeNode:
     def __init__(self, x):
@@ -41,11 +40,4 @@ class TreeNode:
 
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
-      res = []
-      count = 0
-      def helper(root):
-          if not root:
-              return
-
-          if helper(root) + root.val == sum:
-              count += 1
+        pass

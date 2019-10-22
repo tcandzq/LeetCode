@@ -85,7 +85,6 @@ class Solution:
         queue.append(root)
         nums = []
         while queue:
-
             tmp = []
             for _ in range(len(queue)):
                 node = queue.popleft()
@@ -111,7 +110,7 @@ if __name__ == '__main__':
     node2.right = node4
 
     solution = Solution()
-    print(solution.levelOrder3(root))
+    print(solution.levelOrder2(root))
 
 
 

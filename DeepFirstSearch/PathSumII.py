@@ -4,7 +4,7 @@
 # @Author  : tc
 # @File    : PathSumII.py
 """
-题号113 路径总和 II
+题号113 路径总和II
 给定一个二叉树和一个目标和，找到所有从根节点到叶子节点路径总和等于给定目标和的路径。
 
 说明: 叶子节点是指没有子节点的节点。
@@ -73,4 +73,5 @@ if __name__ == '__main__':
     node6.right = node10
 
     solution = Solution()
-    print(solution.storePath(node1))
+    sum = 22
+    print(solution.pathSum(node1,sum))

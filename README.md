@@ -90,6 +90,7 @@
 * - [将有序链表转换为二叉搜索树.py](DeepFirstSearch/ConvertSortedListToBinarySearchTree.py)
 * - [二叉树展开为链表.py](DeepFirstSearch/FlattenBinaryTreeToLinkedList.py)
 * - [路径总和.py](DeepFirstSearch/PathSum.py)
+* - [路径总和II.py](DeepFirstSearch/PathSumII.py)
 * - [路径总和III.py](DeepFirstSearch/PathSumIII.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
@@ -114,3 +115,5 @@
 * - [找到小镇的法官.py](Graph/FindTheTownJudge.py)
 ## [拓扑排序(及其相关结构)](TopologicalSort/)
 * - [课程表.py](TopologicalSort/CourseSchedule.py)
+## [字典树(及其相关结构)](Trie/)
+* - [课程表.py](Trie/ImplementTriePrefixTree.py)

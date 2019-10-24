@@ -4,7 +4,7 @@
 # @Author  : tc
 # @File    : ImplementTriePrefixTree.py
 """
-题号 208 实现 Trie (前缀树)
+题号 208 实现Trie(前缀树)
 实现一个 Trie (前缀树)，包含 insert, search, 和 startsWith 这三个操作。
 
 示例:

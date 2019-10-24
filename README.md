@@ -22,7 +22,6 @@
 * - [对称二叉树.py](BinaryTree/SymmetricTree.py)
 * - [二叉树的层次遍历.py](BinaryTree/LevelOrderTraversal.py)
 * - [二叉树中最大路径和.py](BinaryTree/BinaryTreeMaximumPathSum.py)
-* - [路径总和 III.py](DeepFirstSearch/PathSumIII.py)
 ## [二分查找(及其相关结构)](BinarySearch/)
 * - [二分查找.py](BinarySearch/BinarySearch.py)
 * - [搜索插入位置.py](BinarySearch/SearchInsertPosition.py)
@@ -116,4 +115,4 @@
 ## [拓扑排序(及其相关结构)](TopologicalSort/)
 * - [课程表.py](TopologicalSort/CourseSchedule.py)
 ## [字典树(及其相关结构)](Trie/)
-* - [课程表.py](Trie/ImplementTriePrefixTree.py)
+* - [实现 Trie (前缀树).py](Trie/ImplementTriePrefixTree.py)

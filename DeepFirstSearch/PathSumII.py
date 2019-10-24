@@ -41,7 +41,7 @@ class Solution:
         def dfs(root,tmp_sum,tmp):
             if not root:
                 return
-            if not root.left and not root.right and tmp_sum + root.val== sum:
+            if not root.left and not root.right and tmp_sum + root.val == sum:
                 tmp += [root.val]
                 res.append(tmp)
                 return

@@ -31,6 +31,12 @@ root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8
 2.  5 -> 2 -> 1
 3.  -3 -> 11
 
+
+参考:https://leetcode-cn.com/problems/path-sum-iii/solution/leetcode-437-path-sum-iii-by-li-xin-lei/
+
+1.双递归,今天第一次看到,长见识了
+2.巧用sum-root.val
+3.递归一定要多debug,不要盯着代码想,想不通的
 """
 class TreeNode:
     def __init__(self, x):
@@ -40,4 +46,43 @@ class TreeNode:
 
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
-        pass
+        if not root:
+            return 0
+        return self.paths(root,sum) + self.pathSum(root.left,sum) + self.pathSum(root.right,sum)  # 一个完整的递归子结构
+
+
+    def paths(self,root:TreeNode,sum:int) -> int:
+        if not root:
+            return 0
+        res = 0
+        if root.val == sum:
+            res += 1
+        res += self.paths(root.left, sum - root.val)  # sum 作为函数入参,在递归过程中不断改变,不是一成不变的
+        res += self.paths(root.right, sum - root.val)
+        return res
+
+if __name__ == '__main__':
+    node1 = TreeNode(10)
+    node2 = TreeNode(5)
+    node3 = TreeNode(-3)
+    node4 = TreeNode(3)
+    node5 = TreeNode(2)
+    node6 = TreeNode(11)
+    node7 = TreeNode(3)
+    node8 = TreeNode(-2)
+    node9 = TreeNode(1)
+
+    node1.left = node2
+    node1.right = node3
+    node2.left = node4
+    node2.right = node5
+    node3.right = node6
+    node4.left = node7
+    node4.right = node8
+    node5.right = node9
+
+
+    solution = Solution()
+    sum = 8
+    print(solution.pathSum(node1,sum))
+

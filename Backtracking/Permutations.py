@@ -19,7 +19,7 @@ Output1:[
 参考:https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/
 “状态重置”是“回溯”的重要操作，“回溯搜索”是有方向的搜索，否则我们要写多重循环，代码量不可控。
 
-这个系列的解答非常详细没事一定一套要多看看
+这个系列的解答非常详细没事一定要多看看
 这题的答案可以看成一个标准写法,可以作为写回溯算法的模板，类似的问题写出来的代码基本都是这个样子，要牢记于心啊
 
 """

@@ -118,7 +118,7 @@ class Solution:
             for j in range(n):
                 if tmp_sum > target:
                     break
-                backtrack(tmp_sum +candidates[j] , tmp + [candidates[j]])
+                backtrack(tmp_sum + candidates[j], tmp + [candidates[j]])
         backtrack(0, [])
         return res
 

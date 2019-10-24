@@ -61,6 +61,30 @@ class Solution:
         res += self.paths(root.right, sum - root.val)
         return res
 
+    # def pathSave(self,root: TreeNode):
+    #     if not root:
+    #         return []
+    #     return self.paths(root) + self.pathSave(root.left) + self.pathSave(root.right)
+    #
+    # def paths(self,root: TreeNode):
+    #     if not root:
+    #         return []
+    #     res = []
+    #
+    #     def helper(root: TreeNode, tmp):
+    #         if not root:
+    #             return
+    #         if tmp and tmp not in res:
+    #             res.append(tmp)
+    #             if not root.left and not root.right:  # 叶子节点要额外处理
+    #                 res.append(tmp + [root.val])
+    #                 res.append([root.val])
+    #         helper(root.left, tmp + [root.val])
+    #         helper(root.right, tmp + [root.val])
+    #
+    #     helper(root, [])
+    #     return res
+
 if __name__ == '__main__':
     node1 = TreeNode(10)
     node2 = TreeNode(5)
@@ -84,5 +108,5 @@ if __name__ == '__main__':
 
     solution = Solution()
     sum = 8
-    print(solution.pathSum(node1,sum))
+    print(solution.pathSum(node1))
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2019/10/18 11:33
 # @Author  : tc
-# @File    : CombinationSum-I.py
+# @File    : CombinationSumI.py
 """
 题号:40 组合总和 II
 给定一个数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
@@ -40,6 +40,8 @@ candidates 中的每个数字在每个组合中只能使用一次。
 参考2:
 """
 from typing import List
+
+
 class Solution:
 
     # 第一种方法累加和=target
@@ -56,8 +58,8 @@ class Solution:
                 return
             for j in range(i, n):
                 if tmp_sum + candidates[j] > target: break
-                if j > i and candidates[j] == candidates[j - 1]:  continue
-                backtrack(j + 1, tmp_sum + candidates[j], tmp_list + [candidates[j]])
+                if j > i and candidates[j] == candidates[j - 1]: continue
+                backtrack(j+1, tmp_sum + candidates[j], tmp_list + [candidates[j]])
 
         backtrack(0, 0, [])
         return res
@@ -94,10 +96,28 @@ class Solution:
             self.__dfs(candidates, size, index + 1, path, residue - candidates[index], res)
             path.pop()
 
+    def combinationSum2_3(self, candidates: List[int], target: int) -> List[List[int]]:
+        size = len(candidates)
+        if size == 0:
+            return []
+        candidates.sort()
+        res = []
+        self.__dfs2(candidates,size,0,[],0,res)
+
+    def __dfs2(slef, candidates, size, start, path, sum, res):
+        if sum == target:
+            res.append(path[:])
+
+        for index in range(start,size):
+            if sum > target:
+                break
+            if index > start and candidates[index - 1] == candidates[index]:
+                continue
+            path.append(candidates[index])
+
+
 if __name__ == '__main__':
     candidates = [2, 5, 2, 1, 2]
     target = 5
     solution = Solution()
-    print(solution.combinationSum2_1(candidates,target))
-
-
+    print(solution.combinationSum2_1(candidates, target))

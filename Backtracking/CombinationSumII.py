@@ -37,7 +37,7 @@ candidates 中的每个数字在每个组合中只能使用一次。
 2.target递减 = 0
 
 参考1:https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-xi-lie-by-powcai/
-参考2:
+参考2:https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/
 """
 from typing import List
 

@@ -32,14 +32,18 @@ target = 4
 回溯法会超时,要用动态规划求解,但我还是写不出来
 参考:https://leetcode-cn.com/problems/combination-sum-iv/solution/dong-tai-gui-hua-python-dai-ma-by-liweiwei1419/
 
+dp[i]：对于给定的由正整数组成且不存在重复数字的数组，和为 i 的组合的个数。
+
+很明显当和为0，即target=0时，只有空集[]满足，这也是一种解法且是唯一解，所以dp[0] = 1。
+
 """
 from typing import List
 class Solution:
     # 超时版本
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        nums.sort()
         if not nums:
             return 0
+        nums.sort()
         size = len(nums)
         res = []
         def traceback(i,tmp_sum,tmp_list):
@@ -48,17 +52,18 @@ class Solution:
             for j in range(i,size):
                 if tmp_sum + nums[j] > target:
                     break
-                traceback(0, tmp_sum+nums[j], tmp_list+[nums[j]])  # 保证nums中的数字在每个组合中不会被重复使用
+                traceback(0, tmp_sum+nums[j], tmp_list+[nums[j]])
         traceback(0, 0, [])
         return len(res)
 
+    # 动态规划版本
     def combinationSum4_2(self, nums: List[int], target: int) -> int:
         size = len(nums)
         if not size or target < 0:
             return 0
         dp = [0 for _ in range(target+1)]
         # 这一步很关键，想想为什么 dp[0] 是 1
-        # 因为 0 表示空集，空集和它"前面"的元素凑成一种解法，所以是 1
+        # 因为 0 表示空集，空集和它"前面"的元素凑成一种解法，所以是 1。毕竟空集也是一个集合，一个答案啊！
         # 这一步要加深体会
         dp[0] = 1
 

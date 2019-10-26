@@ -21,6 +21,8 @@
 
 典型的完全背包问题,但也可用回溯算法解法
 
+参考:https://leetcode-cn.com/problems/coin-change/solution/ling-qian-dui-huan-by-leetcode/
+
 """
 from typing import List
 
@@ -38,9 +40,24 @@ class Solution:
 
     #  回溯算法解法
     def coinChange2(self, coins: List[int], amount: int) -> int:
+        if not coins or amount <= 0:
+            return 0
+        coins.sort()
+        size = len(coins)
+        res = []
+        def traceback(i,tmp_sum,tmp_list):
+            if tmp_sum == amount:
+                res.append(tmp_list)
+            for j in range(i,size):
+                if tmp_sum + coins[j] > amount:  # amount至少大于0
+                    break
+                traceback(0, tmp_sum+coins[j],tmp_list+[coins[j]])
+        traceback(0, 0, [])
+        return min([len(num_list) for num_list in res])
+
         pass
 if __name__ == '__main__':
     coins = [186,419,83,408]
     amount = 6249
     solution = Solution()
-    print(solution.coinChange(coins, amount))
+    print(solution.coinChange2(coins, amount))

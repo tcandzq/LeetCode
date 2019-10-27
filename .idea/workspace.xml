@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Greedy/JumpGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MaximalSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/LargestRectangleInHistogram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/JumpGameII.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/JumpGameII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Greedy/JumpGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/JumpGame.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,28 +38,28 @@
         <counts>
           <entry key="md" value="33" />
           <entry key="png" value="1" />
-          <entry key="py" value="309" />
+          <entry key="py" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="33" />
-          <entry key="Python" value="309" />
+          <entry key="Python" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="md" value="527" />
-          <entry key="py" value="70787" />
+          <entry key="py" value="70936" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="527" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="70787" />
+          <entry key="Python" value="70936" />
         </counts>
       </usages-collector>
     </session>
@@ -87,10 +88,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Greedy/JumpGame.py">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalSquare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="328">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack/LargestRectangleInHistogram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -141,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinaryTree.py" />
-        <option value="$PROJECT_DIR$/Algorithm/0-1KnapsackProblem.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py" />
         <option value="$PROJECT_DIR$/Array/MaximumAverageSubarrayI.py" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py" />
@@ -150,7 +158,6 @@
         <option value="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" />
         <option value="$PROJECT_DIR$/Backtracking/WordSearch.py" />
         <option value="$PROJECT_DIR$/Array/LargestRectangleInHistogram.py" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" />
         <option value="$PROJECT_DIR$/Stack/DailyTemperatures.py" />
         <option value="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/TargetSum.py" />
@@ -192,10 +199,13 @@
         <option value="$PROJECT_DIR$/Greedy/JumpGameII.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Greedy/JumpGame.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" />
+        <option value="$PROJECT_DIR$/Stack/LargestRectangleInHistogram.py" />
+        <option value="$PROJECT_DIR$/DynamicProgramming/MaximalSquare.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -354,7 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.JumpGame">
+  <component name="RunManager" selected="Python.MaximalSquare">
     <configuration name="BestTimeToBuyAndSellStockII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,27 +378,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/BestTimeToBuyAndSellStockII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CombinationSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/CombinationSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -439,6 +428,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MaximalSquare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/MaximalSquare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ValidPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -461,19 +471,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CombinationSum" />
       <item itemvalue="Python.ValidPalindrome" />
       <item itemvalue="Python.ContainerWthMostWater" />
       <item itemvalue="Python.BestTimeToBuyAndSellStockII" />
       <item itemvalue="Python.JumpGame" />
+      <item itemvalue="Python.MaximalSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MaximalSquare" />
         <item itemvalue="Python.JumpGame" />
         <item itemvalue="Python.BestTimeToBuyAndSellStockII" />
         <item itemvalue="Python.ContainerWthMostWater" />
         <item itemvalue="Python.ValidPalindrome" />
-        <item itemvalue="Python.CombinationSum" />
       </list>
     </recent_temporary>
   </component>
@@ -543,25 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinaryTree/BinaryTreeInorderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1803777186/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4236">
-          <caret line="191" column="18" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/AddTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="112" selection-start-line="20" selection-start-column="112" selection-end-line="20" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/SymmetricTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-732">
@@ -882,6 +873,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/JumpGameII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -891,8 +889,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/JumpGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="1053">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/LargestRectangleInHistogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/MaximalSquare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>

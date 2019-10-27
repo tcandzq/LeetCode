@@ -37,7 +37,7 @@ class Solution:
         for i in range(len(nums)):
             if i > end:
                 return False
-            end = max(end,i+nums[i])
+            end = max(end, i+nums[i])
         return True
 
 if __name__ == '__main__':

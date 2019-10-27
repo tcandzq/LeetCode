@@ -47,6 +47,7 @@ class Solution:
             print(heights)
             max_rectangle = max(max_rectangle,self.largestRectangleArea(heights))
         return max_rectangle
+
     def largestRectangleArea(self,heights):
         stack = []
         p = 0

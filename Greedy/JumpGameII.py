@@ -22,7 +22,7 @@ vivo2020届校园招聘在线笔试第一题
 
 既然要跳跃的步数最少,那就每次在可跳的范围往最远的的位置跳。
 
-动态规划求解:这种方法和leetcode 139题的解法很类似。求解dp[i]的值需要遍历并进行比较dp的前j~i之间的值。
+动态规划求解:这种方法和leetcode139单次拆分的解法很类似。求解dp[i]的值需要遍历并与dp的前j~i之间的值进行比较。
 
 """
 # 动态规划求解(超时)
@@ -43,7 +43,7 @@ def jump2(nums):
     end = 0  # 当前能跳的边界
     max_position = 0
     for i in range(len(nums)-1):
-        max_position = max(max_position,nums[i]+i)  # 可跳范围内能达到的最远位置
+        max_position = max(max_position, nums[i]+i)  # 可跳范围内能达到的最远位置
         print(max_position)
         if i == end:
             end = max_position

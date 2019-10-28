@@ -78,8 +78,8 @@ def searchRight(nums,target):
 
 
 if __name__ == '__main__':
-    nums = [2,2]
+    nums = [5,7,7,8,8,10]
 
-    target = 3
+    target = 8
 
-    print(searchRange(nums,target))
+    print(searchRight(nums,target))

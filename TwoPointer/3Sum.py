@@ -21,6 +21,8 @@
 
 参考:https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/
 
+本题的解法，可以作为两数之和、三数之和等系列问题甚至是双指针问题的模板写法
+
 """
 from typing import List
 

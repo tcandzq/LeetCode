@@ -21,8 +21,6 @@ Output1:"BANC"
 python里面的字典是真的坑,注意set_default()并不是你想的那样,它竟然和get()方法类似,你敢信？
 
 """
-
-
 def minWindow(s, t):
     window = {}
     need = {}

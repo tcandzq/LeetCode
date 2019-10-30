@@ -22,6 +22,7 @@
 * - [对称二叉树.py](BinaryTree/SymmetricTree.py)
 * - [二叉树的层次遍历.py](BinaryTree/LevelOrderTraversal.py)
 * - [二叉树中最大路径和.py](BinaryTree/BinaryTreeMaximumPathSum.py)
+* - [二叉树的直径.py](BinaryTree/DiameterOfBinaryTree.py)
 ## [二分查找(及其相关结构)](BinarySearch/)
 * - [二分查找.py](BinarySearch/BinarySearch.py)
 * - [搜索插入位置.py](BinarySearch/SearchInsertPosition.py)

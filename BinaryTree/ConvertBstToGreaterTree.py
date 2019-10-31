@@ -19,6 +19,8 @@
             /   \
           20     13
 
+二叉树的中序遍历是一个递增的数组，所以我们可以从尾部开始遍历，依次往左累加。这样遍历顺序就是右子树->根结点->左子树
+
 """
 class TreeNode:
     def __init__(self, x):
@@ -34,7 +36,7 @@ class Solution:
 
         return root
 
-    def dfs(self,root,sum):
+    def dfs(self,root, sum):
         if not root:
             return sum
         sum = self.dfs(root.right,sum)

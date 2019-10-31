@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinaryTree/DiameterOfBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap/TopKFrequentElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Heap/TopKFrequentElements.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +15,7 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="133" />
+          <entry key="project.closed" value="134" />
           <entry key="project.open.time.0" value="21" />
           <entry key="project.open.time.1" value="28" />
           <entry key="project.open.time.10" value="4" />
@@ -26,38 +25,38 @@
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="30" />
           <entry key="project.open.time.6" value="17" />
-          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="136" />
+          <entry key="project.opened" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="35" />
           <entry key="png" value="1" />
-          <entry key="py" value="341" />
+          <entry key="py" value="345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="35" />
-          <entry key="Python" value="341" />
+          <entry key="Python" value="345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="545" />
-          <entry key="py" value="73224" />
+          <entry key="md" value="546" />
+          <entry key="py" value="73810" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="545" />
+          <entry key="Markdown" value="546" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="73224" />
+          <entry key="Python" value="73810" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TwoPointer/3SumClosest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -85,29 +84,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Heap/TopKFrequentElements.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="1674">
               <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree/DiameterOfBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <marker date="1572457658956" expanded="true" signature="914:915" ph="..." />
+                <marker date="1572457762151" expanded="true" signature="1025:1026" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1803777186/builtins.py">
+        <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98064">
-              <caret line="3632" column="8" selection-start-line="3632" selection-start-column="8" selection-end-line="3632" selection-end-column="8" />
+            <state relative-caret-position="324">
+              <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+              <folding>
+                <marker date="1572528522672" expanded="true" signature="1086:1400" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trie/ImplementTriePrefixTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -124,18 +140,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/heap.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3078">
-                <caret line="114" column="45" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -178,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BinaryTree/BinaryTree-LevelOrderTraversal.py" />
         <option value="$PROJECT_DIR$/BinaryTree/SymmetricTree.py" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/BinaryTreeMaximumPathSum.py" />
         <option value="$PROJECT_DIR$/BinaryTree/BinaryTreeMaximumPathSum.py" />
@@ -226,13 +229,14 @@
         <option value="$PROJECT_DIR$/TwoPointer/3SumClosest.py" />
         <option value="$PROJECT_DIR$/TwoPointer/MinimumWindowSubstring.py" />
         <option value="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Heap/TopKFrequentElements.py" />
         <option value="$PROJECT_DIR$/BinaryTree/DiameterOfBinaryTree.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -243,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,12 +364,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/四级地址" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -391,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DiameterOfBinaryTree">
+  <component name="RunManager" selected="Python.HouseRobberIII">
     <configuration name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -455,7 +459,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HouseRobberIII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -463,11 +467,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepFirstSearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,19 +502,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindFirstAndLastPositionOfElementInSortedArray" />
       <item itemvalue="Python.3Sum" />
       <item itemvalue="Python.3SumClosest" />
       <item itemvalue="Python.TopKFrequentElements" />
       <item itemvalue="Python.DiameterOfBinaryTree" />
+      <item itemvalue="Python.HouseRobberIII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HouseRobberIII" />
         <item itemvalue="Python.DiameterOfBinaryTree" />
         <item itemvalue="Python.TopKFrequentElements" />
         <item itemvalue="Python.3SumClosest" />
         <item itemvalue="Python.3Sum" />
-        <item itemvalue="Python.FindFirstAndLastPositionOfElementInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -528,16 +532,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.3011958" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.1601686" />
       <window_info id="Structure" order="1" sideWeight="0.5065076" side_tool="true" weight="0.17386723" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.17868853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5180328" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925262" weight="0.17868853" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19088937" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -586,24 +590,15 @@
           <line>69</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Array/ProductOfArrayExceptSelf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/TallestBillboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgramming/WordBreak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
@@ -629,13 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1001">
           <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trie/ImplementTriePrefixTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -698,13 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-838">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/CoinChange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -876,6 +857,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1803777186/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98064">
+          <caret line="3632" column="8" selection-start-line="3632" selection-start-column="8" selection-end-line="3632" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="246">
+            <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TwoPointer/3Sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -885,15 +883,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TwoPointer/3SumClosest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1803777186/builtins.py">
+    <entry file="file://$PROJECT_DIR$/Heap/TopKFrequentElements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98064">
-          <caret line="3632" column="8" selection-start-line="3632" selection-start-column="8" selection-end-line="3632" selection-end-column="8" />
+        <state relative-caret-position="1674">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -907,29 +905,39 @@
     <entry file="file://$PROJECT_DIR$/Algorithm/heap.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3078">
-            <caret line="114" column="45" selection-start-line="114" selection-start-column="45" selection-end-line="114" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Heap/TopKFrequentElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/DiameterOfBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1572457658956" expanded="true" signature="914:915" ph="..." />
+            <marker date="1572457762151" expanded="true" signature="1025:1026" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/HouseRobberII.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/CoinChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trie/ImplementTriePrefixTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding>
+            <marker date="1572528522672" expanded="true" signature="1086:1400" ph="..." />
           </folding>
         </state>
       </provider>

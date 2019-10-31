@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TwoPointer/SortColors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,28 +35,28 @@
         <counts>
           <entry key="md" value="36" />
           <entry key="png" value="1" />
-          <entry key="py" value="346" />
+          <entry key="py" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="36" />
-          <entry key="Python" value="346" />
+          <entry key="Python" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="md" value="548" />
-          <entry key="py" value="74610" />
+          <entry key="py" value="74870" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="548" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="74610" />
+          <entry key="Python" value="74870" />
         </counts>
       </usages-collector>
     </session>
@@ -115,14 +114,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TwoPointer/SortColors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="1566">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding>
                 <element signature="e#422#445#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -168,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DeepFirstSearch/BinaryTreeMaximumPathSum.py" />
         <option value="$PROJECT_DIR$/BinaryTree/BinaryTreeMaximumPathSum.py" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/FlattenBinaryTreeToLinkedList.py" />
         <option value="$PROJECT_DIR$/Stack/TrappingRainWater.py" />
@@ -219,6 +226,7 @@
         <option value="$PROJECT_DIR$/DeepFirstSearch/HouseRobberIII.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TwoPointer/SortColors.py" />
+        <option value="$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py" />
       </list>
     </option>
   </component>
@@ -381,8 +389,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SortColors">
-    <configuration name="3SumClosest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ConvertBstToGreaterTree">
+    <configuration name="ConvertBstToGreaterTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinaryTree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointer/3SumClosest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -488,19 +496,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.3SumClosest" />
       <item itemvalue="Python.TopKFrequentElements" />
       <item itemvalue="Python.DiameterOfBinaryTree" />
       <item itemvalue="Python.HouseRobberIII" />
       <item itemvalue="Python.SortColors" />
+      <item itemvalue="Python.ConvertBstToGreaterTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ConvertBstToGreaterTree" />
         <item itemvalue="Python.SortColors" />
         <item itemvalue="Python.HouseRobberIII" />
         <item itemvalue="Python.DiameterOfBinaryTree" />
         <item itemvalue="Python.TopKFrequentElements" />
-        <item itemvalue="Python.3SumClosest" />
       </list>
     </recent_temporary>
   </component>
@@ -521,12 +529,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.1601686" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.15437302" />
       <window_info id="Structure" order="1" sideWeight="0.5065076" side_tool="true" weight="0.17386723" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.31453362" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.30260304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28633407" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,13 +593,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -923,11 +924,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TwoPointer/SortColors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="1566">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="e#422#445#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>

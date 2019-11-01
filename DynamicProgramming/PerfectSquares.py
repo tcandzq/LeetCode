@@ -22,6 +22,10 @@
 
 参考:https://leetcode-cn.com/problems/perfect-squares/solution/bfs-dong-tai-gui-hua-shu-xue-by-powcai/
 
+其实这个问题也可以转化为一个树问题来解决:
+https://leetcode-cn.com/problems/perfect-squares/solution/bu-zhi-shi-da-an-er-shi-dong-tai-gui-hua-lei-ti-de/
+
+
 """
 class Solution:
 
@@ -34,8 +38,36 @@ class Solution:
                 dp[i] = min(dp[i], dp[i - j * j] + 1)
         return dp[n]
 
+    # 动态规划解法(优化，目前没看懂)
+    _dp = [0]
+    def numSquares_2(self, n):
+        dp = self._dp
+        while len(dp) <= n:
+            dp += min(dp[-i * i] for i in range(1, int(len(dp) ** 0.5 + 1))) + 1,
+        return dp[n]
+
+    # BFS + 剪枝解法
+    def numSquares_3(self, n):
+        from collections import deque
+        if n == 0: return 0
+        queue = deque([n])
+        step = 0
+        visited = set()
+        while queue:
+            step += 1
+            l = len(queue)
+            for _ in range(l):
+                tmp = queue.pop()
+                for i in range(1, int(tmp ** 0.5) + 1):
+                    diff = tmp - i ** 2
+                    if diff == 0:
+                        return step
+                    if diff not in visited:
+                        visited.add(diff)
+                        queue.appendleft(diff)
+        return step
 
 if __name__ == '__main__':
     n = 12
     solution = Solution()
-    print(solution.numSquares(n))
+    print(solution.numSquares_3(n))

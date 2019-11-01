@@ -132,3 +132,5 @@
 * - [课程表.py](TopologicalSort/CourseSchedule.py)
 ## [字典树(及其相关结构)](Trie/)
 * - [实现 Trie (前缀树).py](Trie/ImplementTriePrefixTree.py)
+## [广度优先遍历(及其相关结构)](Trie/)
+* - [二叉树的最小深度.py](Trie/MinimumDepthOfBinaryTree.py)

@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : MaximumDepthOfBinaryTree.py
 """
+题号 104 二叉树的最大深度
 给定一个二叉树，找出其最大深度。
 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
 示例：
@@ -29,7 +30,7 @@ def maxDepth(root):
     if not root:
         return 0
 
-    return max(maxDepth(root.left),maxDepth(root.right)) + 1  #注意这里的加1 加1表示当前节点的高度
+    return max(maxDepth(root.left),maxDepth(root.right)) + 1  # 注意这里的加1。加1表示当前节点的高度
 
 if __name__ == '__main__':
     root = TreeNode(3)
@@ -38,9 +39,9 @@ if __name__ == '__main__':
     node4 = TreeNode(15)
     node5 = TreeNode(7)
 
-    root.left = node2
-    root.right = node3
-    node3.left = node4
-    node3.right = node5
+    # root.left = node2
+    # root.right = node3
+    # node3.left = node4
+    # node3.right = node5
 
     print(maxDepth(root))

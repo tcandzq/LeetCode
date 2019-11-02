@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : ConstructBinaryTreeFromPreorderAndInorderTraversal.py
 """
+题号105 从前序与中序遍历序列构造二叉树
 根据一棵树的前序遍历与中序遍历构造二叉树。
 
 注意:
@@ -23,6 +24,16 @@
 
 
 这是2020届美团NLP算法工程师一面的面试题
+
+注意：右子树在前序遍历和后序遍历中的位置相同
+
+mid：中序遍历序列中根结点的位置
+preorder[1:mid + 1]：先序遍历中的左子树
+preorder[mid + 1:]：先序遍历中的右子树
+
+inorder[:mid]：中序遍历中的左子树
+inorder[mid+1:]：中序遍历中的右子树
+
 """
 class TreeNode:
     def __init__(self, x):

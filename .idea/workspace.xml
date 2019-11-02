@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/SameTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepFirstSearch/SameTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepFirstSearch/SameTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +17,7 @@
     <session id="1977587577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="137" />
+          <entry key="project.closed" value="138" />
           <entry key="project.open.time.0" value="21" />
           <entry key="project.open.time.1" value="28" />
           <entry key="project.open.time.10" value="5" />
@@ -23,40 +25,40 @@
           <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="30" />
+          <entry key="project.open.time.5" value="31" />
           <entry key="project.open.time.6" value="17" />
           <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="140" />
+          <entry key="project.opened" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="37" />
           <entry key="png" value="1" />
-          <entry key="py" value="356" />
+          <entry key="py" value="357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="Markdown" value="37" />
-          <entry key="Python" value="356" />
+          <entry key="Python" value="357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="559" />
-          <entry key="py" value="76559" />
+          <entry key="md" value="560" />
+          <entry key="py" value="77468" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="559" />
+          <entry key="Markdown" value="560" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="76559" />
+          <entry key="Python" value="77468" />
         </counts>
       </usages-collector>
     </session>
@@ -79,8 +81,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3645">
-                <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+              <first_editor relative-caret-position="652">
+                <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,11 +98,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepFirstSearch/SameTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="-810">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <marker date="1572683124695" expanded="true" signature="915:1528" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Graph/CourseSchedule.py" />
         <option value="$PROJECT_DIR$/Graph/Dijkstra.py" />
         <option value="$PROJECT_DIR$/Graph/FindTheTownJudge.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/TallestBillboard.py" />
@@ -204,8 +217,9 @@
         <option value="$PROJECT_DIR$/DynamicProgramming/PerfectSquares.py" />
         <option value="$PROJECT_DIR$/BinaryTree/MaximumDepthOfBinaryTree.py" />
         <option value="$PROJECT_DIR$/BreadthFirstSearch/MinimumDepthOfBinaryTree.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DeepFirstSearch/SameTree.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py" />
       </list>
     </option>
   </component>
@@ -220,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,7 +356,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,8 +387,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SameTree">
-    <configuration name="ConvertBstToGreaterTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ConstructBinaryTreeFromInorderAndPostorderTraversal">
+    <configuration name="ConstructBinaryTreeFromInorderAndPostorderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -382,11 +396,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinaryTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepFirstSearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree/ConvertBstToGreaterTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,19 +494,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ConvertBstToGreaterTree" />
       <item itemvalue="Python.PerfectSquares" />
       <item itemvalue="Python.MinimumDepthOfBinaryTree" />
       <item itemvalue="Python.MaximumDepthOfBinaryTree" />
       <item itemvalue="Python.SameTree" />
+      <item itemvalue="Python.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ConstructBinaryTreeFromInorderAndPostorderTraversal" />
         <item itemvalue="Python.SameTree" />
         <item itemvalue="Python.MaximumDepthOfBinaryTree" />
         <item itemvalue="Python.MinimumDepthOfBinaryTree" />
         <item itemvalue="Python.PerfectSquares" />
-        <item itemvalue="Python.ConvertBstToGreaterTree" />
       </list>
     </recent_temporary>
   </component>
@@ -510,16 +524,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.23766816" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4934924" visible="true" weight="0.23761855" />
       <window_info id="Structure" order="1" sideWeight="0.5065076" side_tool="true" weight="0.17386723" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.23770492" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13557483" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925262" weight="0.45444685" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.1626898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -588,15 +602,15 @@
           <line>46</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchA2DMatrixII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/PermutationsII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -904,11 +918,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BreadthFirstSearch/MinimumDepthOfBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3645">
-            <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+          <first_editor relative-caret-position="652">
+            <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
@@ -921,17 +942,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BreadthFirstSearch/MinimumDepthOfBinaryTree.py">
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/SameTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-810">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/SameTree.py">
+    <entry file="file://$PROJECT_DIR$/DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="516">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <marker date="1572683124695" expanded="true" signature="915:1528" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

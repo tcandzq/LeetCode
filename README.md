@@ -103,6 +103,8 @@
 * - [路径总和II.py](DeepFirstSearch/PathSumII.py)
 * - [路径总和III.py](DeepFirstSearch/PathSumIII.py)
 * - [二叉树的直径.py](DeepFirstSearch/HouseRobberIII.py)
+* - [相同的树.py](DeepFirstSearch/SameTree.py)
+* - [从中序与后序遍历序列构造二叉树.py](DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

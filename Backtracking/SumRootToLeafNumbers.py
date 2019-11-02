@@ -113,9 +113,9 @@ class Solution:
                 self._sum += current_sum  # 注意这里不需要像解法1那样再做一次current_sum *10+ root.val
                 return
 
-            dfs(root.left, current_sum *10 + root.left.val) # 注意是root.left.val 不是root.val.
+            dfs(root.left, current_sum * 10 + root.left.val) # 注意是root.left.val 不是root.val.
 
-            dfs(root.right,current_sum *10 + root.right.val)
+            dfs(root.right, current_sum * 10 + root.right.val)
 
         dfs(root, root.val)  # 注意这里不是dfs(root,0) 考虑下为什么？
         return self._sum

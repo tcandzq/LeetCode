@@ -33,14 +33,16 @@ class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         if not root:
             return 0
+
         self.res = 0
-        def depth(root):
+
+        def depth(root: TreeNode):
             if not root:
                 return 0
             left = depth(root.left)
             right = depth(root.right)
-            self.res = max(self.res,left+right+1)  # 利用全局变量在递归中求出最大值
-            return max(left,right) + 1
+            self.res = max(self.res, left+right+1)  # 利用全局变量在递归中求出最大值
+            return max(left, right) + 1
         depth(root)
         return self.res - 1
 

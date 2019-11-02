@@ -24,7 +24,7 @@
 解释: 所有根节点到叶子节点的路径为: 1->2->5, 1->3
 
 
-又是回溯解法，直接用之前的回溯模板套用就行了
+又是回溯解法，直接用之前的回溯模板套用就行了。
 
 """
 from typing import List
@@ -36,6 +36,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
+    # 解法1
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         res = []
         def dfs(root,tmp):
@@ -49,7 +50,6 @@ class Solution:
             dfs(root.right,tmp+str(root.val) + '->')
         dfs(root,'')
         return res
-
 
 if __name__ == '__main__':
     node1 = TreeNode(1)

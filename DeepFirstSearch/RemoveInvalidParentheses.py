@@ -28,10 +28,13 @@
 1.定义一个括号是否合法的函数(可以用栈实现);
 2.
 
+解法2和leetcode40题 组合总和II的解法很像
+
 """
 from typing import List
 
 class Solution:
+    #  解法1 没看懂
     def removeInvalidParentheses(self, s: str) -> List[str]:
         # 找字符串最长有效括号的长度
         def longestVaildParentheses(s: str):
@@ -77,9 +80,52 @@ class Solution:
         helper(s, l // 2, l // 2, 0, "")
         return list(res)
 
+    # 解法2
+    def removeInvalidParentheses2(self, s: str) -> List[str]:
+        res = []
 
+        left = 0
+        right = 0
 
+        for char in s:  # 统计不合法的左括号和右括号的数量
+            if char == '(':
+                left += 1
+            if char == ')':
+                if left > 0:
+                    left -= 1
+                else:
+                    right += 1
+
+        def check(s: str) -> bool:  # 检验括号是否有效
+            cnt = 0
+            for char in s:
+                if char == '(':
+                    cnt += 1
+                if char == ')':
+                    cnt -= 1
+                    if cnt < 0:
+                        return False
+            return cnt == 0
+
+        def dfs(s, st, left, right):
+            if left == 0 and right == 0:
+                if check(s):  # 如果左边和右边非法的括号已经删除结束，且剩下的字符串s是有效的
+                    res.append(s)
+                return
+
+            for i in range(st, len(s)):
+                if i - 1 >= st and s[i] == s[i - 1]:
+                    continue
+
+                if left > 0 and s[i] == '(':
+                    dfs(s[0:i]+s[i+1:i+1 + len(s) - i - 1], i, left - 1,right)
+
+                if right > 0 and s[i] == ')':
+                    dfs(s[0:i]+s[i+1:i+1 + len(s) - i - 1], i, left, right - 1)
+
+        dfs(s,0,left,right)
+        return res
 if __name__ == '__main__':
     s = "()())()"
     solution = Solution()
-    print(solution.removeInvalidParentheses(s))
+    print(solution.removeInvalidParentheses2(s))

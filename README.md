@@ -109,6 +109,7 @@
 * - [从中序与后序遍历序列构造二叉树.py](DeepFirstSearch/ConstructBinaryTreeFromInorderAndPostorderTraversal.py)
 * - [从前序与中序遍历序列构造二叉树.py](DeepFirstSearch/ConstructBinaryTreeFromPreorderAndInorderTraversal.py)
 * - [打家劫舍III.py](DeepFirstSearch/HouseRobberIII.py)
+* - [删除无效的括号.py](DeepFirstSearch/RemoveInvalidParentheses.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

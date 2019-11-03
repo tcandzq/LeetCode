@@ -97,6 +97,7 @@
 * - [组合总和III.py](Backtracking/CombinationSumIII.py)
 * - [组合.py](Backtracking/Combinations.py)
 * - [求根到叶子节点数字之和.py](Backtracking/SumRootToLeafNumbers.py)
+* - [括号生成.py](Backtracking/GenerateParentheses.py)
 ## [并查集(及其相关结构)](UnionFindSet/)
 * - [被围绕的区域.py](UnionFindSet/SurroundedRegions.py)
 * - [岛屿数量.py](UnionFindSet/NumberOfIslands.py)

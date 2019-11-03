@@ -37,6 +37,8 @@
 可以用栈解决
 优雅版的代码请参考:https://leetcode-cn.com/problems/valid-parentheses/solution/valid-parentheses-fu-zhu-zhan-fa-by-jin407891080/
 
+本题的优雅版代码可以作为模板
+
 """
 class Solution:
     #  丑陋版

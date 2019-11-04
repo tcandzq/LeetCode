@@ -51,12 +51,12 @@ class Solution:
                 return True
             if _t == s[0]:
                 s.pop(0)
-        return False
+        return len(s) == 0
 
 
 
 if __name__ == '__main__':
-    s = "axc"
-    t = "ahbgdc"
+    s = "ace"
+    t = "abcde"
     solution = Solution()
     print(solution.isSubsequence2(s,t))

@@ -18,7 +18,10 @@
   "()()()"
 ]
 
-回溯算法又一经典应用
+回溯算法的又一经典应用
+
+这套代码也值得仔细研究
+
 参考:https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
 
 """
@@ -31,13 +34,14 @@ class Solution:
             return res
         self.dfs("",n,n,res)
         return res
+
     def dfs(self,cur_str,left,right,res):
         if left == 0 and right == 0:
             res.append(cur_str)
 
         if left > 0:
             self.dfs(cur_str + '(', left - 1, right,res)
-        if right > 0 and left < right :
+        if right > 0 and left < right:
             self.dfs(cur_str + ')', left, right - 1, res)
 
 

@@ -121,6 +121,8 @@
 * - [跳跃游戏.py](Greedy/JumpGame.py)
 * - [跳跃游戏II.py](Greedy/JumpGameII.py)
 * - [买卖股票的最佳时机II.py](Greedy/BestTimeToBuyAndSellStockII.py)
+* - [加油站.py](Greedy/GasStation.py)
+* - [判断子序列.py](Greedy/IsSubsequence.py)
 ## [数学(及其相关结构)](Math/)
 * - [有序队列.py](Math/OrderlyQueue.py)
 ## [哈希表(及其相关结构)](HashTable/)

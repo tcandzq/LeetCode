@@ -43,6 +43,7 @@
 * - [寻找峰值.py](BinarySearch/FindPeakElement.py)
 * - [两数之和II-输入有序数组.py](BinarySearch/TwoSumII InputArrayIsSorted.py)
 * - [二叉搜索树中第K小的元素.py](BinarySearch/KthSmallestElementInABst.py)
+* - [找重复数.py](BinarySearch/FindTheDuplicateNumber.py)
 ## [动态规划(及其相关结构)](DynamicProgramming/)
 * - [最长重复子数组.py](DynamicProgramming/MaximumLengthOfRepeatedSubarray.py)
 * - [买卖股票的最佳时机.py](DynamicProgramming/BestTimeToBuyAndSellStock.py)

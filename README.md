@@ -38,6 +38,8 @@
 * - [分割数组的最大值.py](BinarySearch/SplitArrayLargestSum.py)
 * - [搜索旋转排序数组.py](BinarySearch/SearchInRotatedSortedArray.py)
 * - [搜索旋转排序数组II.py](BinarySearch/SearchInRotatedSortedArrayII.py)
+* - [寻找旋转排序数组中的最小值.py](BinarySearch/FindMinimumInRotatedSortedArray.py)
+* - [寻找峰值.py](BinarySearch/FindPeakElement.py)
 ## [动态规划(及其相关结构)](DynamicProgramming/)
 * - [最长重复子数组.py](DynamicProgramming/MaximumLengthOfRepeatedSubarray.py)
 * - [买卖股票的最佳时机.py](DynamicProgramming/BestTimeToBuyAndSellStock.py)

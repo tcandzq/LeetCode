@@ -12,28 +12,27 @@ Although the basic idea of binary search is comparatively straightforward, the d
 详细解释见:https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-xiang-jie-by-labuladong/
 
 """
-#解法1:
+
+
+# 模板一
 def search(nums,target):
     if not nums:
         return -1
     left = 0
-    right = len(nums) -1   #注意
-    while left <= right:        #注意
-        mid = (left+right) >> 1   #注意
+    right = len(nums) -1   # 注意
+    while left <= right:        # 注意
+        mid = (left+right) >> 1   # 注意
+        print(left,mid,right)
         if target == nums[mid]:
             return mid
         elif target > nums[mid]:
-            left = mid + 1   #注意
+            left = mid + 1   # 注意
         elif target < nums[mid]:
-            right = mid-1      #注意
+            right = mid-1      # 注意
     return -1
 
 
-#解法2(推荐+标准写法):
-"""
-搜索区间是左闭右开
-
-"""
+# 模板二(推荐+标准写法):
 def search2(nums,target):
     if not nums:
         return -1
@@ -60,6 +59,6 @@ def search2(nums,target):
 if __name__ == '__main__':
     nums = [5,7,7,8,8,8,10]
 
-    target = 0
+    target = 11
 
-    print(search2(nums, target))
+    print(search(nums, target))

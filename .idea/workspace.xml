@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/FindPeakElement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/BinarySearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,34 +66,35 @@
     <session id="-1983654742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="7" />
-          <entry key="py" value="4161" />
+          <entry key="md" value="9" />
+          <entry key="py" value="5047" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4161" />
+          <entry key="Python" value="5047" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +105,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="302">
-                <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+              <first_editor relative-caret-position="383">
+                <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,17 +116,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInRotatedSortedArrayII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="1701">
               <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="162">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -130,8 +134,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="42" />
+            <state relative-caret-position="566">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BinarySearch/FindPeakElement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -186,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DynamicProgramming/CoinChange.py" />
         <option value="$PROJECT_DIR$/Backtracking/CombinationSum.py" />
         <option value="$PROJECT_DIR$/Backtracking/Combinations.py" />
         <option value="$PROJECT_DIR$/Array/ContainerWthMostWater.py" />
@@ -201,7 +213,6 @@
         <option value="$PROJECT_DIR$/Stack/LargestRectangleInHistogram.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/MaximalRectangle.py" />
         <option value="$PROJECT_DIR$/UnionFindSet/NumberOfIslands.py" />
-        <option value="$PROJECT_DIR$/BinarySearch/BinarySearch.py" />
         <option value="$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py" />
         <option value="$PROJECT_DIR$/TwoPointer/3Sum.py" />
         <option value="$PROJECT_DIR$/TwoPointer/3SumClosest.py" />
@@ -234,9 +245,11 @@
         <option value="$PROJECT_DIR$/Greedy/isSubsequence.py" />
         <option value="$PROJECT_DIR$/Greedy/IsSubsequence.py" />
         <option value="$PROJECT_DIR$/Array/NumberOfMatchingSubsequences.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BinarySearch/SearchInRotatedSortedArrayII.py" />
         <option value="$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py" />
+        <option value="$PROJECT_DIR$/BinarySearch/BinarySearch.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BinarySearch/FindPeakElement.py" />
       </list>
     </option>
   </component>
@@ -252,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,6 +391,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,7 +423,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindMinimumInRotatedSortedArray">
+  <component name="RunManager" selected="Python.FindPeakElement">
+    <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/BinarySearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FindMinimumInRotatedSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -432,7 +466,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GenerateParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FindPeakElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,32 +474,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/GenerateParentheses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="IsSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greedy/IsSubsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/FindPeakElement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -517,19 +530,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GenerateParentheses" />
-      <item itemvalue="Python.IsSubsequence" />
       <item itemvalue="Python.NumberOfMatchingSubsequences" />
       <item itemvalue="Python.SearchInRotatedSortedArrayII" />
       <item itemvalue="Python.FindMinimumInRotatedSortedArray" />
+      <item itemvalue="Python.BinarySearch" />
+      <item itemvalue="Python.FindPeakElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindPeakElement" />
+        <item itemvalue="Python.BinarySearch" />
         <item itemvalue="Python.FindMinimumInRotatedSortedArray" />
         <item itemvalue="Python.SearchInRotatedSortedArrayII" />
         <item itemvalue="Python.NumberOfMatchingSubsequences" />
-        <item itemvalue="Python.IsSubsequence" />
-        <item itemvalue="Python.GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +568,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.19088937" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.20173536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47939262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -649,13 +662,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinarySearch/FindFirstAndLastPositionOfElementInSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/SwapNodesInPairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -932,9 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="44" column="47" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <marker date="1572797422822" expanded="true" signature="498:605" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,34 +965,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInRotatedSortedArrayII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="302">
-            <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <first_editor relative-caret-position="383">
+            <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInRotatedSortedArrayII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="42" />
+        <state relative-caret-position="566">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/FindMinimumInRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="162">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/FindPeakElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
         </state>
       </provider>
     </entry>

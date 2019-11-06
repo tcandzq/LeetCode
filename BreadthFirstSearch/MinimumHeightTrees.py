@@ -78,6 +78,7 @@ class Solution:
                 if len(graph[tmp]) == 1:
                     nxt_leaves.append(tmp)
             leaves = nxt_leaves
+        print()
         return list(leaves)
 
 

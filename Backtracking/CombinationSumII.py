@@ -57,7 +57,7 @@ class Solution:
                 res.append(tmp_list)
                 return
             for j in range(i, n):
-                if tmp_sum + candidates[j] > target: break
+                if tmp_sum + candidates[j] > target : break
                 if j > i and candidates[j] == candidates[j - 1]: continue
                 backtrack(j+1, tmp_sum + candidates[j], tmp_list + [candidates[j]])
 
@@ -103,6 +103,7 @@ class Solution:
         candidates.sort()
         res = []
         self.__dfs2(candidates,size,0,[],0,res)
+        return res
 
     def __dfs2(slef, candidates, size, start, path, sum, res):
         if sum == target:

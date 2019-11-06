@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : CourseScheduleII.py
 """
+题号 210 课程表II
 现在你总共有 n 门课需要选，记为 0 到 n-1。
 
 在选修某些课程之前需要一些先修课程。 例如，想要学习课程 0 ，你需要先完成课程 1 ，我们用一个匹配来表示他们: [0,1]
@@ -33,16 +34,38 @@
 通过 DFS 进行拓扑排序 - 一个关于Coursera的精彩视频教程（21分钟），介绍拓扑排序的基本概念。
 拓扑排序也可以通过 BFS 完成。
 
+实际就是对课程进行拓扑排序,直接套用拓扑排序的模板
+
+DFS解法参考:
+
 """
 from typing import List
 
-class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        pass
 
+class Solution:
+
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        in_degrees = [0 for _ in range(numCourses)]
+        adjacency = [[] for _ in range(numCourses)]
+        for cur, pre in prerequisites:
+            in_degrees[cur] += 1  # 计算每个结点的入度
+            adjacency[pre].append(cur)  # 构造邻接矩阵,list的元素是从该顶点出发的所有边
+
+        queue = [i for i in range(len(in_degrees)) if not in_degrees[i]]
+        print(queue)
+        res = []
+        while queue:
+            pre = queue.pop()
+            res.append(pre)
+            for cur in adjacency[pre]:
+                in_degrees[cur] -= 1
+                if in_degrees[cur] == 0:
+                    queue.append(cur)
+
+        return [] if queue else res
 
 if __name__ == '__main__':
     numCourses = 4
-    prerequisites = [[1,0],[2,0],[3,1],[3,2]]
+    prerequisites = [[1, 0], [2, 0], [3, 1], [3, 2]]
     solution = Solution()
-    print(solution.findOrder(numCourses,prerequisites))
+    print(solution.findOrder(numCourses, prerequisites))

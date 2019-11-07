@@ -24,7 +24,8 @@
 
 BFS解法:给结点新增一个辅助属性,这个方法很巧妙
 
-DFS解法:根据target在node的左子树 还是右子树分情况讨论
+DFS解法:如果 target 节点在 root 节点的左子树中，且 target 节点深度为 3，那所有 root 节点右子树中深度为 K - 3 的节点到 target 的距离就都是 K。
+
 
 参考:https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/solution/er-cha-shu-zhong-suo-you-ju-chi-wei-k-de-jie-dian-/
 
@@ -77,11 +78,13 @@ class Solution:
             else:
                 L, R = dfs(node.left), dfs(node.right)
                 if L != -1:
-                    if L == K: ans.append(node.val)
+                    if L == K:
+                        ans.append(node.val)
                     subtree_add(node.right, L + 1)
                     return L + 1
                 elif R != -1:
-                    if R == K: ans.append(node.val)
+                    if R == K:
+                        ans.append(node.val)
                     subtree_add(node.left, R + 1)
                     return R + 1
                 else:

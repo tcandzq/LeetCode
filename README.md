@@ -162,3 +162,6 @@
 * - [最小高度树.py](BreadthFirstSearch/MinimumHeightTrees.py)
 * - [找树左下角的值.py](BreadthFirstSearch/FindBottomLeftTreeValue.py)
 * - [在每个树行中找最大值.py](BreadthFirstSearch/FindLargestValueInEachTreeRow.py)
+* - [N叉树的层序遍历.py](BreadthFirstSearch/NAryTreeLevelOrderTraversal.py)
+* - [N叉树的最大深度.py](BreadthFirstSearch/MinimumDepthOfBinaryTree.py)
+

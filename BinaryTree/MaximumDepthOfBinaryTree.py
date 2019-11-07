@@ -30,7 +30,7 @@ def maxDepth(root):
     if not root:
         return 0
 
-    return max(maxDepth(root.left),maxDepth(root.right)) + 1  # 注意这里的加1。加1表示当前节点的高度
+    return max(maxDepth(root.left), maxDepth(root.right)) + 1  # 注意这里的加1。加1表示当前节点的高度
 
 if __name__ == '__main__':
     root = TreeNode(3)

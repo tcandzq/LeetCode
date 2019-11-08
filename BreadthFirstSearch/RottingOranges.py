@@ -30,6 +30,9 @@
 输出：0
 解释：因为 0 分钟时已经没有新鲜橘子了，所以答案就是 0 。
  
+
+求全部腐烂的时间其实就是最后一个橘子腐烂的时间，所以求最深的那个结点就行了
+
 """
 from typing import List
 
@@ -60,7 +63,7 @@ class Solution:
                     return -1
         return count
 
-    #  优雅版
+    #  优雅版(真pythonic)
     def orangesRotting2(self, grid):
         from collections import deque
         R, C = len(grid), len(grid[0])
@@ -84,6 +87,7 @@ class Solution:
                 if grid[nr][nc] == 1:
                     grid[nr][nc] = 2
                     queue.append((nr, nc, d + 1))
+
 
         if any(1 in row for row in grid):
             return -1

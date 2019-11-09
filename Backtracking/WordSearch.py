@@ -30,7 +30,7 @@ board =
 """
 class Solution:
     directions = [(0,-1),(0,1),(1,0),(-1,0)]
-    def exist(self,board, word):
+    def exist(self, board, word):
         rows = len(board)
         cols = len(board[0])
         masked = [[False] * cols for _ in range(rows)]  # 这里的masked很巧妙,这个套路要牢记
@@ -40,7 +40,7 @@ class Solution:
                     return True
         return False
 
-    def search(self,board, word,masked,i, j, k):
+    def search(self, board, word,masked,i, j, k):
         if k == len(word) - 1:
             return board[i][j] == word[k]  # 记得写递归的终止条件
         if board[i][j] == word[k]:
@@ -57,10 +57,13 @@ class Solution:
         return False
 
 if __name__ == '__main__':
-    board = [['A','B','C','E'],
-              ['S','F','C','S'],
-              ['A','D','E','E']]
-    word = "ABCCED"
+    board = [
+        ['o', 'a', 'a', 'n'],
+        ['e', 't', 'a', 'e'],
+        ['i', 'h', 'k', 'r'],
+        ['i', 'f', 'l', 'v']
+    ]
+    word = "rain"
     solution = Solution()
     print(solution.exist(board,word))
 

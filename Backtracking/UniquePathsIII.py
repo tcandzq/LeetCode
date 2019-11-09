@@ -39,11 +39,22 @@
 没有一条路能完全穿过每一个空的方格一次。
 请注意，起始和结束方格可以位于网格中的任意位置。
 
+本题有两种解法DFS和DP
+
+本题的要求可归纳如下:
+1.从1走到2;
+2.必须走完所有的0;
+3.只能四个方向
+
+解决这种路径问题,可以使用以下几个技巧:
+1.将已经走过的空格设为障碍,在回溯的时候重置;
+2.设置一个变量count记录矩阵中空格的数量,当count为0时可以保证所有的非障碍点全部走完。
 
 """
 from typing import List
 
 class Solution:
+    # DFS解法
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         R, C = len(grid), len(grid[0])
 
@@ -56,11 +67,11 @@ class Solution:
         for r, row in enumerate(grid):
             for c, val in enumerate(row):
                 if val != -1:
-                    todo += 1
+                    todo += 1  # 统计所有的非障碍点的数量
                 if val == 1:
-                    sr, sc = r, c
+                    sr, sc = r, c  # 记录起点坐标
                 if val == 2:
-                    tr, tc = r, c
+                    tr, tc = r, c  # 记录终点坐标
 
         self.ans = 0
 
@@ -68,8 +79,8 @@ class Solution:
             todo -= 1
             if todo < 0:
                 return
-            if r == tr and c == tc:
-                if todo == 0:
+            if r == tr and c == tc:  # 如果已经到达终点
+                if todo == 0:  # 且所有的非障碍点已经走完
                     self.ans += 1
                 return
 
@@ -80,6 +91,7 @@ class Solution:
 
         dfs(sr, sc, todo)
         return self.ans
+
 
 
 if __name__ == '__main__':

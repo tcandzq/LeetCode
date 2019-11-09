@@ -136,6 +136,7 @@
 * - [判断子序列.py](Greedy/IsSubsequence.py)
 ## [数学(及其相关结构)](Math/)
 * - [有序队列.py](Math/OrderlyQueue.py)
+* - [回文数.py](Math/PalindromeNumber.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
 ## [分治算法(及其相关结构)](DivideAndConquer/)

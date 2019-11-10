@@ -4,6 +4,7 @@
 # @Author  : tc
 # @File    : LowestCommonAncestorOfABinaryTree.py
 """
+题号 236 二叉树的最近公共祖先
 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
 
 百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
@@ -47,17 +48,51 @@ class TreeNode:
         self.left = None
         self.right = None
 
-def lowestCommonAncestor(root: 'TreeNode', p: 'TreeNode', q: 'TreeNode'):
-    if not root or root == p or root == q:  # 递归的边界条件是关键
-        return root
-    left = lowestCommonAncestor(root.left,p,q)  # 遍历左子树查找
-    right = lowestCommonAncestor(root.right,p,q)  # 遍历右子树查找
-    if not left:
-        return right
-    elif not right:
-        return left
-    else:  # 如果p和q分别在左右子树中则返回左右字数的根结点
-        return root
+class Solution:
+
+    def lowestCommonAncestor(self,root: 'TreeNode', p: 'TreeNode', q: 'TreeNode'):
+        if not root or root == p or root == q:  # 递归的边界条件是关键
+            return root
+        left = self.lowestCommonAncestor(root.left,p,q)  # 遍历左子树查找
+        right = self.lowestCommonAncestor(root.right,p,q)  # 遍历右子树查找
+        if not left:
+            return right
+        elif not right:
+            return left
+        else:  # 如果p和q分别在左右子树中则返回左右字数的根结点
+            return root
+
+    ans = 0
+
+    def lowestCommonAncestor2(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode'):
+
+        def recurse_tree(current_node):
+
+            # If reached the end of a branch, return False.
+            if not current_node:
+                return False
+
+            # Left Recursion
+            left = recurse_tree(current_node.left)
+
+            # Right Recursion
+            right = recurse_tree(current_node.right)
+
+            # If the current node is one of p or q
+            mid = current_node == p or current_node == q
+
+            # If any two of the three flags left, right or mid become True.
+            if mid + left + right >= 2:
+                self.ans = current_node
+
+            # Return True if either of the three bool values is True.
+            return mid or left or right
+
+        # Traverse the tree
+        recurse_tree(root)
+        return self.ans
+
+
 
 if __name__ == '__main__':
     root = TreeNode(3)
@@ -79,4 +114,6 @@ if __name__ == '__main__':
     node4.left = node7
     node4.right = node4
 
-    print(lowestCommonAncestor(root,node1,node2).val)
+
+    solution = Solution()
+    print(solution.lowestCommonAncestor(root,node1,node2).val)

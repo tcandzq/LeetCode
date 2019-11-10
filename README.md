@@ -76,6 +76,7 @@
 * - [三数之和.py](TwoPointer/3Sum.py)
 * - [最接近的三数之和.py](TwoPointer/3SumClosest.py)
 * - [颜色分类.py](TwoPointer/SortColors.py)
+* - [颜色分类.py](TwoPointer/SortColors.py)
 ## [数组(及其相关结构)](Array/)
 * - [和为K的子数组.py](Array/SubarraySumEqualsK.py)
 * - [合并区间.py](Array/MergeIntervals.py)

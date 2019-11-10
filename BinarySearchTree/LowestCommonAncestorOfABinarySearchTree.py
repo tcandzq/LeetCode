@@ -28,6 +28,9 @@
 所有节点的值都是唯一的。
 p、q 为不同节点且均存在于给定的二叉搜索树中。
 
+参考:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian--2/
+
+极简解法参考:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/python-2xing-by-knifezhu-3/
 
 """
 class TreeNode:
@@ -38,8 +41,41 @@ class TreeNode:
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        pass
+
+        parent_val = root.val
+
+        p_val = p.val
+
+        q_val = q.val
+
+        if p_val > parent_val and q_val > parent_val:  # 如果节点 p 和节点 q 都在右子树上
+            return self.lowestCommonAncestor(root.right, p, q)
+
+        elif p_val < parent_val and q_val < parent_val: # 如果节点 p 和节点 q 都在左子树上
+            return self.lowestCommonAncestor(root.left, p, q)
+
+        else:  #  如果  p < root < q
+            return root
+
+
+    def lowestCommonAncestor2(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        while (root.val - p.val) * (root.val - q.val) > 0:
+            root = (root.left, root.right)[p.val > root.val]
+        return root
 
 
 
 if __name__ == '__main__':
+    node0 = TreeNode(0)
+    node1 = TreeNode(1)
+    node2 = TreeNode(2)
+    node3 = TreeNode(3)
+    node4 = TreeNode(4)
+    node5 = TreeNode(5)
+    node6 = TreeNode(6)
+    node7 = TreeNode(7)
+    node8 = TreeNode(8)
+    node9 = TreeNode(9)
+
+    node6.left = node2
+    node6.right = node8

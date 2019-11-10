@@ -64,22 +64,19 @@ class Solution:
 
     ans = 0
 
+    #  递归解法
     def lowestCommonAncestor2(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode'):
 
         def recurse_tree(current_node):
 
-            # If reached the end of a branch, return False.
-            if not current_node:
+            if not current_node:  # 递归的边界条件
                 return False
 
-            # Left Recursion
             left = recurse_tree(current_node.left)
 
-            # Right Recursion
             right = recurse_tree(current_node.right)
 
-            # If the current node is one of p or q
-            mid = current_node == p or current_node == q
+            mid = current_node == p or current_node == q  # 如果当前结点是p或者q中的任何一个
 
             # If any two of the three flags left, right or mid become True.
             if mid + left + right >= 2:
@@ -91,6 +88,30 @@ class Solution:
         # Traverse the tree
         recurse_tree(root)
         return self.ans
+
+    # 使用父指针迭代
+    def lowestCommonAncestor3(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode'):
+        stack = [root]
+        parent = {root:None}
+        while p not in parent or q not in parent:  # 存储p结点和q结点之前所有结点的父结点
+            node = stack.pop()
+            if node.left:
+                parent[node.left] = node
+                stack.append(node.left)
+            if node.right:
+                parent[node.right] = node
+                stack.append(node.right)
+
+        ancestor = set()
+        while p:
+            ancestor.add(p)  # 得到p的所有父结点集合
+            p = parent[p]
+
+        while q not in ancestor:  #
+            q = parent[q]  # 拿着q结点的所有父结点在p的父结点集合中自底向上查找,可以保证是最近的公共祖先
+        return q
+
+
 
 
 

@@ -79,3 +79,14 @@ if __name__ == '__main__':
 
     node6.left = node2
     node6.right = node8
+    node2.left = node0
+    node2.right = node4
+    node8.left = node7
+    node8.right = node9
+    node4.left =node3
+    node4.right = node5
+
+    solution = Solution()
+    p = node2
+    q = node8
+    print(solution.lowestCommonAncestor(node6,p,q))

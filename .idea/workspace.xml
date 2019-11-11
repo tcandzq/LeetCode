@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BitManipulation/SingleNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/SingleNumberII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitManipulation/SingleNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/BitManipulation/SingleNumber.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +77,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="6" />
-          <entry key="py" value="73" />
+          <entry key="py" value="74" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="74" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -93,14 +92,14 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="md" value="65" />
-          <entry key="py" value="15951" />
+          <entry key="py" value="16053" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="65" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="15951" />
+          <entry key="Python" value="16053" />
         </counts>
       </usages-collector>
     </session>
@@ -126,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="692">
+              <first_editor relative-caret-position="331">
                 <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
               </first_editor>
               <second_editor />
@@ -134,11 +133,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BitManipulation/SingleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="751">
+              <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BitManipulation/SingleNumberII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -197,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Backtracking/SumRootToLeafNumbers.py" />
         <option value="$PROJECT_DIR$/BinaryTree/DiameterOfBinaryTree.py" />
         <option value="$PROJECT_DIR$/UnionFindSet/SurroundedRegions.py" />
         <option value="$PROJECT_DIR$/BinaryTree/BinaryTreePaths.py" />
@@ -248,6 +255,7 @@
         <option value="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BitManipulation/SingleNumber.py" />
+        <option value="$PROJECT_DIR$/BitManipulation/SingleNumberII.py" />
       </list>
     </option>
   </component>
@@ -305,6 +313,11 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="BitManipulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -421,7 +434,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SingleNumber">
+  <component name="RunManager" selected="Python.SingleNumberII">
     <configuration name="LowestCommonAncestorOfABinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -435,27 +448,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PalindromeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math/PalindromeNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -527,20 +519,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SingleNumberII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/SingleNumberII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.PalindromeNumber" />
       <item itemvalue="Python.ReverseString" />
       <item itemvalue="Python.RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Python.LowestCommonAncestorOfABinarySearchTree" />
       <item itemvalue="Python.SingleNumber" />
+      <item itemvalue="Python.SingleNumberII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SingleNumberII" />
         <item itemvalue="Python.SingleNumber" />
         <item itemvalue="Python.LowestCommonAncestorOfABinarySearchTree" />
         <item itemvalue="Python.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Python.ReverseString" />
-        <item itemvalue="Python.PalindromeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -566,8 +579,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.13991323" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36225596" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.18980478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36225596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -678,20 +691,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BitManipulation/SingleNumber.py</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Greedy/IsSubsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearch/SearchInRotatedSortedArrayII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1701">
@@ -998,16 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="692">
-            <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -1018,10 +1014,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="331">
+            <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BitManipulation/SingleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="751">
+          <caret line="35" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/SingleNumberII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>

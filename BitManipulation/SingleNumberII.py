@@ -22,7 +22,7 @@
 
 参考:https://leetcode-cn.com/problems/single-number-ii/solution/single-number-ii-mo-ni-san-jin-zhi-fa-by-jin407891/
 
-完全看不懂
+完全看不懂，过段时间再过来看
 
 """
 from typing import List

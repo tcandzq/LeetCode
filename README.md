@@ -94,6 +94,7 @@
 ## [字符串(及其相关结构)](String/)
 * - [最长公共前缀.py](String/LongestCommonPrefix.py)
 * - [有效的括号.py](String/ValidParentheses.py)
+* - [反转字符串中的单词 III.py](String/ReverseWordsInAStringIII.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)
@@ -174,3 +175,4 @@
 * - [腐烂的橘子.py](BreadthFirstSearch/RottingOranges.py)
 ## [位运算(及其相关结构)](BitManipulation/)
 * - [只出现一次的数字.py](BreadthFirstSearch/RottingOranges.py)
+* - [只出现一次的数字II.py](BreadthFirstSearch/SingleNumberII.py)

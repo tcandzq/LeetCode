@@ -180,3 +180,5 @@
 ## [排序(及其相关结构)](Sort/)
 * - [最大间距.py](Sort/MaximumGap.py)
 * - [最大数.py](Sort/LargestNumber.py)
+## [树状数组(及其相关结构)](BinaryIndexedTree/)
+* - [计算右侧小于当前元素的个数.py](Sort/CountOfSmallerNumbersAfterSelf.py)

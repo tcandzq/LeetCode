@@ -35,5 +35,5 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
-    nums = [3,30,34,5,9]
+    nums = [0]
     print(solution.largestNumber(nums))

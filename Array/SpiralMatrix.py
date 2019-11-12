@@ -26,6 +26,8 @@
 ]
 输出: [1,2,3,4,8,12,11,10,9,5,6,7]
 
+参考:https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/
+
 """
 from typing import List
 

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryIndexedTree/BinaryIndexTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/PowerOfTwo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/LargestNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/LargestNumber.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,44 +67,45 @@
     <session id="-1983654742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="6" />
-          <entry key="py" value="83" />
+          <entry key="py" value="95" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="Python" value="83" />
+          <entry key="Python" value="95" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="md" value="90" />
-          <entry key="py" value="19439" />
+          <entry key="md" value="91" />
+          <entry key="py" value="21474" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="90" />
+          <entry key="Markdown" value="91" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="19439" />
+          <entry key="Python" value="21474" />
         </counts>
       </usages-collector>
     </session>
@@ -116,8 +119,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4941">
-                <caret line="183" column="61" selection-start-line="183" selection-start-column="61" selection-end-line="183" selection-end-column="61" />
+              <first_editor relative-caret-position="243">
+                <caret line="61" column="9" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,28 +128,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sort/LargestNumber.py">
+        <entry file="file://$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="60" selection-start-line="24" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="331">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding>
+                <marker date="1573743835884" expanded="true" signature="478:814" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py">
+        <entry file="file://$PROJECT_DIR$/BitManipulation/PowerOfTwo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="37" column="24" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="37" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/toolUnzip/Anaconda3/Lib/bisect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+            <state relative-caret-position="189">
+              <caret line="7" column="27" selection-start-line="7" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -163,8 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>em</find>
-      <find>组合</find>
       <find>双</find>
       <find>买卖</find>
       <find>柱状</find>
@@ -193,6 +188,8 @@
       <find>双指针</find>
       <find>字符串</find>
       <find>数组</find>
+      <find>set_val</find>
+      <find>等和</find>
     </findStrings>
     <replaceStrings>
       <replace>结</replace>
@@ -205,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/String/LongestCommonPrefix.py" />
-        <option value="$PROJECT_DIR$/String/ValidParentheses.py" />
-        <option value="$PROJECT_DIR$/DynamicProgramming/LongestValidParentheses.py" />
         <option value="$PROJECT_DIR$/Backtracking/Permutations.py" />
         <option value="$PROJECT_DIR$/Backtracking/GenerateParentheses.py" />
         <option value="$PROJECT_DIR$/Greedy/GasStation.py" />
@@ -255,7 +249,10 @@
         <option value="$PROJECT_DIR$/Sort/MaximumGap.py" />
         <option value="$PROJECT_DIR$/Sort/LargestNumber.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BinaryIndexedTree/BinaryIndexTree.py" />
         <option value="$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py" />
+        <option value="$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py" />
+        <option value="$PROJECT_DIR$/BitManipulation/PowerOfTwo.py" />
       </list>
     </option>
   </component>
@@ -417,7 +414,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/working/GitLab/cangjie-gateway" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -444,7 +441,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CountOfSmallerNumbersAfterSelf">
+  <component name="RunManager" selected="Python.PowerOfTwo">
+    <configuration name="CountOfRangeSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinaryIndexedTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CountOfSmallerNumbersAfterSelf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -508,7 +526,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReverseWordsInAStringIII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PowerOfTwo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -516,32 +534,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/ReverseWordsInAStringIII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SpiralMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/SpiralMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/PowerOfTwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -551,19 +548,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ReverseWordsInAStringIII" />
-      <item itemvalue="Python.SpiralMatrix" />
       <item itemvalue="Python.MaximumGap" />
       <item itemvalue="Python.LargestNumber" />
       <item itemvalue="Python.CountOfSmallerNumbersAfterSelf" />
+      <item itemvalue="Python.CountOfRangeSum" />
+      <item itemvalue="Python.PowerOfTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PowerOfTwo" />
         <item itemvalue="Python.CountOfSmallerNumbersAfterSelf" />
+        <item itemvalue="Python.CountOfRangeSum" />
         <item itemvalue="Python.LargestNumber" />
         <item itemvalue="Python.MaximumGap" />
-        <item itemvalue="Python.SpiralMatrix" />
-        <item itemvalue="Python.ReverseWordsInAStringIII" />
       </list>
     </recent_temporary>
   </component>
@@ -581,16 +578,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.13826607" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.2186512" />
       <window_info id="Structure" order="1" sideWeight="0.5077139" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.23210412" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17868853" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.114967465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.121475056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -711,47 +708,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py</url>
-          <line>46</line>
+          <line>143</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BinaryTree/CountCompleteTreeNodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="65" column="22" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/FindTheDuplicateNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearch/KthSmallestElementInABst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopologicalSort/toplogicalSort.py" />
-    <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/IntersectionOfTwoArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/CombinationSumII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
@@ -1026,34 +994,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4941">
-            <caret line="183" column="61" selection-start-line="183" selection-start-column="61" selection-end-line="183" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://C:/toolUnzip/Anaconda3/Lib/bisect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sort/LargestNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="60" selection-start-line="24" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="326">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/toolUnzip/Anaconda3/Lib/bisect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/TargetSum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgramming/PartitionEqualSubsetSum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="243">
+            <caret line="61" column="9" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="871">
+          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="105" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryIndexedTree/BinaryIndexTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <marker date="1573717292850" expanded="true" signature="282:780" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryIndexedTree/CountOfRangeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <marker date="1573743835884" expanded="true" signature="478:814" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/PowerOfTwo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="27" selection-start-line="7" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>

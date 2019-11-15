@@ -42,12 +42,7 @@ class BinaryIndexedTree:
 
 class Solution:
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
-        n = len(nums)
-        _sum = [0] * (n+1)
-        for i in range(0,n):
-            _sum[i+1] = _sum[i] + nums[i]
-
-    pass
+        pass
 
 
 

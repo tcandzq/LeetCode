@@ -16,15 +16,15 @@ class FenwickTree:
     def __lowbit(self,index):
         return index & (-index)
 
-    def update(self,index,delta):  # 单点更新
+    def update(self,index,delta):  # 单点更新：从下到上，最多到 size，可以取等
         while index <= self.size:
             self.tree[index] += delta
             index += self.__lowbit(index)
 
     def query(self, index):  # 区间查询
-        ans = 0
+        res = 0
         while index > 0:  # 至少到1,可以取等
-            ans += self.tree[index]
+            res += self.tree[index]
             index -= self.__lowbit(index)
-
+        return res
 

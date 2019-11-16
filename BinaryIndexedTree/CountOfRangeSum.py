@@ -18,37 +18,36 @@
 输出: 3
 解释: 3个区间分别是: [0,0], [2,2], [0,2]，它们表示的和分别为: -2, -1, 2。
 
-多种解法,先写树状数组的解法
+
+使用前缀和sum[i] 区间数组[0,i]的和
+
+lower <= sum[j] - sum[i] <= upper 那么sum[i] + lower <= sum[j] <= sum[i] + upper
+
+因此在sum[i]+lower和sum[i]+upper之间的范围内的值都是满足要求的。
+
+没有完全理解，要继续消化
 
 """
 from typing import List
-
-class BinaryIndexedTree:
-    def __init__(self,n):
-        self.C = [0] * (n + 1)
-        self.length = n
-
-    def update(self, i):
-        while i <= self.length:
-            self.C[i] += 1
-            i += (i & (-i))
-
-    def get_num(self,i):
-        _sum = 0
-        while i > 1:
-            _sum += self.C[i]
-            i -= (i & -i)
-        return _sum
-
+import bisect
 class Solution:
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
-        pass
-
-
+        p = [0]  # 前缀和初始化，前缀和p[x]，就是区间数组[0, x)的和
+        for i in nums:
+            p += [p[-1] + i]  # 前缀和计算
+        ans = 0
+        q = []  # 维护一个有序的前缀和队列
+        for pi in p[:: -1]:  # 逆序遍历前缀和
+            i, j = pi + lower, pi + upper  # 给出当前前缀和两个对应边界
+            l = bisect.bisect_left(q, i)  # 二分查找
+            r = bisect.bisect_right(q, j)  # 找到对应边界在前缀和数组里的插入位置
+            ans += r - l  # 序号大于自己的前缀和里有多少个前缀和在边界里面，就是以当前区间为起点，符合区间和条件的个数
+            bisect.insort(q, pi)  # 二分插入更新队列
+        return ans
 
 
 if __name__ == '__main__':
-    nums = [2147483647,-2147483648,-1,0]
+    nums = [-2,5,-1]
     lower = -1
     upper = 0
     solution = Solution()

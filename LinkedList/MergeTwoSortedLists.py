@@ -18,11 +18,11 @@ class ListNode:
         self.val = x
         self.next = None
 
-#解法1：迭代，递归我不是很理解，所以写不出来
+# 解法1：迭代，递归我不是很理解，所以写不出来
 
 def mergeTwoListsGov(l1,l2):
-    dummy = ListNode(-1) #哑结点
-    prev = dummy #哨兵结点
+    dummy = ListNode(-1)  # 哑结点
+    prev = dummy  # 哨兵结点
     while l1 and l2:
         if l1.val <= l2.val:
             prev.next = l1
@@ -31,11 +31,11 @@ def mergeTwoListsGov(l1,l2):
             prev.next = l2
             l2 = l2.next
         prev = prev.next
-    prev.next = l1 if l1 is not None else l2 #麻烦熟悉下python的三元组写法
+    prev.next = l1 if l1 is not None else l2  # 麻烦熟悉下python的三元组写法
     return dummy.next
 
 
-#解法2:很暴力，很蠢，遍历两个链表，将值收集起来塞进一个列表，排序，最后将列表转为链表
+# 解法2:很暴力，很蠢，遍历两个链表，将值收集起来塞进一个列表，排序，最后将列表转为链表
 
 def mergeTwoLists(l1, l2):
     l1_list = []

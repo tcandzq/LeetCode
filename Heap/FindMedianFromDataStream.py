@@ -75,7 +75,8 @@ class MedianFinder:
 
 if __name__ == '__main__':
     median_finder = MedianFinder()
-    median_finder.addNum(1)
-    median_finder.addNum(2)
+    nums = [1,2,3,5,0,6,7]
+    for num in nums:
+        median_finder.addNum(num)
     print(median_finder.findMedian())
 

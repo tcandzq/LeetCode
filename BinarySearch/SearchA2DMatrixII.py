@@ -3,7 +3,9 @@
 # @Time    : 2019/8/22 11:13
 # @Author  : tc
 # @File    : SearchA2DMatrixII.py
-
+"""
+题号 240 搜索二维矩阵 II
+"""
 
 def searchMatrix(matrix,target):
     rows = len(matrix)
@@ -18,7 +20,7 @@ def searchMatrix(matrix,target):
     j = 0
 
     # while  (i >= 0 and i <= rows - 1) and (j >= 0 and j <= columns -1):
-    while (0 <= i <= rows - 1) and (0 <= j <= columns - 1):  #这种写法更简单
+    while (0 <= i <= rows - 1) and (0 <= j <= columns - 1):  # 这种写法更简单
         if matrix[i][j] == target:
             return True
 

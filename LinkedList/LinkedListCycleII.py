@@ -11,8 +11,6 @@
 
 说明：不允许修改给定的链表。
 
- 
-
 示例 1：
 
 输入：head = [3,2,0,-4], pos = 1
@@ -38,6 +36,19 @@
 
 参考:https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/
 
+思考:
+设链表总长度为a+b,其中b是环的长度
+1.第一次相遇,慢指针走的步数为s,则快指针的步数为f = 2s,由于第一次相遇,快慢指针一定是在环中相遇,此时一定有f - s = nb,由f = 2s可得:
+s = nb;
+f = 2nb.
+
+2.所有带环的链表,走到环入口处走过的所有步数一定等于a+mb(m= 0,1,2,3...)
+如果想让快慢指针在入口处相遇,那么一定要让慢指针走的步数等于a+nb,因此可以再让慢指针再走a步(也可以让快指针走a步,因为a+2nb也肯定是走到环的总步数,
+此时m=2).
+那么如何让慢指针走a步呢?
+可以让慢指针从头结点开始走,或者让快指针从头结点开始走,然后快慢指针速度一致,都是一步一步走,这样两个结点相遇的时候一定是在入口处.
+
+
 """
 class ListNode:
     def __init__(self, x):
@@ -61,7 +72,7 @@ class Solution:
         fast, slow = head, head
         while True:
             if not (fast and fast.next): return  # 链表中没有环
-            fast, slow = fast.next.next, slow.next  # 快指针的速度是慢指针速度的两倍
+            fast, slow = fast.next.next, slow.next  # fast指针的速度是slow指针速度的两倍
             if fast == slow: break  # 第一次相遇
         fast = head
         while fast != slow:  # 第二次相遇 slow指针 位置不变 ，将fast指针重新 指向链表头部节点

@@ -50,11 +50,9 @@ class Solution:
                 head = head.next
         return False
 
-    # 快慢指针
+    # 快慢指针(可以做标准写法)
     def hasCycle2(self, head: ListNode) -> bool:
-        if not head or not head.next:
-            return False
-        fast,slow = head.next,head
+        fast,slow = head,head
         while fast and fast.next:
             if slow == fast:
                 return True

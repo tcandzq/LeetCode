@@ -19,6 +19,7 @@
 * - [相交链表.py](LinkedList/IntersectionOfTwoLinkedLists.py)
 * - [环形链表.py](LinkedList/LinkedListCycle.py)
 * - [环形链表II.py](LinkedList/LinkedListCycleII.py)
+* - [删除链表中的节点.py](LinkedList/DeleteNodeInALinkedList.py)
 ## [二叉树(及其相关结构)](BinaryTree/)
 * - [二叉树的中序遍历.py](BinaryTree/BinaryTreeInorderTraversal.py)
 * - [二叉树的最大深度.py](BinaryTree/MaximumDepthOfBinaryTree.py)

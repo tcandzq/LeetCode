@@ -21,7 +21,6 @@ https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/submissions/
       3.if语句中的cur.next可能会空
 
 """
-
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -32,8 +31,8 @@ def deleteDuplicates(head):
     if not head or not head.next:
         return head
     headNode = ListNode(1)
-    headNode.next = head #创建一个哑结点
-    cur = headNode.next   #创建一个当前结点
+    headNode.next = head  # 创建一个哑结点
+    cur = headNode.next  # 创建一个当前结点
     while cur and cur.next:
         if cur.val == cur.next.val:
             cur.next = cur.next.next

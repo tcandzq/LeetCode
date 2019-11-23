@@ -83,8 +83,7 @@ class Solution(object):
             head = head.next
         return list_len
 
-
-    #  优雅版
+    # 优雅版
     def getIntersectionNode2(self, headA: ListNode, headB: ListNode) -> ListNode:
         if not headA or not headB:
             return None

@@ -103,6 +103,7 @@
 * - [最长公共前缀.py](String/LongestCommonPrefix.py)
 * - [有效的括号.py](String/ValidParentheses.py)
 * - [反转字符串中的单词III.py](String/ReverseWordsInAStringIII.py)
+* - [字符串转换整数 (atoi).py](String/StringToIntegerAtoi.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)

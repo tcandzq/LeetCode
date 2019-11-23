@@ -98,6 +98,7 @@
 * - [匹配子序列的单词数.py](Array/NumberOfMatchingSubsequences.py)
 * - [两个数组的交集.py](Array/IntersectionOfTwoArrays.py)
 * - [螺旋矩阵.py](Array/SpiralMatrix.py)
+* - [存在重复元素.py](Array/ContainsDuplicate.py)
 ## [字符串(及其相关结构)](String/)
 * - [最长公共前缀.py](String/LongestCommonPrefix.py)
 * - [有效的括号.py](String/ValidParentheses.py)

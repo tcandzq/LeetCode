@@ -149,6 +149,7 @@
 * - [有序队列.py](Math/OrderlyQueue.py)
 * - [回文数.py](Math/PalindromeNumber.py)
 * - [整数反转.py](Math/ReverseInteger.py)
+* - [数字1的个数.py](Math/NumberOfDigitOne.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
 ## [分治算法(及其相关结构)](DivideAndConquer/)

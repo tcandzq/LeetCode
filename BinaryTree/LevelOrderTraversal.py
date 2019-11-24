@@ -58,6 +58,7 @@ class Solution:
             nums.append(new_tmp)
             queue = new_queue  # 临时变量传值,这个技巧很巧妙
         return nums
+
     # DFS解法(使用双端队列)
     def levelOrder2(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -77,7 +78,7 @@ class Solution:
             queue = tmp_queue
         return nums
 
-        # DFS解法(使用双端队列)优化版,善用了for循环记录次数
+    # DFS解法(使用双端队列)优化版,善用了for循环记录次数
     def levelOrder3(self, root: TreeNode) -> List[List[int]]:
         if not root:
             return []

@@ -199,3 +199,5 @@
 ## [树状数组(及其相关结构)](BinaryIndexedTree/)
 * - [计算右侧小于当前元素的个数.py](BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py)
 * - [区间和的个数.py](BinaryIndexedTree/CountOfRangeSum.py)
+## [设计(及其相关结构)](Design/)
+* - [LRU缓存机制.py](Design/LruCache.py)

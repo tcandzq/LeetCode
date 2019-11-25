@@ -75,6 +75,7 @@
 * - [零钱兑换.py](DynamicProgramming/CoinChange.py)
 * - [完全平方数.py](DynamicProgramming/PerfectSquares.py)
 * - [最长有效括号.py](DynamicProgramming/LongestValidParentheses.py)
+* - [最长回文子序列.py](DynamicProgramming/LongestPalindromicSubsequence.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

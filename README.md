@@ -158,6 +158,7 @@
 * - [数字1的个数.py](Math/NumberOfDigitOne.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
+* - [快乐数.py](HashTable/HappyNumber.py)
 ## [分治算法(及其相关结构)](DivideAndConquer/)
 * - [求众数.py](DivideAndConquer/MajorityElement.py)
 * - [数组中的第K个最大元素.py](DivideAndConquer/KthLargestElementInAnArray.py)

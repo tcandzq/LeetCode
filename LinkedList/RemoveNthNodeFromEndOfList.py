@@ -5,6 +5,7 @@
 # @File    : RemoveNthNodeFromEndOfList.py
 
 """
+题号 147 对链表进行插入排序
 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
 
 Input: 1->2->3->4->5, 和 n = 2
@@ -23,26 +24,26 @@ class ListNode:
         self.next = None
 
 
-#解法1
+# 解法1
 def removeNthFromEnd(head, n):
     if not head or not head.next:
         return None
     dummy = ListNode(0)
     dummy.next = head
-    #快指针
-    first_pointer = dummy.next
-    #慢指针
-    second_pointer = dummy.next
+    # 快指针
+    fast = dummy.next
+    # 慢指针
+    slow = dummy.next
     for i in range(n):
-        first_pointer = first_pointer.next
+        fast = fast.next
     #需要考虑first_pointer为None时的情况
-    if not first_pointer:
+    if not fast:
         return head.next
-    while first_pointer.next:
-        first_pointer = first_pointer.next
-        second_pointer = second_pointer.next
+    while fast.next:
+        fast = fast.next
+        slow = slow.next
 
-    second_pointer.next = second_pointer.next.next
+        slow.next = slow.next.next
 
     return dummy.next
 
@@ -50,7 +51,7 @@ def removeNthFromEnd(head, n):
 def removeNthFromEndGov(head, n):
     dummy = ListNode(0)
     dummy.next = head
-    #快慢指针直接指向哑结点，规避了删除头结点的情况，使得代码看起来很简洁
+    # 快慢指针直接指向哑结点，规避了删除头结点的情况，使得代码看起来很简洁
     first_pointer = dummy
     second_pointer = dummy
     for i in range(n + 1):
@@ -75,10 +76,10 @@ if __name__ == '__main__':
     c.next = d
     d.next = e
 
-    result1 = removeNthFromEnd(a, 2)
+    # root = removeNthFromEnd(a, 2)
 
-    # result2 = removeNthFromEndGov(a, 2)
+    root = removeNthFromEndGov(a, 2)
 
-    while (result1):
-        print(result1.val)
-        result1 = result1.next
+    while (root):
+        print(root.val)
+        root = root.next

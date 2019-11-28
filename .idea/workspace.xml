@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/HappyNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/InsertionSortList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,45 +65,45 @@
     <session id="-1983654742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="11" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="9" />
-          <entry key="py" value="208" />
+          <entry key="py" value="214" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="9" />
-          <entry key="Python" value="208" />
+          <entry key="Python" value="214" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="md" value="125" />
-          <entry key="py" value="34002" />
+          <entry key="md" value="126" />
+          <entry key="py" value="35215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="125" />
+          <entry key="Markdown" value="126" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="34002" />
+          <entry key="Python" value="35215" />
         </counts>
       </usages-collector>
     </session>
@@ -116,39 +117,33 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="266">
-                <caret line="160" column="37" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+              <first_editor relative-caret-position="5616">
+                <caret line="208" column="34" selection-start-line="208" selection-start-column="34" selection-end-line="208" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/FlowerPlantingWithNoAdjacent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HashTable/HappyNumber.py">
+        <entry file="file://$PROJECT_DIR$/Sort/InsertionSortList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="644">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
               <folding>
-                <marker date="1574867562712" expanded="true" signature="446:713" ph="..." />
+                <marker date="1574922747468" expanded="true" signature="629:630" ph="..." />
+                <marker date="1574922747468" expanded="true" signature="707:1143" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/FindTheTownJudge.py">
+        <entry file="file://$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1134" />
+            <state relative-caret-position="109">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -164,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>搜索旋转排序数组</find>
       <find>ShortestSubarrayWithSumAtLeastK.py</find>
       <find>课程表</find>
       <find>最小高度树</find>
@@ -194,6 +188,7 @@
       <find>__shift_up</find>
       <find>不邻接植花</find>
       <find>哈希</find>
+      <find>排序</find>
     </findStrings>
     <replaceStrings>
       <replace>结</replace>
@@ -206,8 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BreadthFirstSearch/RottingOranges.py" />
-        <option value="$PROJECT_DIR$/Backtracking/UniquePathsIII.py" />
         <option value="$PROJECT_DIR$/Backtracking/WordSearch.py" />
         <option value="$PROJECT_DIR$/Backtracking/WordSearchII.py" />
         <option value="$PROJECT_DIR$/Math/PalindromeNumber.py" />
@@ -255,12 +248,14 @@
         <option value="$PROJECT_DIR$/Algorithm/heap.py" />
         <option value="$PROJECT_DIR$/DynamicProgramming/Triangle.py" />
         <option value="$PROJECT_DIR$/Graph/FlowerPlantingWithNoAdjacent.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/HashTable/HappyNumber.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py" />
+        <option value="$PROJECT_DIR$/Sort/InsertionSortList.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1372" />
@@ -423,7 +418,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="D:/working/code/token" />
+    <property name="last_opened_file_path" value="D:/working/GitLab/cangjie-gateway" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -450,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HappyNumber">
+  <component name="RunManager" selected="Python.InsertionSortList">
     <configuration name="FlowerPlantingWithNoAdjacent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -493,7 +488,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromicSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="InsertionSortList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,11 +496,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/LongestPalindromicSubsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort/InsertionSortList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveNthNodeFromEndOfList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -535,41 +551,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/heap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.LongestPalindromicSubsequence" />
-      <item itemvalue="Python.heap" />
       <item itemvalue="Python.Triangle" />
       <item itemvalue="Python.FlowerPlantingWithNoAdjacent" />
       <item itemvalue="Python.HappyNumber" />
+      <item itemvalue="Python.InsertionSortList" />
+      <item itemvalue="Python.RemoveNthNodeFromEndOfList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.InsertionSortList" />
+        <item itemvalue="Python.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Python.HappyNumber" />
         <item itemvalue="Python.FlowerPlantingWithNoAdjacent" />
         <item itemvalue="Python.Triangle" />
-        <item itemvalue="Python.heap" />
-        <item itemvalue="Python.LongestPalindromicSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -587,16 +582,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.2223393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.22181243" />
       <window_info id="Structure" order="1" sideWeight="0.5077139" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.2451193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22125813" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.21475054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31967214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -745,15 +740,15 @@
           <line>72</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Sort/InsertionSortList.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backtracking/UniquePathsIII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/CombinationSumIII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-373" />
@@ -812,18 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/ReverseLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/SwapNodesInPairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/DeleteNodeInALinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
@@ -866,11 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/RemoveDuplicatesFromSortedListII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -887,13 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/RotateList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -974,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design/LruCache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Heap/TopKFrequentElements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -1047,29 +1011,70 @@
         <state relative-caret-position="-1134" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HashTable/HappyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/FlowerPlantingWithNoAdjacent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="1647">
           <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design/LruCache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="160" column="37" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+          <first_editor relative-caret-position="5616">
+            <caret line="208" column="34" selection-start-line="208" selection-start-column="34" selection-end-line="208" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HashTable/HappyNumber.py">
+    <entry file="file://$PROJECT_DIR$/LinkedList/RotateList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="-567">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/SwapNodesInPairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/ReverseLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/InsertionSortList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
           <folding>
-            <marker date="1574867562712" expanded="true" signature="446:713" ph="..." />
+            <marker date="1574922747468" expanded="true" signature="629:630" ph="..." />
+            <marker date="1574922747468" expanded="true" signature="707:1143" ph="..." />
           </folding>
         </state>
       </provider>

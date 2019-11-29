@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/SortList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/SortList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/SortList.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,29 +81,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="9" />
-          <entry key="py" value="216" />
+          <entry key="py" value="217" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="9" />
-          <entry key="Python" value="216" />
+          <entry key="Python" value="217" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="md" value="127" />
-          <entry key="py" value="35968" />
+          <entry key="md" value="128" />
+          <entry key="py" value="36102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="127" />
+          <entry key="Markdown" value="128" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="35968" />
+          <entry key="Python" value="36102" />
         </counts>
       </usages-collector>
     </session>
@@ -116,8 +117,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
+              <first_editor relative-caret-position="353">
+                <caret line="199" column="53" selection-start-line="199" selection-start-column="53" selection-end-line="199" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,14 +138,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sort/SortList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="85" column="23" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="85" selection-end-column="23" />
+            <state relative-caret-position="810">
+              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
               <folding>
-                <marker date="1575041052349" expanded="true" signature="683:1099" ph="..." />
+                <marker date="1575041755172" expanded="true" signature="683:1122" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -181,7 +191,6 @@
       <find>双指针</find>
       <find>set_val</find>
       <find>等和</find>
-      <find>位运算</find>
       <find>寻找重复数</find>
       <find>二分</find>
       <find>合</find>
@@ -200,6 +209,7 @@
       <find>对链表进行插入排序</find>
       <find>排序链表</find>
       <find>排序</find>
+      <find>位运算</find>
     </findStrings>
     <replaceStrings>
       <replace>结</replace>
@@ -212,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Backtracking/WordSearchII.py" />
         <option value="$PROJECT_DIR$/Math/PalindromeNumber.py" />
         <option value="$PROJECT_DIR$/TwoPointer/ReverseString.py" />
         <option value="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinarySearchTree.py" />
@@ -261,8 +270,9 @@
         <option value="$PROJECT_DIR$/HashTable/HappyNumber.py" />
         <option value="$PROJECT_DIR$/Sort/InsertionSortList.py" />
         <option value="$PROJECT_DIR$/LinkedList/RemoveNthNodeFromEndOfList.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Sort/SortList.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py" />
       </list>
     </option>
   </component>
@@ -456,28 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SortList">
-    <configuration name="FlowerPlantingWithNoAdjacent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/FlowerPlantingWithNoAdjacent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SumOfTwoIntegers">
     <configuration name="HappyNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,20 +551,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SumOfTwoIntegers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.FlowerPlantingWithNoAdjacent" />
       <item itemvalue="Python.HappyNumber" />
       <item itemvalue="Python.InsertionSortList" />
       <item itemvalue="Python.RemoveNthNodeFromEndOfList" />
       <item itemvalue="Python.SortList" />
+      <item itemvalue="Python.SumOfTwoIntegers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SumOfTwoIntegers" />
         <item itemvalue="Python.SortList" />
         <item itemvalue="Python.InsertionSortList" />
         <item itemvalue="Python.RemoveNthNodeFromEndOfList" />
         <item itemvalue="Python.HappyNumber" />
-        <item itemvalue="Python.FlowerPlantingWithNoAdjacent" />
       </list>
     </recent_temporary>
   </component>
@@ -596,12 +606,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.22181243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.22181243" />
       <window_info id="Structure" order="1" sideWeight="0.5077139" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.3383948" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.112798266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31967214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -760,11 +770,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backtracking/Permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backtracking/PermutationsII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-562" />
@@ -1068,16 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="530">
-            <caret line="203" column="25" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1087,11 +1082,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sort/SortList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="85" column="23" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="85" selection-end-column="23" />
+        <state relative-caret-position="810">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
           <folding>
-            <marker date="1575041052349" expanded="true" signature="683:1099" ph="..." />
+            <marker date="1575041755172" expanded="true" signature="683:1122" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="353">
+            <caret line="199" column="53" selection-start-line="199" selection-start-column="53" selection-end-line="199" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>

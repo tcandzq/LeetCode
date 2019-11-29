@@ -197,6 +197,7 @@
 * - [只出现一次的数字.py](BreadthFirstSearch/RottingOranges.py)
 * - [只出现一次的数字II.py](BreadthFirstSearch/SingleNumberII.py)
 * - [只出现一次的数字III.py](BreadthFirstSearch/SingleNumberIII.py)
+* - [两整数之和.py](BreadthFirstSearch/SumOfTwoIntegers.py)
 * - [2的幂.py](BreadthFirstSearch/PowerOfTwo.py)
 ## [排序(及其相关结构)](Sort/)
 * - [最大间距.py](Sort/MaximumGap.py)

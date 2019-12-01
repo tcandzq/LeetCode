@@ -57,8 +57,41 @@ class Solution:
         else:
             return power + high * self.countDigitOne(power - 1) + self.countDigitOne(last)
 
+    # 数位dp解法
+    def countDigitOne3(self, n: int) -> int:
+        return self.solve(n)
+
+    memo = [[]]
+    digit = []
+
+    def solve(self, n):
+        self.digit = [0] * 64
+        length = 0
+        while n:
+            length += 1
+            self.digit[length] = n % 10 if n > 0 else n % -10
+            n = int(n / 10)
+        self.memo = [[-1] * (length+1) for _ in range(length)]
+        return self.dfs(length,0,1,1)
+
+    def dfs(self,pos,sm,lead,limit):
+        if pos == 0:
+            return sm
+        if not lead and not limit and self.memo[pos][sm] != -1:
+            return self.memo[pos][sm]
+        up = self.digit[pos] if limit else 9
+        ret = 0
+        for i in range(up+1):
+            ret += self.dfs(pos-1, sm + (i == 1),lead and (i == 0),limit and (i == up))
+        if not limit and not lead:
+            self.memo[pos][sm] = ret
+        return ret
+
+
+
+
 
 if __name__ == '__main__':
-    n = 13
+    n = 54321
     solution = Solution()
-    print(solution.countDigitOne(n))
+    print(solution.countDigitOne3(n))

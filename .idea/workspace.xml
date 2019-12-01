@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BitManipulation/MissingNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/PalindromePartitioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +63,7 @@
     <session id="-1983654742">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.2" value="2" />
@@ -79,29 +79,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="10" />
-          <entry key="py" value="228" />
+          <entry key="py" value="229" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="10" />
-          <entry key="Python" value="228" />
+          <entry key="Python" value="229" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="md" value="130" />
-          <entry key="py" value="38061" />
+          <entry key="md" value="131" />
+          <entry key="py" value="38133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="130" />
+          <entry key="Markdown" value="131" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="38061" />
+          <entry key="Python" value="38133" />
         </counts>
       </usages-collector>
     </session>
@@ -115,8 +115,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="363">
-                <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+              <first_editor relative-caret-position="295">
+                <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,11 +132,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BitManipulation/MissingNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="525">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Backtracking/PalindromePartitioning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="20" column="100" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -178,11 +187,11 @@
       <find>对链表进行插入排序</find>
       <find>排序链表</find>
       <find>排序</find>
-      <find>位运算</find>
       <find>数字1</find>
       <find>反转</find>
       <find>链表</find>
       <find>字符串</find>
+      <find>位运算</find>
     </findStrings>
     <replaceStrings>
       <replace>结</replace>
@@ -195,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TwoPointer/RemoveDuplicatesFromSortedArray.py" />
         <option value="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinaryTree.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" />
         <option value="$PROJECT_DIR$/BitManipulation/SingleNumber.py" />
@@ -243,9 +251,10 @@
         <option value="$PROJECT_DIR$/Math/NumberOfDigitOne.py" />
         <option value="$PROJECT_DIR$/LinkedList/PalindromeLinkedList.py" />
         <option value="$PROJECT_DIR$/Sort/SortList.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/String/CountAndSay.py" />
         <option value="$PROJECT_DIR$/BitManipulation/MissingNumber.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Backtracking/PalindromePartitioning.py" />
       </list>
     </option>
   </component>
@@ -439,7 +448,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MissingNumber">
+  <component name="RunManager" selected="Python.PalindromePartitioning">
     <configuration name="CountAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -482,27 +491,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfDigitOne" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math/NumberOfDigitOne.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="PalindromeLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -516,6 +504,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/PalindromeLinkedList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromePartitioning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/PalindromePartitioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -547,18 +556,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.SortList" />
-      <item itemvalue="Python.NumberOfDigitOne" />
       <item itemvalue="Python.PalindromeLinkedList" />
       <item itemvalue="Python.CountAndSay" />
       <item itemvalue="Python.MissingNumber" />
+      <item itemvalue="Python.PalindromePartitioning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PalindromePartitioning" />
         <item itemvalue="Python.MissingNumber" />
         <item itemvalue="Python.CountAndSay" />
         <item itemvalue="Python.SortList" />
         <item itemvalue="Python.PalindromeLinkedList" />
-        <item itemvalue="Python.NumberOfDigitOne" />
       </list>
     </recent_temporary>
   </component>
@@ -577,14 +586,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.22075869" />
       <window_info id="Structure" order="1" sideWeight="0.5077139" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.3557484" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47830802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.45227766" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20281996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -748,22 +758,10 @@
           <line>58</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BitManipulation/MissingNumber.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList/RemoveLinkedListElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/DeleteNodeInALinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
@@ -1071,16 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/CountAndSay.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
@@ -1088,10 +1076,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BitManipulation/MissingNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="525">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backtracking/PalindromePartitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="20" column="100" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
         </state>
       </provider>
     </entry>

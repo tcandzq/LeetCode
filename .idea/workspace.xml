@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/String/CountAndSay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/MissingNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +79,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="10" />
-          <entry key="py" value="227" />
+          <entry key="py" value="228" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="10" />
-          <entry key="Python" value="227" />
+          <entry key="Python" value="228" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -95,14 +94,14 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="md" value="130" />
-          <entry key="py" value="37884" />
+          <entry key="py" value="38061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="130" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="37884" />
+          <entry key="Python" value="38061" />
         </counts>
       </usages-collector>
     </session>
@@ -124,11 +123,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/CountAndSay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="-80">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BitManipulation/MissingNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -187,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinarySearchTree.py" />
         <option value="$PROJECT_DIR$/TwoPointer/RemoveDuplicatesFromSortedArray.py" />
         <option value="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinaryTree.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" />
@@ -238,6 +245,7 @@
         <option value="$PROJECT_DIR$/Sort/SortList.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/String/CountAndSay.py" />
+        <option value="$PROJECT_DIR$/BitManipulation/MissingNumber.py" />
       </list>
     </option>
   </component>
@@ -431,7 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CountAndSay">
+  <component name="RunManager" selected="Python.MissingNumber">
     <configuration name="CountAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,6 +453,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/CountAndSay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MissingNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/MissingNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -516,41 +545,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SumOfTwoIntegers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BitManipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BitManipulation/SumOfTwoIntegers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.SortList" />
-      <item itemvalue="Python.SumOfTwoIntegers" />
       <item itemvalue="Python.NumberOfDigitOne" />
       <item itemvalue="Python.PalindromeLinkedList" />
       <item itemvalue="Python.CountAndSay" />
+      <item itemvalue="Python.MissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MissingNumber" />
         <item itemvalue="Python.CountAndSay" />
         <item itemvalue="Python.SortList" />
         <item itemvalue="Python.PalindromeLinkedList" />
         <item itemvalue="Python.NumberOfDigitOne" />
-        <item itemvalue="Python.SumOfTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -569,15 +577,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49377593" visible="true" weight="0.22075869" />
       <window_info id="Structure" order="1" sideWeight="0.5077139" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5062241" side_tool="true" weight="0.12032885" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.25813448" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36659437" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" weight="0.3557484" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47830802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -741,15 +748,15 @@
           <line>58</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BitManipulation/MissingNumber.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList/AddTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1620" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/RemoveLinkedListElements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1076,8 +1083,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/CountAndSay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="45" />
+        <state relative-caret-position="-80">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitManipulation/MissingNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

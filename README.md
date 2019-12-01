@@ -109,6 +109,7 @@
 * - [反转字符串中的单词III.py](String/ReverseWordsInAStringIII.py)
 * - [字符串转换整数 (atoi).py](String/StringToIntegerAtoi.py)
 * - [实现strStr().py](String/ImplementStrstr.py)
+* - [报数.py](String/CountAndSay.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)

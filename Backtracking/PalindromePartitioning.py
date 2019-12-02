@@ -20,6 +20,8 @@
 
 参考:https://leetcode-cn.com/problems/palindrome-partitioning/solution/dong-tai-gui-hua-dfs-by-powcai/
 
+这种回溯解法还是转化为树问题来求解
+
 """
 from typing import List
 
@@ -30,8 +32,8 @@ class Solution:
         def helper(s, tmp):
             if not s:
                 res.append(tmp)
-            for i in range(1, len(s) + 1):
-                if s[:i] == s[:i][::-1]:
+            for i in range(1, len(s) + 1):  # 对"aba"的每个字符做切分,比如切分成:[['a','ab'],['a','b','a'],['ab','a']]
+                if s[:i] == s[:i][::-1]:  # 如果是回文串
                     helper(s[i:], tmp + [s[:i]])
 
         helper(s, [])

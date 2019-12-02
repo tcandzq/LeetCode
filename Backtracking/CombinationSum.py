@@ -40,6 +40,8 @@ candidates 中的数字可以无限制重复被选取。
 参考2:https://leetcode-cn.com/problems/combination-sum/solution/xue-yi-tao-zou-tian-xia-hui-su-suan-fa-by-powcai/
 """
 from typing import List
+
+
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         size = len(candidates)
@@ -126,4 +128,4 @@ if __name__ == '__main__':
     candidates = [2, 3, 6, 7]
     target = 7
     solution = Solution()
-    print(solution.combinationSum(candidates, target))
+    print(solution.combinationSum3(candidates, target))

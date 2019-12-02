@@ -208,6 +208,7 @@
 * - [两整数之和.py](BreadthFirstSearch/SumOfTwoIntegers.py)
 * - [2的幂.py](BreadthFirstSearch/PowerOfTwo.py)
 * - [缺失数字.py](BreadthFirstSearch/MissingNumber.py)
+* - [汉明距离.py](BreadthFirstSearch/HammingDistance.py)
 ## [排序(及其相关结构)](Sort/)
 * - [最大间距.py](Sort/MaximumGap.py)
 * - [最大数.py](Sort/LargestNumber.py)

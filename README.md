@@ -80,6 +80,8 @@
 * - [最长有效括号.py](DynamicProgramming/LongestValidParentheses.py)
 * - [最长回文子序列.py](DynamicProgramming/LongestPalindromicSubsequence.py)
 * - [三角形最小路径和.py](DynamicProgramming/Triangle.py)
+* - [递增的三元子序列.py](DynamicProgramming/IncreasingTripletSubsequence.py)
+* - [最长上升子序列.py](DynamicProgramming/LongestIncreasingSubsequence.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

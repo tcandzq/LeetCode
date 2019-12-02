@@ -28,11 +28,19 @@ from typing import List
 
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        pass
-
+        if len(nums) < 3:
+            return False
+        dp = [1] * len(nums)
+        for i in range(1,len(nums)):
+            for j in range(i):
+                if nums[i] > nums[j]:
+                    dp[i] = dp[j] + 1
+                if dp[i] >= 3:
+                    return True
+        return False
 
 
 if __name__ == '__main__':
-    nums = [1,2,3,4,5]
+    nums = [2,1,5,0,3]
     solution = Solution()
     print(solution.increasingTriplet(nums))

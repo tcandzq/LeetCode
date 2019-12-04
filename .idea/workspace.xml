@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/FirstUniqueCharacterInAString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/IntersectionOfTwoArraysII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -49,7 +49,7 @@
       <recent name="C:\github_project\My-LeetCode\TwoPointer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FirstUniqueCharacterInAString">
+  <component name="RunManager" selected="Python.IntersectionOfTwoArraysII">
     <configuration name="FirstMissingPositive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +92,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="IntersectionOfTwoArraysII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/IntersectionOfTwoArraysII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LevelOrderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,27 +126,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/LongestIncreasingSubsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,19 +156,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LongestIncreasingSubsequence" />
       <item itemvalue="Python.FirstMissingPositive" />
       <item itemvalue="Python.LevelOrderTraversal" />
       <item itemvalue="Python.WordLadder" />
       <item itemvalue="Python.FirstUniqueCharacterInAString" />
+      <item itemvalue="Python.IntersectionOfTwoArraysII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IntersectionOfTwoArraysII" />
         <item itemvalue="Python.FirstUniqueCharacterInAString" />
         <item itemvalue="Python.WordLadder" />
         <item itemvalue="Python.LevelOrderTraversal" />
         <item itemvalue="Python.FirstMissingPositive" />
-        <item itemvalue="Python.LongestIncreasingSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -206,25 +206,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575464013561" />
-    <state width="1515" height="104" key="GridCell.Tab.0.bottom" timestamp="1575473474978">
+    <state width="1515" height="104" key="GridCell.Tab.0.bottom" timestamp="1575476814183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575473474978" />
+    <state width="1515" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575476814183" />
     <state width="1899" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575465658716" />
-    <state width="1515" height="104" key="GridCell.Tab.0.center" timestamp="1575473474978">
+    <state width="1515" height="104" key="GridCell.Tab.0.center" timestamp="1575476814183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575473474978" />
+    <state width="1515" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575476814183" />
     <state width="1899" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575465658716" />
-    <state width="1515" height="104" key="GridCell.Tab.0.left" timestamp="1575473474978">
+    <state width="1515" height="104" key="GridCell.Tab.0.left" timestamp="1575476814182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575473474978" />
+    <state width="1515" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575476814182" />
     <state width="1899" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575465658716" />
-    <state width="1515" height="104" key="GridCell.Tab.0.right" timestamp="1575473474978">
+    <state width="1515" height="104" key="GridCell.Tab.0.right" timestamp="1575476814183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575473474978" />
+    <state width="1515" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575476814183" />
     <state width="1899" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575465658716" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1575464039110">
       <screen x="0" y="0" width="1920" height="1040" />

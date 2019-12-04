@@ -93,7 +93,6 @@ class Solution:
                 if node.left: queue.append(node.left)
                 if node.right: queue.append(node.right)
             nums.append(tmp)
-            queue = queue
         return nums
 
 
@@ -111,7 +110,7 @@ if __name__ == '__main__':
     node2.right = node4
 
     solution = Solution()
-    print(solution.levelOrder2(root))
+    print(solution.levelOrder3(root))
 
 
 

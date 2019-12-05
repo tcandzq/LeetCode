@@ -112,6 +112,7 @@
 * - [加一.py](Array/PlusOne.py)
 * - [缺失的第一个正数.py](Array/FirstMissingPositive.py)
 * - [两个数组的交集II.py](Array/IntersectionOfTwoArraysII.py)
+* - [移动零.py](TwoPointer/MoveZeroes.py)
 ## [字符串(及其相关结构)](String/)
 * - [最长公共前缀.py](String/LongestCommonPrefix.py)
 * - [有效的括号.py](String/ValidParentheses.py)

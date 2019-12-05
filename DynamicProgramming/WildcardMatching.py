@@ -56,7 +56,7 @@ dp[i][j]：字符串以s[i]结尾和p[j]结尾的字符串是否匹配
 """
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
-        dp = [[False] * (len(p) + 1) for _ in range(len(s)+1)]
+        dp = [[False] * (len(p) + 1) for _ in range(len(s)+1)] # 初始化的时候注意下，行是s，列是p，下面的dp过程已经很暗示了
         dp[0][0] = True
         for k in range(1, len(p)+1):
             if p[k - 1] == '*':

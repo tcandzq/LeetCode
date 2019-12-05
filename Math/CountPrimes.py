@@ -23,7 +23,7 @@ class Solution:
             return 0
         is_prim = [1] * n
         is_prim[0] = is_prim[1] = 0
-        for i in range(2,int(n ** 0.5)+1):
+        for i in range(2, int(n ** 0.5)+1):
             if is_prim[i]:
                 is_prim[i * i:n:i] = [0] * ((n - 1 - i * i) // i + 1)
         return sum(is_prim)

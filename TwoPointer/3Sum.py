@@ -60,7 +60,7 @@ class Solution:
                 s = nums[k] + nums[i] + nums[j]
                 if s < 0:
                     i += 1
-                    while i < j and nums[i] == nums[i - 1]: # 原因和2是一样的
+                    while i < j and nums[i] == nums[i - 1]:  # 原因和2是一样的
                         i += 1
                 elif s > 0:
                     j -= 1

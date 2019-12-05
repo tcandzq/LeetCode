@@ -16,12 +16,9 @@ s = "loveleetcode",
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         from _collections import OrderedDict
-        order_dict = OrderedDict(s)
+        order_dict = OrderedDict()
         for char in s:
-            if char not in order_dict:
-                order_dict[char] = 1
-            else:
-                order_dict[char] += 1
+            order_dict[char] = order_dict.get(char,0)+1
         for key,val in order_dict.items():
             if val == 1:
                 return s.index(key)

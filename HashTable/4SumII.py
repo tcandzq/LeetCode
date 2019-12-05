@@ -20,13 +20,30 @@ D = [ 0, 2]
 1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0
 2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0
 
+
+
 """
 from typing import List
 
 class Solution:
     def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
-        pass
+        count = 0
+        ab_map = {}
+        for a in A:
+            for b in B:
+                ab_map[a+b] = ab_map.get(a+b, 0)+1
+        for c in C:
+            for d in D:
+                s = -(c+d)
+                if s in ab_map:
+                    count += ab_map[s]
+        return count
 
+    # 两行代码
+    def fourSumCount2(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
+        from collections import Counter
+        counter = Counter([a + b for a in A for b in B])
+        return sum([counter[-(c+d)] for c in C for d in D])
 
 if __name__ == '__main__':
     A = [1, 2]
@@ -35,4 +52,4 @@ if __name__ == '__main__':
     D = [0, 2]
 
     solution = Solution()
-    print(solution.fourSumCount(A,B,C,D))
+    print(solution.fourSumCount2(A,B,C,D))

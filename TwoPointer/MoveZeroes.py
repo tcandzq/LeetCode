@@ -15,6 +15,11 @@
 
 参考:https://leetcode-cn.com/problems/move-zeroes/solution/shuang-zhi-zhen-ti-huan-0-by-fan-shao-3/
 
+举个例子:
+nums = [0,0,0,0,1]
+如何将所有的0移动到数组最后面?
+当然是让指针j指向第一个0,i指针一直遍历到第一个非零的数,然后nums[i] = 0，nums[j] = nums[i]
+
 """
 from typing import List
 

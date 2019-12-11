@@ -32,7 +32,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    s = "krmyfshbspcgtesxnnljhfursyissjnsocgdhgfxubewllxzqhpasguvlrxtkgatzfybprfmmfithphckksnvjkcvnsqgsgosfxc"
-    k = 20
+    s = "a"
+    k = 2
     solution = Solution()
     print(solution.reverseStr2(s,k))

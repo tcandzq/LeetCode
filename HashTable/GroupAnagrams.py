@@ -21,17 +21,20 @@ from typing import List
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        pass
-
-    def get_anagrams(self,str1,str2):
-        from collections import Counter
-        if len(str1) != len(str2):
-            return False
-        dict1,dict2 = Counter(str1),Counter(str2)
-
+        res = []
+        d = {}
+        if not strs:
+            return res
+        for s in strs:
+            keys = "".join(sorted(s))
+            if keys in d:
+                d[keys].append(s)
+            else:
+                d[keys] = [s]
+        return list(d.values())
 
 
 if __name__ == '__main__':
     strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
     solution = Solution()
-    print(solution.get_anagrams("eat","tea"))
+    print(solution.groupAnagrams(strs))

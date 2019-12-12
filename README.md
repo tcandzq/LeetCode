@@ -167,6 +167,7 @@
 * - [加油站.py](Greedy/GasStation.py)
 * - [判断子序列.py](Greedy/IsSubsequence.py)
 * - [任务调度器.py](Greedy/TaskScheduler.py)
+* - [根据身高重建队列.py](Greedy/QueueReconstructionByHeight.py)
 ## [数学(及其相关结构)](Math/)
 * - [有序队列.py](Math/OrderlyQueue.py)
 * - [回文数.py](Math/PalindromeNumber.py)

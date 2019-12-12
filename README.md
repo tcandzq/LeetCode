@@ -193,6 +193,7 @@
 * - [每日温度.py](Stack/DailyTemperatures.py)
 * - [接雨水.py](Stack/TrappingRainWater.py)
 * - [柱状图中最大的矩形.py](Stack/LargestRectangleInHistogram.py)
+* - [字符串解码.py](Stack/decode-string)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

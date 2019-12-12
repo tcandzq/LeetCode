@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/DecodeString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/GroupAnagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/ValidAnagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/TaskScheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/TaskScheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/FindAllAnagramsInAString.py" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/FindAllAnagramsInAString.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="C:\github_project\My-LeetCode\Backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DecodeString">
+  <component name="RunManager" selected="Python.ValidAnagram">
     <configuration name="DecodeString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindAllNumbersDisappearedInAnArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GroupAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,32 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HashTable" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Array/FindAllNumbersDisappearedInAnArray.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReverseStringII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/ReverseStringII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HashTable/GroupAnagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,20 +136,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ValidAnagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HashTable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HashTable/ValidAnagram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.ReverseStringII" />
-      <item itemvalue="Python.FindAllNumbersDisappearedInAnArray" />
       <item itemvalue="Python.FindAllAnagramsInAString" />
       <item itemvalue="Python.TaskScheduler" />
       <item itemvalue="Python.DecodeString" />
+      <item itemvalue="Python.GroupAnagrams" />
+      <item itemvalue="Python.ValidAnagram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ValidAnagram" />
+        <item itemvalue="Python.GroupAnagrams" />
         <item itemvalue="Python.DecodeString" />
         <item itemvalue="Python.TaskScheduler" />
         <item itemvalue="Python.FindAllAnagramsInAString" />
-        <item itemvalue="Python.FindAllNumbersDisappearedInAnArray" />
-        <item itemvalue="Python.ReverseStringII" />
       </list>
     </recent_temporary>
   </component>
@@ -211,42 +212,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576114102295" />
-    <state width="1882" height="187" key="GridCell.Tab.0.bottom" timestamp="1576123709506">
+    <state width="1882" height="175" key="GridCell.Tab.0.bottom" timestamp="1576141789929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575477033812" />
-    <state width="1882" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576123709506" />
-    <state width="1882" height="187" key="GridCell.Tab.0.center" timestamp="1576123709506">
+    <state width="1882" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576141789929" />
+    <state width="1882" height="175" key="GridCell.Tab.0.center" timestamp="1576141789929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575477033812" />
-    <state width="1882" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576123709506" />
-    <state width="1882" height="187" key="GridCell.Tab.0.left" timestamp="1576123709506">
+    <state width="1882" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576141789929" />
+    <state width="1882" height="175" key="GridCell.Tab.0.left" timestamp="1576141789929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575477033812" />
-    <state width="1882" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576123709506" />
-    <state width="1882" height="187" key="GridCell.Tab.0.right" timestamp="1576123709506">
+    <state width="1882" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576141789929" />
+    <state width="1882" height="175" key="GridCell.Tab.0.right" timestamp="1576141789929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575477033812" />
-    <state width="1882" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576123709506" />
-    <state width="1882" height="313" key="GridCell.Tab.1.bottom" timestamp="1576123710462">
+    <state width="1882" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576141789929" />
+    <state width="1882" height="94" key="GridCell.Tab.1.bottom" timestamp="1576141168948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="313" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576123710462" />
-    <state width="1882" height="313" key="GridCell.Tab.1.center" timestamp="1576123710462">
+    <state width="1882" height="94" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576141168948" />
+    <state width="1882" height="94" key="GridCell.Tab.1.center" timestamp="1576141168948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="313" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576123710462" />
-    <state width="1882" height="313" key="GridCell.Tab.1.left" timestamp="1576123710462">
+    <state width="1882" height="94" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576141168948" />
+    <state width="1882" height="94" key="GridCell.Tab.1.left" timestamp="1576141168948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="313" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576123710462" />
-    <state width="1882" height="313" key="GridCell.Tab.1.right" timestamp="1576123710462">
+    <state width="1882" height="94" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576141168948" />
+    <state width="1882" height="94" key="GridCell.Tab.1.right" timestamp="1576141168948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="313" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576123710462" />
+    <state width="1882" height="94" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576141168948" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1575464039110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -442,7 +443,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Stack/DecodeString.py</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>

@@ -44,7 +44,7 @@ class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         res = []
         left,right = 0,0
-        needs,window = {},{}
+        needs, window = {}, {}
         for char in p:
             needs[char] = needs.get(char,0) + 1
         match = 0

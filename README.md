@@ -227,6 +227,7 @@
 * - [2的幂.py](BitManipulation/PowerOfTwo.py)
 * - [缺失数字.py](BitManipulation/MissingNumber.py)
 * - [汉明距离.py](BitManipulation/HammingDistance.py)
+* - [比特位计数.py](BitManipulation/CountingBits.py)
 ## [排序(及其相关结构)](Sort/)
 * - [最大间距.py](Sort/MaximumGap.py)
 * - [最大数.py](Sort/LargestNumber.py)

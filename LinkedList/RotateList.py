@@ -24,6 +24,8 @@
 向右旋转 3 步: 0->1->2->NULL
 向右旋转 4 步: 2->0->1->NULL
 
+参考:https://leetcode-cn.com/problems/rotate-list/solution/chuan-zhen-yin-xian-by-liweiwei1419/
+
 """
 class ListNode:
     def __init__(self, x):
@@ -31,21 +33,70 @@ class ListNode:
         self.next = None
 
 class Solution:
+    # 丑陋版
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
-        pass
+        if not head or not head.next or not k:
+            return head
+        length = 0
+        cur = head
+        while cur.next:
+            length += 1
+            cur = cur.next
+        length += 1
+        if not (k % length):
+            return head
+        times = length - (k % length) - 1
+        fast = head
+        while times:
+            times -= 1
+            fast = fast.next
+        new_head = fast.next
+        fast.next = None
+        cur.next = head
+        return new_head
 
+    # 稍微美化版
+    def rotateRight2(self, head: ListNode, k: int) -> ListNode:
+        # 特判
+        if head is None or head.next is None or k <= 0:
+            return head
+
+        # 先看链表有多少元素
+        node = head
+        # 先数这个链表的长度
+        counter = 1
+        while node.next:
+            node = node.next
+            counter += 1
+
+        k = k % counter
+        if k == 0:
+            return head
+
+        node.next = head
+        node = head
+        # 可以取一些极端的例子找到规律
+        # counter - k - 1
+        for _ in range(counter - k - 1):
+            node = node.next
+        new_head = node.next
+        node.next = None
+        return new_head
 
 if __name__ == '__main__':
-    node1 = ListNode(1)
-    node2 = ListNode(2)
-    node3 = ListNode(3)
-    node4 = ListNode(4)
-    node5 = ListNode(5)
+    node1 = ListNode(0)
+    node2 = ListNode(1)
+    node3 = ListNode(2)
+    # node4 = ListNode(4)
+    # node5 = ListNode(5)
 
     node1.next = node2
     node2.next = node3
-    node3.next = node4
-    node4.next = node5
+    # node3.next = node4
+    # node4.next = node5
 
     solution = Solution()
-    print(solution.rotateRight(node1,2))
+    root = solution.rotateRight(node1,6)
+    while root:
+        print(root.val)
+        root = root.next

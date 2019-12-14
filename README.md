@@ -241,3 +241,5 @@
 * - [LRU缓存机制.py](Design/LruCache.py)
 * - [二叉树的序列化与反序列化.py](Design/SerializeAndDeserializeBinaryTree.py)
 * - [最小栈.py](Design/MinStack.py)
+## [脑筋急转弯](Brainteaser/)
+* - [Nim游戏.py](Brainteaser/NimGame.py)

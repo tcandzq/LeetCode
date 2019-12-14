@@ -141,6 +141,7 @@
 * - [括号生成.py](Backtracking/GenerateParentheses.py)
 * - [单词搜索II.py](Backtracking/WordSearchII.py)
 * - [分割回文串.py](Backtracking/PalindromePartitioning.py)
+* - [格雷编码.py](Backtracking/GrayCode.py)
 ## [并查集(及其相关结构)](UnionFindSet/)
 * - [被围绕的区域.py](UnionFindSet/SurroundedRegions.py)
 * - [岛屿数量.py](UnionFindSet/NumberOfIslands.py)

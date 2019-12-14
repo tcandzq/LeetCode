@@ -41,6 +41,8 @@
   [16, 7,10,11]
 ]
 
+旋转90度 = 转置 + 左右镜像
+
 """
 from typing import List
 
@@ -49,7 +51,12 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        pass
+        rows = len(matrix)
+        for row in range(rows):
+            for col in range(row):
+                matrix[col][row],matrix[row][col] = matrix[row][col],matrix[col][row]
+        for i in range(rows):
+            matrix[i].reverse()
 
 if __name__ == '__main__':
     matrix = [
@@ -59,5 +66,5 @@ if __name__ == '__main__':
             ]
 
     solution = Solution()
-    print(solution.rotate(matrix))
-
+    solution.rotate(matrix)
+    print(matrix)

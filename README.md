@@ -179,6 +179,7 @@
 * - [数字1的个数.py](Math/NumberOfDigitOne.py)
 * - [计数质数.py](Math/CountPrimes.py)
 * - [两数相除.py](Math/DivideTwoIntegers.py)
+* - [Excel表列序号.py](Math/ExcelSheetColumnNumber.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
 * - [快乐数.py](HashTable/HappyNumber.py)

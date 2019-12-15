@@ -238,6 +238,7 @@
 * - [最大数.py](Sort/LargestNumber.py)
 * - [对链表进行插入排序.py](Sort/InsertionSortList.py)
 * - [排序链表.py](Sort/SortList.py)
+* - [摆动排序II.py](Sort/WiggleSortII.py)
 ## [树状数组(及其相关结构)](BinaryIndexedTree/)
 * - [计算右侧小于当前元素的个数.py](BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py)
 * - [区间和的个数.py](BinaryIndexedTree/CountOfRangeSum.py)

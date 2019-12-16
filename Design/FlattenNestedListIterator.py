@@ -75,7 +75,7 @@ class NestedIterator(object):
         :rtype: bool
         """
         try:
-            self.v = next(self.g)  # 注意这里是python内置的next()函数
+            self.v = next(self.g)  # 注意这里是python内置的next()函数，返回迭代器的下一项
             return True
         except:
             return False

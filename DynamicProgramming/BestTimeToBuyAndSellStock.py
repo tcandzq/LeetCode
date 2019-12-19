@@ -37,6 +37,7 @@ def maxProfit(prices):
     return dp[-1]
 
 #优化后
+
 def maxProfit2(prices):
     min_p, max_p = 999999, 0
     for i in range(len(prices)):
@@ -69,9 +70,9 @@ def maxProfit3(prices):
     dp_hold[0] = -prices[0]
 
     for i in range(1, m):
-        dp_hold[i] = max(dp_hold[i - 1], -prices[i]) #注意这里,由于只有一次买入和抛出的机会,所以手里持有股票的最大收益就是购买该股票的成本
+        dp_hold[i] = max(dp_hold[i - 1], -prices[i]) # 注意这里,由于只有一次买入和抛出的机会,所以手里持有股票的最大收益就是购买该股票的成本
 
-        dp_cash[i] = max(dp_cash[i - 1],dp_hold[i -1] + prices[i])
+        dp_cash[i] = max(dp_cash[i - 1],dp_hold[i - 1] + prices[i])
 
     return dp_cash[-1]
 if __name__ == '__main__':

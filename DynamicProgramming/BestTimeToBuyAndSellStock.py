@@ -36,8 +36,7 @@ def maxProfit(prices):
             dp[i+1] = dp[i]
     return dp[-1]
 
-#优化后
-
+# 优化后
 def maxProfit2(prices):
     min_p, max_p = 999999, 0
     for i in range(len(prices)):
@@ -45,39 +44,22 @@ def maxProfit2(prices):
         max_p = max(max_p, prices[i] - min_p)
     return max_p
 
-
-#解法二:利用状态机具体参考含手续费那题
-"""
-状态转移:
-手里持有股票 -> 观望 -> 手里有股票
-手里没有股票 -> 买入 ->  手里有股票
-
-手里持有股票 -> 抛出 -> 手里没有股票
-手里没有股票 -> 观望 -> 手里没有股票
-
-"""
+# 标准解法
 def maxProfit3(prices):
-
-    m = len(prices)
-
-    if not m:
+    n = len(prices)
+    if n < 2:
         return 0
+    dp = [[0]*2 for _ in range(n)]
+    dp[0][0] = 0
+    dp[0][1] = -prices[0]
+    for i in range(1, n):
+        dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
+        dp[i][1] = max(dp[i-1][1], -prices[i])  # 注意这里是-prices[i]因此你只能买入一次股票，所以当你买入股票的时候，利润一定是0
+    return dp[n-1][0]
 
-    dp_hold = [0] * m
-
-    dp_cash = [0] * m
-
-    dp_hold[0] = -prices[0]
-
-    for i in range(1, m):
-        dp_hold[i] = max(dp_hold[i - 1], -prices[i]) # 注意这里,由于只有一次买入和抛出的机会,所以手里持有股票的最大收益就是购买该股票的成本
-
-        dp_cash[i] = max(dp_cash[i - 1],dp_hold[i - 1] + prices[i])
-
-    return dp_cash[-1]
 if __name__ == '__main__':
 
-    prices = [7,6,4,3,1]
+    prices = [7,1,5,3,6,4]
 
-    print(maxProfit(prices))
+    print(maxProfit3(prices))
 

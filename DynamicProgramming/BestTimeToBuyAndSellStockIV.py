@@ -22,24 +22,46 @@
 解释: 在第 2 天 (股票价格 = 2) 的时候买入，在第 3 天 (股票价格 = 6) 的时候卖出, 这笔交易所能获得利润 = 6-2 = 4 。
      随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
 
+k次交易从买入股票的角度或者卖出股票的角度，但只能择其一考虑。
+
+dp[i][j][0]表示第i天交易了j次时不持有股票;
+dp[i][j][1]表示第i天交易了j次时持有股票。
+
 """
 from typing import List
 
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
+        if not prices or not k:
+            return 0
         n = len(prices)
-        dp = [[[0] * 2] * (k+1) for _ in range(n)]
-        for i in range(n):
-            for j in range(k, 0, -1):
-                if i == 0:
-                    print(i,j)
-                    dp[i][j][0] = 0  # 第0天 手里没有股票，利润为-prices[i]
-                    dp[i][j][1] = -prices[i]  # 第0天直接卖出股票 不存在
-                    continue
-                dp[i][j][0] = max(dp[i - 1][j][0], dp[i - 1][j][1] + prices[i])
-                dp[i][j][1] = max(dp[i - 1][j][1], dp[i - 1][j - 1][0] - prices[i])
-        print(dp)
-        return dp[n - 1][k][0]
+        if n < 2:
+            return 0
+        if k > n // 2:
+            return self.maxProfitAny(prices)
+        dp,res = [[[0] * 2 for _ in range(k+1)] for _ in range(n)],[]
+        for i in range(k+1):
+            dp[0][i][0], dp[0][i][1] = 0, - prices[0]
+        for i in range(1, n):
+            for j in range(k+1):
+                if not j:
+                    dp[i][j][0] = dp[i-1][j][0]
+                else:
+                    dp[i][j][0] = max(dp[i - 1][j][0], dp[i - 1][j-1][1] + prices[i])  # 从卖出股票的角度考虑
+                dp[i][j][1] = max(dp[i - 1][j][1], dp[i - 1][j][0] - prices[i])
+        return dp[n-1][k][0]
+
+    def maxProfitAny(self, prices: List[int]) -> int:
+        n = len(prices)
+        if n < 2:
+            return 0
+        dp = [[0]*2 for _ in range(n)]
+        dp[0][0] = 0
+        dp[0][1] = -prices[0]
+        for i in range(1, n):
+            dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+            dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+        return dp[n-1][0]
 
 
 if __name__ == '__main__':

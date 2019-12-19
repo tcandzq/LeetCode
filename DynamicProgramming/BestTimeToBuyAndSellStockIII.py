@@ -29,23 +29,32 @@
 输出: 0
 解释: 在这个情况下, 没有交易完成, 所以最大利润为 0。
 
+k次交易从买入股票的角度或者卖出股票的角度，但只能择其一考虑。
+
+dp[i][j][0]表示第i天交易了j次时不持有股票;
+dp[i][j][1]表示第i天交易了j次时持有股票。
+
 """
 from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
-        dp = [[[0] * 2] * 3 for _ in range(n)]
-        for i in range(n):
-            for j in range(2,0,-1):
-                if i == 0:
-                    dp[i][j][0] = 0  # 第0天 手里没有股票，利润为-prices[i]
-                    dp[i][j][1] = -prices[i]  # 第0天直接卖出股票 不存在
-                    continue
-                dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1] + prices[i])
-                dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0]-prices[i])
-        print(dp)
+        if n < 2:
+            return 0
+        dp = [[[0] * 2 for _ in range(3)] for _ in range(n)]
+        for k in range(3):
+            dp[0][k][0] = 0
+            dp[0][k][1] = -prices[0]
+        for i in range(1, n):
+            for j in range(3):
+                if not j:
+                    dp[i][j][0] = dp[i - 1][j][0]
+                else:
+                    dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1] + prices[i])
+                dp[i][j][1] = max(dp[i-1][j][1], dp[i-1][j-1][0]-prices[i])  # 从买入股票的角度考虑
         return dp[n-1][2][0]
+
 if __name__ == '__main__':
     prices = [3,3,5,0,0,3,1,4]
     solution = Solution()

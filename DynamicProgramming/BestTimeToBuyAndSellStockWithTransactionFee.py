@@ -5,6 +5,7 @@
 # @File    : BestTimeToBuyAndSellStockWithTransactionFee.py
 
 """
+题号 714 买卖股票的最佳时机含手续费
 给定一个整数数组 prices，其中第 i 个元素代表了第 i 天的股票价格 ；非负整数 fee 代表了交易股票的手续费用。
 你可以无限次地完成交易，但是你每次交易都需要付手续费。如果你已经购买了一个股票，在卖出它之前你就不能再继续购买股票了。
 返回获得利润的最大值。
@@ -56,7 +57,7 @@ def maxProfit(prices, fee):
     return dp_cash[-1]
 
 
-#边界处理方式2:保持不变
+# 边界处理方式2:保持不变
 def maxProfit2(prices, fee):
     n = len(prices)
     if n < 2:
@@ -72,7 +73,5 @@ def maxProfit2(prices, fee):
 
 if __name__ == '__main__':
     prices = [1,4,6,2,8,3,10,14]
-
     fee = 3
-
     print(maxProfit(prices, fee))

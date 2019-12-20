@@ -35,7 +35,6 @@ class Solution:
             for i in range(1, len(s) + 1):  # 对"aba"的每个字符做切分,比如切分成:[['a','ab'],['a','b','a'],['ab','a']]
                 if s[:i] == s[:i][::-1]:  # 如果是回文串
                     helper(s[i:], tmp + [s[:i]])
-
         helper(s, [])
         return res
 

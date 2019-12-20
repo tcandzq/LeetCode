@@ -53,8 +53,8 @@ def helper(s):
 def countSubstrings2(s):
     result = 0
     for i in range(len(s)):
-        result += helper2(s,i,i)  # 奇数的中心扩展
-        result += helper2(s,i,i+1)  # 偶数的中心扩展
+        result += helper2(s, i ,i)  # 奇数的中心扩展
+        result += helper2(s, i, i+1)  # 偶数的中心扩展
     return result
 
 def helper2(s,start,end):

@@ -145,6 +145,7 @@
 * - [N皇后II.py](Backtracking/NQueensII.py)
 * - [全排列.py](Backtracking/Permutations.py)
 * - [全排列II.py](Backtracking/PermutationsII.py)
+* - [第k个排列.py](Backtracking/PermutationSequence.py)
 * - [子集.py](Backtracking/Subsets.py)
 * - [单词搜索.py](Backtracking/WordSearch.py)
 * - [组合总和.py](Backtracking/CombinationSum.py)

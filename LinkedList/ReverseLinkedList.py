@@ -24,7 +24,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-# 递归解法
+# 递归版本
 def reverseList(head):
     if not head or not head.next:
         return head
@@ -33,15 +33,16 @@ def reverseList(head):
     head.next = None
     return p
 
-# 迭代解法 这个解法是有问题的
+# 迭代版本
 def reverseList2(head):
-    curr = head
-    prev = ListNode()
-    while curr:
-        tmp = curr.next   # 保留当前节点的下一个节点
-        curr.next = prev  # 让当前节点指向上一个节点
-        prev = curr       # 前一个节点向后移动
-        curr = tmp        # 当前结点向后移
+    cur = head
+    next = head
+    prev = None
+    while cur:
+        next = cur.next   # 保留当前节点的下一个节点
+        cur.next = prev  # 让当前节点指向上一个节点
+        prev = cur      # 前一个节点向后移动
+        cur = next        # 当前结点向后移
     return prev           # 注意返回的是prev 不是curr
 
 

@@ -25,6 +25,7 @@
 * - [奇偶链表.py](LinkedList/OddEvenLinkedList.py)
 * - [复制带随机指针的链表.py](LinkedList/CopyListWithRandomPointer.py)
 * - [K个一组翻转链表.py](LinkedList/ReverseNodesInKGroup.py)
+* - [分隔链表.py](LinkedList/PartitionList.py)
 ## [二叉树(及其相关结构)](BinaryTree/)
 * - [二叉树的中序遍历.py](BinaryTree/BinaryTreeInorderTraversal.py)
 * - [二叉树的最大深度.py](BinaryTree/MaximumDepthOfBinaryTree.py)

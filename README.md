@@ -153,6 +153,7 @@
 * - [全排列II.py](Backtracking/PermutationsII.py)
 * - [第k个排列.py](Backtracking/PermutationSequence.py)
 * - [子集.py](Backtracking/Subsets.py)
+* - [子集II.py](Backtracking/SubsetsII.py)
 * - [单词搜索.py](Backtracking/WordSearch.py)
 * - [组合总和.py](Backtracking/CombinationSum.py)
 * - [组合总和II.py](Backtracking/CombinationSumII.py)

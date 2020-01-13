@@ -30,6 +30,7 @@
 ## [二叉树(及其相关结构)](BinaryTree/)
 * - [二叉树的中序遍历.py](BinaryTree/BinaryTreeInorderTraversal.py)
 * - [二叉树的前序遍历.py](BinaryTree/BinaryTreePreorderTraversal.py)
+* - [二叉树的后序遍历.py](BinaryTree/BinaryTreePostorderTraversal.py)
 * - [二叉树的最大深度.py](BinaryTree/MaximumDepthOfBinaryTree.py)
 * - [二叉树的最近公共祖先.py](BinaryTree/LowestCommonAncestorOfABinaryTree.py)
 * - [对称二叉树.py](BinaryTree/SymmetricTree.py)

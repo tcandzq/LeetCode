@@ -214,6 +214,7 @@
 * - [找到字符串中所有字母异位词.py](HashTable/FindAllAnagramsInAString.py)
 * - [字母异位词分组.py](HashTable/GroupAnagrams.py)
 * - [有效的字母异位词.py](HashTable/ValidAnagram.py)
+* - [存在重复元素II.py](HashTable/ContainsDuplicateII.py)
 ## [分治算法(及其相关结构)](DivideAndConquer/)
 * - [求众数.py](DivideAndConquer/MajorityElement.py)
 * - [数组中的第K个最大元素.py](DivideAndConquer/KthLargestElementInAnArray.py)

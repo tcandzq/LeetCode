@@ -19,7 +19,7 @@
 输入: nums = [1,2,3,1,2,3], k = 2
 输出: false
 
-参考:
+参考:https://leetcode-cn.com/problems/contains-duplicate-ii/solution/hua-jie-suan-fa-219-cun-zai-zhong-fu-yuan-su-ii-by/
 1.维护一个哈希表，里面始终最多包含 k 个元素，当出现重复值时则说明在 k 距离内存在重复元素
 2.每次遍历一个元素则将其加入哈希表中，如果哈希表的大小大于 k，则移除最前面的数字
 

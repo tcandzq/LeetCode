@@ -40,3 +40,4 @@ if __name__ == '__main__':
     str = "dog cat cat dog"
     solution = Solution()
     print(solution.wordPattern(pattern,str))
+

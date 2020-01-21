@@ -42,7 +42,8 @@ class TreeNode:
         self.left = None
         self.right = None
 
-#解法1参考:https://leetcode-cn.com/problems/validate-binary-search-tree/solution/die-dai-yu-di-gui-by-powcai/
+#  解法1参考:https://leetcode-cn.com/problems/validate-binary-search-tree/solution/die-dai-yu-di-gui-by-powcai/
+
 def isValidBST(root):
     res = []
     def helper(root):

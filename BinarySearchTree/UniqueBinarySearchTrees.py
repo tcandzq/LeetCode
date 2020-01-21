@@ -5,6 +5,7 @@
 # @File    : UniqueBinarySearchTrees.py
 
 """
+题号 96 不同的二叉搜索树
 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
 Input1:3
 Output1:5
@@ -27,16 +28,18 @@ n为根节点，当i为根节点时，其左子树节点个数为[1,2,3,...,i-1]
 
 详细解答参考:https://leetcode-cn.com/problems/unique-binary-search-trees/solution/bu-tong-de-er-cha-sou-suo-shu-by-leetcode/
 """
-def numTrees(n):
-    dp = [0] * (n+1)
-    dp[0] = 1
-    dp[1] = 1
-    for i in range(2,n+1):
-        for j in range(1, i+1):
-            dp[i] += dp[j - 1] * dp[i - j]
-    print(dp)
-    return dp[-1]
+
+class Solution:
+    def numTrees(self, n: int) -> int:
+        dp = [0] * (n+1)
+        dp[0] = 1
+        dp[1] = 1
+        for i in range(2,n+1):
+            for j in range(1, i+1):
+                dp[i] += dp[j - 1] * dp[i - j]
+        print(dp)
+        return dp[-1]
 
 if __name__ == '__main__':
-    n = 3
-    print(numTrees(n))
+    solution = Solution()
+    print(solution.numTrees(3))

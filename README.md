@@ -68,7 +68,7 @@
 * - [最小路径和.py](DynamicProgramming/MinimumPathSum.py)
 * - [乘积最大子序列.py](DynamicProgramming/MaximumProductSubarray.py)
 * - [打家劫舍.py](DynamicProgramming/HouseRobber.py)
-* - [打家劫舍 II.py](DynamicProgramming/HouseRobberII.py)
+* - [打家劫舍II.py](DynamicProgramming/HouseRobberII.py)
 * - [买卖股票的最佳时机含手续费.py](DynamicProgramming/BestTimeToBuyAndSellStockWithTransactionFee.py)
 * - [编辑距离.py](DynamicProgramming/EditDistance.py)
 * - [丑数II.py](DynamicProgramming/UglyNumberII.py)

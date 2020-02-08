@@ -4,6 +4,8 @@
 # @Author  : tc
 # @File    : WordBreak.py
 """
+题号 139. 单词拆分
+
 给定一个非空字符串 s 和一个包含非空单词列表的字典 wordDict，判定 s 是否可以被空格拆分为一个或多个在字典中出现的单词。
 
 说明：
@@ -62,7 +64,7 @@ def wordBreak2(s,wordDict):
     if not wordDict:
         return not s  # 当s为空时直接返回
     dp = [False] * (n+1)
-    dp[0] = True # 初始化 dp[0] 为 true ，这是因为空字符串总是字典的一部分
+    dp[0] = True  # 初始化 dp[0] 为 true ，这是因为空字符串总是字典的一部分
     for i in range(1,n+1):
         for j in range(i - 1,-1,-1):
             if dp[j] and s[j:i] in wordDict:

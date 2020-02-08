@@ -29,7 +29,7 @@ def reverseList(head):
     if not head or not head.next:
         return head
     p = reverseList(head.next)
-    head.next.next = head  # 关键:这里head指向的节点是最关键的,
+    head.next.next = head  # 这里head指向的节点是最关键的,
     head.next = None
     return p
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     node3.next = node4
     node4.next = node5
 
-    res = reverseList(root)
+    res = reverseList2(root)
 
 
 

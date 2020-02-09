@@ -212,6 +212,7 @@
 * - [阶乘后的零.py](Math/FactorialTrailingZeroes.py)
 * - [各位相加.py](Math/AddDigits.py)
 * - [丑数.py](Math/UglyNumber.py)
+* - [整数拆分.py](Math/IntegerBreak.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
 * - [快乐数.py](HashTable/HappyNumber.py)

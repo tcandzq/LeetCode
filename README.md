@@ -100,6 +100,7 @@
 * - [正则表达式匹配.py](DynamicProgramming/regular-expression-matching.py)
 * - [区域和检索 - 数组不可变.py](DynamicProgramming/RangeSumQueryImmutable.py)
 * - [摆动序列.py](DynamicProgramming/WiggleSubsequence.py)
+* - [青蛙过河.py](DynamicProgramming/FrogJump.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

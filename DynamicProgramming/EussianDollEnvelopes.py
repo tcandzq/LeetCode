@@ -24,7 +24,7 @@
 如果两个信封的宽是一样的，且按照升序排列，那么再对高做LIS的时候，这两个信封都有可能被选中，这样就违背了题目的要求。
 参考:https://leetcode-cn.com/problems/russian-doll-envelopes/solution/tan-xin-suan-fa-er-fen-cha-zhao-python-dai-ma-java/
 
-2.动态规划求解会超时间，时间复杂度为O(N*N)，可以使用二分查找，时间复杂度为O(logN*N)
+2.动态规划求解会超时间，时间复杂度为O(N*N)，可以使用贪心+二分查找，时间复杂度为O(logN*N)
 
 """
 from typing import List

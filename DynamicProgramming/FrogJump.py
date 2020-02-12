@@ -66,7 +66,24 @@ class Solution:
                         return True
         return False
 
+    # 记忆化搜索
+    def canCross2(self, stones: List[int]) -> bool:
+        from functools import lru_cache
+        end = stones[-1]
+        s = set(stones)
+        @lru_cache(None)
+        def helper(start,jump):
+            if start == end:
+                return True
+            for j in [jump-1,jump,jump+1]:
+                if j <= 0:continue
+                if start+j in s and helper(start+j,j):
+                    return True
+            return False
+        return helper(0,0)
+
+
 if __name__ == '__main__':
     stones = [0,1,3,6,10,13,14]
     solution = Solution()
-    print(solution.canCross(stones))
+    print(solution.canCross2(stones))

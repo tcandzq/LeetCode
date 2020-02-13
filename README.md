@@ -103,6 +103,7 @@
 * - [青蛙过河.py](DynamicProgramming/FrogJump.py)
 * - [俄罗斯套娃信封问题.py](DynamicProgramming/EussianDollEnvelopes.py)
 * - [连续的子数组和.py](DynamicProgramming/ContinuousSubarraySum.py)
+* - [预测赢家.py](DynamicProgramming/PredictTheWinner.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)
@@ -296,4 +297,3 @@
 ## [脑筋急转弯](Brainteaser/)
 * - [Nim游戏.py](Brainteaser/NimGame.py)
 ## [极小极大](MinMax/)
-* - [预测赢家.py](MinMax/PredictTheWinner.py)

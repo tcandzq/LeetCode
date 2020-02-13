@@ -197,6 +197,7 @@
 * - [删除无效的括号.py](DeepFirstSearch/RemoveInvalidParentheses.py)
 * - [矩阵中的最长递增路径.py](DeepFirstSearch/LongestIncreasingPathInAMatrix.py)
 * - [二叉树中所有距离为K的结点.py](DeepFirstSearch/AllNodesDistanceKInBinaryTree.py)
+* - [递增子序列.py](DeepFirstSearch/IncreasingSubsequences.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

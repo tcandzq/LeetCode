@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/TeemoAttacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/IncreasingSubsequences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="C:\github_project\LeetCode\BinarySearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TeemoAttacking">
+  <component name="RunManager" selected="Python.IncreasingSubsequences">
     <configuration name="ContinuousSubarraySum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FrogJump" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="IncreasingSubsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepFirstSearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/FrogJump.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepFirstSearch/IncreasingSubsequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Permutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/LongestIncreasingSubsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/Permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,19 +156,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FrogJump" />
       <item itemvalue="Python.EussianDollEnvelopes" />
-      <item itemvalue="Python.LongestIncreasingSubsequence" />
       <item itemvalue="Python.ContinuousSubarraySum" />
       <item itemvalue="Python.TeemoAttacking" />
+      <item itemvalue="Python.IncreasingSubsequences" />
+      <item itemvalue="Python.Permutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IncreasingSubsequences" />
+        <item itemvalue="Python.Permutations" />
         <item itemvalue="Python.TeemoAttacking" />
         <item itemvalue="Python.ContinuousSubarraySum" />
         <item itemvalue="Python.EussianDollEnvelopes" />
-        <item itemvalue="Python.LongestIncreasingSubsequence" />
-        <item itemvalue="Python.FrogJump" />
       </list>
     </recent_temporary>
   </component>
@@ -212,30 +211,30 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578821827981" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581395617843" />
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom" timestamp="1581562405438">
+    <state width="1899" height="181" key="GridCell.Tab.0.bottom" timestamp="1581571756888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581562405438" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center" timestamp="1581562405438">
+    <state width="1899" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581571756888" />
+    <state width="1899" height="181" key="GridCell.Tab.0.center" timestamp="1581571756888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="196" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581562405438" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left" timestamp="1581562405438">
+    <state width="1899" height="181" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581571756888" />
+    <state width="1899" height="181" key="GridCell.Tab.0.left" timestamp="1581571756888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="196" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581562405438" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right" timestamp="1581562405438">
+    <state width="1899" height="181" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581571756888" />
+    <state width="1899" height="181" key="GridCell.Tab.0.right" timestamp="1581571756888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="196" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581562405438" />
+    <state width="1899" height="181" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581571756888" />
     <state width="1899" height="276" key="GridCell.Tab.1.bottom" timestamp="1581524752257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -275,6 +275,7 @@
 * - [2的幂.py](BitManipulation/PowerOfTwo.py)
 * - [缺失数字.py](BitManipulation/MissingNumber.py)
 * - [汉明距离.py](BitManipulation/HammingDistance.py)
+* - [汉明距离总和.py](BitManipulation/TotalHammingDistance.py)
 * - [比特位计数.py](BitManipulation/CountingBits.py)
 * - [位1的个数.py](BitManipulation/NumberOf1Bits.py)
 * - [颠倒二进制位.py](BitManipulation/ReverseBits.py)

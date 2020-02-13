@@ -295,3 +295,5 @@
 * - [扁平化嵌套列表迭代器.py](Design/FlattenNestedListIterator.py)
 ## [脑筋急转弯](Brainteaser/)
 * - [Nim游戏.py](Brainteaser/NimGame.py)
+## [极小极大](MinMax/)
+* - [预测赢家.py](MinMax/PredictTheWinner.py)

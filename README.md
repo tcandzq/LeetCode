@@ -104,6 +104,7 @@
 * - [俄罗斯套娃信封问题.py](DynamicProgramming/EussianDollEnvelopes.py)
 * - [连续的子数组和.py](DynamicProgramming/ContinuousSubarraySum.py)
 * - [预测赢家.py](DynamicProgramming/PredictTheWinner.py)
+* - [我能赢吗.py](DynamicProgramming/CanIWin.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

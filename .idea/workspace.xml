@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReservoirSampling/LinkedListRandomNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservoirSampling/RandomPickIndex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DeleteNodeInABst">
+  <component name="RunManager" selected="Python.RandomPickIndex">
     <configuration name="CanIWin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OnesAndZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RandomPickIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReservoirSampling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/OnesAndZeroes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReservoirSampling/RandomPickIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,18 +158,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.CanIWin" />
-      <item itemvalue="Python.DeleteNodeInABst" />
       <item itemvalue="Python.MatchsticksToSquare" />
       <item itemvalue="Python.MinimumMovesToEqualArrayElementsII" />
-      <item itemvalue="Python.OnesAndZeroes" />
+      <item itemvalue="Python.DeleteNodeInABst" />
+      <item itemvalue="Python.RandomPickIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RandomPickIndex" />
         <item itemvalue="Python.DeleteNodeInABst" />
         <item itemvalue="Python.MinimumMovesToEqualArrayElementsII" />
         <item itemvalue="Python.CanIWin" />
         <item itemvalue="Python.MatchsticksToSquare" />
-        <item itemvalue="Python.OnesAndZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -212,50 +212,50 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578821827981" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581689289560" />
-    <state width="1899" height="465" key="GridCell.Tab.0.bottom" timestamp="1581785567760">
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom" timestamp="1581852791289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="465" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.0.center" timestamp="1581785567760">
+    <state width="1899" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581852791289" />
+    <state width="1899" height="254" key="GridCell.Tab.0.center" timestamp="1581852791289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="465" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.0.left" timestamp="1581785567760">
+    <state width="1899" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581852791289" />
+    <state width="1899" height="254" key="GridCell.Tab.0.left" timestamp="1581852791289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="465" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.0.right" timestamp="1581785567760">
+    <state width="1899" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581852791289" />
+    <state width="1899" height="254" key="GridCell.Tab.0.right" timestamp="1581852791289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="465" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.1.bottom" timestamp="1581785567760">
+    <state width="1899" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581852791289" />
+    <state width="1899" height="301" key="GridCell.Tab.1.bottom" timestamp="1581852611289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="465" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.1.center" timestamp="1581785567760">
+    <state width="1899" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581852611289" />
+    <state width="1899" height="301" key="GridCell.Tab.1.center" timestamp="1581852611289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="465" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.1.left" timestamp="1581785567760">
+    <state width="1899" height="301" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581852611289" />
+    <state width="1899" height="301" key="GridCell.Tab.1.left" timestamp="1581852611289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="465" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
-    <state width="1899" height="465" key="GridCell.Tab.1.right" timestamp="1581785567760">
+    <state width="1899" height="301" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581852611289" />
+    <state width="1899" height="301" key="GridCell.Tab.1.right" timestamp="1581852611289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="465" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581785567760" />
+    <state width="1899" height="301" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581852611289" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1579450658967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -590,6 +590,11 @@
           <url>file://$PROJECT_DIR$/BinarySearchTree/DeleteNodeInABst.py</url>
           <line>95</line>
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ReservoirSampling/RandomPickIndex.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

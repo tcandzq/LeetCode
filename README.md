@@ -304,3 +304,4 @@
 ## [极小极大](MinMax/)
 ## [蓄水池抽样](ReservoirSampling/)
 * - [链表随机节点.py](ReservoirSampling/LinkedListRandomNode.py)
+* - [随机数索引.py](ReservoirSampling/RandomPickIndex.py)

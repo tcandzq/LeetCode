@@ -302,3 +302,5 @@
 ## [脑筋急转弯](Brainteaser/)
 * - [Nim游戏.py](Brainteaser/NimGame.py)
 ## [极小极大](MinMax/)
+## [蓄水池抽样](ReservoirSampling/)
+* - [链表随机节点.py](ReservoirSampling/LinkedListRandomNode.py)

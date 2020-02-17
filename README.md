@@ -185,6 +185,7 @@
 ## [并查集(及其相关结构)](UnionFindSet/)
 * - [被围绕的区域.py](UnionFindSet/SurroundedRegions.py)
 * - [岛屿数量.py](UnionFindSet/NumberOfIslands.py)
+* - [朋友圈.py](UnionFindSet/FriendCircles.py)
 ## [深度优先搜索(及其相关结构)](DeepFirstSearch/)
 * - [平衡二叉树.py](DeepFirstSearch/BalancedBinaryTree.py)
 * - [将有序数组转换为二叉搜索树.py](DeepFirstSearch/ConvertSortedArrayToBinarySearchTree.py)

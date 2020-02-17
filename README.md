@@ -252,6 +252,7 @@
 * - [柱状图中最大的矩形.py](Stack/LargestRectangleInHistogram.py)
 * - [字符串解码.py](Stack/DecodeString.py)
 * - [简化路径.py](Stack/SimplifyPath.py)
+* - [逆波兰表达式求值.py](Stack/EvaluateReversePolishNotation.py)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

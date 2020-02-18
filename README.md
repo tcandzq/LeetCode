@@ -160,6 +160,7 @@
 * - [二进制求和.py](String/AddBinary.py)
 * - [文本左右对齐.py](String/TextJustification.py)
 * - [翻转字符串里的单词.py](String/ReverseWordsInAString.py)
+* - [比较版本号.py](String/CompareVersionNumbers.py)
 ## [二叉搜索树(及其相关结构)](BinarySearchTree/)
 * - [验证二叉搜索树.py](BinarySearchTree/ValidateBinarySearchTree.py)
 * - [不同的二叉搜索树.py](BinarySearchTree/UniqueBinarySearchTrees.py)

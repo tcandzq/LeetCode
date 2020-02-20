@@ -58,6 +58,7 @@
 * - [搜索旋转排序数组.py](BinarySearch/SearchInRotatedSortedArray.py)
 * - [搜索旋转排序数组II.py](BinarySearch/SearchInRotatedSortedArrayII.py)
 * - [寻找旋转排序数组中的最小值.py](BinarySearch/FindMinimumInRotatedSortedArray.py)
+* - [寻找旋转排序数组中的最小值II.py](BinarySearch/FindMinimumInRotatedSortedArrayII.py.py)
 * - [寻找峰值.py](BinarySearch/FindPeakElement.py)
 * - [两数之和II输入有序数组.py](BinarySearch/TwoSumIIInputArrayIsSorted.py)
 * - [二叉搜索树中第K小的元素.py](BinarySearch/KthSmallestElementInABst.py)

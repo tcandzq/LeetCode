@@ -22,33 +22,12 @@
 输入: [4,5,6,7,0,1,2]
 输出: 0
 
-参考LeetCode81题 搜索旋转排序数组 II的模板代码,注意不存在重复元素
-
+参考LeetCode81题 搜索旋转排序数组II的模板代码,注意不存在重复元素
 
 """
 from typing import List
 
 class Solution:
-    #  错误代码
-    def findMin(self, nums: List[int]) -> int:
-        left = 0
-        right = len(nums) - 1
-        if right == 0:
-            return nums[0]
-        while left <= right:
-
-            mid = left + ((right - left) >> 1)
-            print(left, mid, right)
-            if nums[mid] < nums[mid-1]:
-                return nums[mid]
-
-            if nums[mid] > nums[left]:  # 位于左侧递增区域
-                left = mid + 1
-                print('left',left)
-            if nums[mid] < nums[right]:  # 位于右侧递增区域
-                right = mid - 1
-
-        return nums[right]
 
     #  正确解法
     def findMin2(self, nums: List[int]) -> int:

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 # @File    : PalindromePartitioningII.py
 # @Date    : 2019-12-19
 # @Author  : tc

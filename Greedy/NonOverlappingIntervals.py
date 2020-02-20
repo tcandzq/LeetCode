@@ -44,7 +44,6 @@ class Solution:
         end = float('-inf')
         erased = 0
         intervals.sort(key=lambda i:i[1])
-        print(intervals)
         for i in intervals:
             if i[0] >= end:
                 end = i[1]

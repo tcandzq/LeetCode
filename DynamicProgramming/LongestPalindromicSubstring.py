@@ -63,6 +63,6 @@ class Solution:
         return s[l + 1:r]
 
 if __name__ == '__main__':
-    s = "cca"
+    s = "abcd"
     solution = Solution()
     print(solution.longestPalindrome2(s))

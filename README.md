@@ -264,6 +264,7 @@
 * - [数据流的中位数.py](Heap/FindMedianFromDataStream.py)
 * - [查找和最小的K对数字.py](Heap/FindKPairsWithSmallestSums.py)
 * - [前K个高频单词.py](Heap/TopKFrequentWords.py)
+* - [根据字符出现频率排序.py](Heap/SortCharactersByFrequency.py)
 ## [栈(及其相关结构)](Stack/)
 * - [每日温度.py](Stack/DailyTemperatures.py)
 * - [接雨水.py](Stack/TrappingRainWater.py)

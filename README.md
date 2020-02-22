@@ -244,6 +244,7 @@
 * - [少移动次数使数组元素相等II.py](Math/MinimumMovesToEqualArrayElementsII.py)
 * - [第N个数字.py](Math/NthDigit.py)
 * - [水壶问题.py](Math/WaterAndJugProblem.py)
+* - [从英文中重建数字.py](Math/ReconstructOriginalDigitsFromEnglish.py)
 ## [哈希表(及其相关结构)](HashTable/)
 * - [有效的数独.py](HashTable/ValidSudoku.py)
 * - [快乐数.py](HashTable/HappyNumber.py)

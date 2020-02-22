@@ -285,6 +285,7 @@
 * - [课程表II.py](TopologicalSort/CourseScheduleII.py)
 ## [字典树(及其相关结构)](Trie/)
 * - [实现 Trie (前缀树).py](Trie/ImplementTriePrefixTree.py)
+* - [数组中两个数的最大异或值.py](Trie/MaximumXorOfTwoNumbersInAnArray.py)
 ## [广度优先遍历(及其相关结构)](BreadthFirstSearch/)
 * - [二叉树的最小深度.py](BreadthFirstSearch/MinimumDepthOfBinaryTree.py)
 * - [最小高度树.py](BreadthFirstSearch/MinimumHeightTrees.py)

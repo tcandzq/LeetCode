@@ -260,6 +260,7 @@
 ## [分治算法(及其相关结构)](DivideAndConquer/)
 * - [求众数.py](DivideAndConquer/MajorityElement.py)
 * - [数组中的第K个最大元素.py](DivideAndConquer/KthLargestElementInAnArray.py)
+* - [至少有K个重复字符的最长子串.py](DivideAndConquer/LongestSubstringWithAtLeastKRepeatingCharacters.py)
 ## [堆(及其相关结构)](Heap/)
 * - [滑动窗口最大值.py](Heap/SlidingWindowMaximum.py)
 * - [前K个高频元素.py](Heap/TopKFrequentElements.py)

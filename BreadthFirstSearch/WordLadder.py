@@ -109,6 +109,32 @@ class Solution:
             s1 = s
         return 0
 
+    # 标准写法
+    def ladderLength3(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        import collections
+        import string
+        arr = set(wordList)
+        q = collections.deque([(beginWord,1)])
+        visited = set()
+        alpha = string.ascii_lowercase
+        while q:
+            word,length = q.popleft()
+            # 为什么是queue，而不是stack，因为先进来的字符找到继任者后就要排除，下一个选项是根据新找到的字所衍生的，而不是根据最早的
+            if word == endWord:
+                return length
+            for i in range(len(word)):
+                # hit -> *it 或 h*t 或 hi*
+                for ch in alpha:
+                    # aloha 中含有abcd...z，每个字母都换换看
+                    new_word = word[:i] + ch + word[i+1:]
+                    #
+                    if new_word in arr and new_word not in visited:
+                        # 如果该字符串在字典里面，且该新字符没有被访问过，则加入
+                        q.append((new_word,length+1))
+                        visited.add(new_word)
+        return 0
+
+
 
 if __name__ == '__main__':
     beginWord = "hit"

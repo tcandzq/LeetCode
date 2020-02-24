@@ -41,6 +41,9 @@
 
 1 <= s.length <= 10^5
 s[i] 可能是 '('、')' 或英文小写字母
+
+参考：https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/discuss/503754/Python-Memory-Usage-Less-Than-100-Faster-than-100
+
 """
 class Solution:
 

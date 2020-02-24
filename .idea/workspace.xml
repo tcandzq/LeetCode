@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TwoPointer/ReverseVowelsOfAString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/NextGreaterElementII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer/ReverseVowelsOfAString.py" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointer/ReverseVowelsOfAString.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LongestSubstringWithAtLeastKRepeatingCharacters">
+  <component name="RunManager" selected="Python.NextGreaterElementII">
     <configuration name="LexicographicalNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +94,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="NextGreaterElementII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/NextGreaterElementII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RectangleArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicateLetters" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ReverseVowelsOfAString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,32 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/RemoveDuplicateLetters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WordLadderII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BreadthFirstSearch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BreadthFirstSearch/WordLadderII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointer/ReverseVowelsOfAString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RemoveDuplicateLetters" />
-      <item itemvalue="Python.WordLadderII" />
       <item itemvalue="Python.RectangleArea" />
       <item itemvalue="Python.LexicographicalNumbers" />
       <item itemvalue="Python.LongestSubstringWithAtLeastKRepeatingCharacters" />
+      <item itemvalue="Python.ReverseVowelsOfAString" />
+      <item itemvalue="Python.NextGreaterElementII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NextGreaterElementII" />
+        <item itemvalue="Python.ReverseVowelsOfAString" />
         <item itemvalue="Python.LongestSubstringWithAtLeastKRepeatingCharacters" />
         <item itemvalue="Python.LexicographicalNumbers" />
         <item itemvalue="Python.RectangleArea" />
-        <item itemvalue="Python.WordLadderII" />
-        <item itemvalue="Python.RemoveDuplicateLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -220,61 +221,61 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578821827981" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581869826540" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1582472962226">
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1582517260435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582472962226" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1582472962226">
+    <state width="1899" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582517260435" />
+    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1582517260434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582472962226" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1582472962225">
+    <state width="1899" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582517260434" />
+    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1582517260434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582472962225" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1582472962226">
+    <state width="1899" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582517260434" />
+    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1582517260434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582472962226" />
-    <state width="1899" height="426" key="GridCell.Tab.1.bottom" timestamp="1582471303052">
+    <state width="1899" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582517260434" />
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom" timestamp="1582474907682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="426" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582471303052" />
-    <state width="1899" height="426" key="GridCell.Tab.1.center" timestamp="1582471303051">
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582474907682" />
+    <state width="1899" height="339" key="GridCell.Tab.1.center" timestamp="1582474907682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="426" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582471303051" />
-    <state width="1899" height="426" key="GridCell.Tab.1.left" timestamp="1582471303051">
+    <state width="1899" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582474907682" />
+    <state width="1899" height="339" key="GridCell.Tab.1.left" timestamp="1582474907682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="426" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582471303051" />
-    <state width="1899" height="426" key="GridCell.Tab.1.right" timestamp="1582471303052">
+    <state width="1899" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582474907682" />
+    <state width="1899" height="339" key="GridCell.Tab.1.right" timestamp="1582474907682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="426" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582471303052" />
+    <state width="1899" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582474907682" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1579450658967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578667339401" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579450658967" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1582423012265">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1582512710835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578970654909" />
     <state x="522" y="275" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577546611433" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582423012265" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582512710835" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582375145031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -677,6 +678,11 @@
           <url>file://$PROJECT_DIR$/DivideAndConquer/LongestSubstringWithAtLeastKRepeatingCharacters.py</url>
           <line>46</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TwoPointer/ReverseVowelsOfAString.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

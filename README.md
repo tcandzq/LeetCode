@@ -279,6 +279,7 @@
 * - [移掉K位数字.py](Stack/RemoveKDigits.py)
 * - [验证二叉树的前序序列化.py](Stack/VerifyPreorderSerializationOfABinaryTree.py)
 * - [去除重复字母.py](Stack/RemoveDuplicateLetters.py)
+* - [下一个更大元素II.py](Stack/NextGreaterElementII.py)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

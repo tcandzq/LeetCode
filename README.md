@@ -284,6 +284,7 @@
 * - [去除重复字母.py](Stack/RemoveDuplicateLetters.py)
 * - [下一个更大元素II.py](Stack/NextGreaterElementII.py)
 * - [移除无效的括号.py](Stack/MinimumRemoveToMakeValidParentheses.py)
+* - [反转每对括号间的子串.py](Stack/ReverseSubstringsBetweenEachPairOfParentheses.py)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

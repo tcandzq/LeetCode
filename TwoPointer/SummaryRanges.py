@@ -25,7 +25,7 @@ class Solution:
         res = []
         i = 0
         while i < len(nums):
-            index = i # 这一步很关键
+            index = i  # 这一步很关键
             while index+1 < len(nums) and nums[index+1] == nums[index] + 1:
                 index += 1
             if index != i:

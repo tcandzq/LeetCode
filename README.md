@@ -233,6 +233,7 @@
 * - [拼接最大数.py](Greedy/CreateMaximumNumber.py)
 * - [无重叠区间.py](Greedy/NonOverlappingIntervals.py)
 * - [用最少数量的箭引爆气球.py](Greedy/MinimumNumberOfArrowsToBurstBalloons.py)
+* - [划分字母区间.py](Greedy/PartitionLabels.py)
 ## [数学(及其相关结构)](Math/)
 * - [有序队列.py](Math/OrderlyQueue.py)
 * - [回文数.py](Math/PalindromeNumber.py)

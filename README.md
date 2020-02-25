@@ -329,6 +329,7 @@
 * - [摆动排序II.py](Sort/WiggleSortII.py)
 * - [排序数组.py](Sort/SortAnArray.py)
 * - [存在重复元素III.py](Sort/ContainsDuplicateIII.py)
+* - [最接近原点的 K个点.py](Sort/KClosestPointsToOrigin.py)
 ## [树状数组(及其相关结构)](BinaryIndexedTree/)
 * - [计算右侧小于当前元素的个数.py](BinaryIndexedTree/CountOfSmallerNumbersAfterSelf.py)
 * - [区间和的个数.py](BinaryIndexedTree/CountOfRangeSum.py)

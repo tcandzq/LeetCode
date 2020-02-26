@@ -324,6 +324,7 @@
 * - [位1的个数.py](BitManipulation/NumberOf1Bits.py)
 * - [颠倒二进制位.py](BitManipulation/ReverseBits.py)
 * - [最大单词长度乘积.py](BitManipulation/MaximumProductOfWordLengths.py)
+* - [子串的最大出现次数.py](BitManipulation/MaximumNumberOfOccurrencesOfASubstring.py)
 ## [排序(及其相关结构)](Sort/)
 * - [最大间距.py](Sort/MaximumGap.py)
 * - [最大数.py](Sort/LargestNumber.py)

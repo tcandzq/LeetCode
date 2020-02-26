@@ -177,6 +177,7 @@
 * - [二叉搜索树的最近公共祖先.py](BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py)
 * - [删除二叉搜索树中的节点.py](BinarySearchTree/DeleteNodeInABst.py)
 * - [两棵二叉搜索树中的所有元素.py](BinarySearchTree/AllElementsInTwoBinarySearchTrees.py)
+* - [二叉搜索树中的插入操作.py](BinarySearchTree/InsertIntoABinarySearchTree.py)
 ## [回溯(及其相关结构)](Backtracking/)
 * - [N皇后.py](Backtracking/NQueens.py)
 * - [N皇后II.py](Backtracking/NQueensII.py)

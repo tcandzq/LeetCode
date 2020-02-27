@@ -34,6 +34,9 @@
 1 <= rooms.length <= 1000
 0 <= rooms[i].length <= 1000
 所有房间中的钥匙数量总计不超过 3000。
+
+参考：https://leetcode-cn.com/problems/keys-and-rooms/solution/7xing-dfs-8xing-bfs-liang-chong-fang-fa-san-chong-/
+
 """
 from typing import List
 

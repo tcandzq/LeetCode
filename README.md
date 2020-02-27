@@ -298,7 +298,7 @@
 ## [图(及其相关结构)](Graph/)
 * - [找到小镇的法官.py](Graph/FindTheTownJudge.py)
 * - [不邻接植花.py](Graph/FlowerPlantingWithNoAdjacent.py)
-* - [钥匙和房间.py](Graph/FlowerPlantingWithNoAdjacent.py)
+* - [钥匙和房间.py](Graph/KeysAndRooms.py)
 ## [拓扑排序(及其相关结构)](TopologicalSort/)
 * - [课程表.py](TopologicalSort/CourseSchedule.py)
 * - [课程表II.py](TopologicalSort/CourseScheduleII.py)

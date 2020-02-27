@@ -15,10 +15,17 @@
 canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
+
+参考：https://leetcode.com/problems/ransom-note/discuss/85837/O(m%2Bn)-one-liner-Python
+
 """
+from collections import Counter
 class Solution:
-    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        from collections import Counter
+    def canConstruct(self, ransomNote, magazine):
+        return not Counter(ransomNote) - Counter(magazine)
+
+    def canConstruct2(self, ransomNote: str, magazine: str) -> bool:
+
         r = Counter(ransomNote)
         m = Counter(magazine)
 

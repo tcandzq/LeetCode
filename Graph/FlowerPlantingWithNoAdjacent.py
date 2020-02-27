@@ -47,7 +47,7 @@ class Solution:
         result = [0 for _ in range(N + 1)]  # result存放结果，下标是花园，值是花的种类。
         path_map = [[] for _ in range(N + 1)]
 
-        # 构建地图
+        # 用邻接表构建地图
         for num in paths:
             path_map[num[0]].append(num[1])
             path_map[num[1]].append(num[0])
@@ -55,7 +55,7 @@ class Solution:
         for i in range(1, N + 1):
             s.clear()
             for j in path_map[i]:
-                if j < i:  # 只看下标比i小的花园
+                if j < i:  # 只看下标比i小的花园 与它相邻的花园中编号i大的先不用管，该花园还没有种花
                     s.add(result[j])  # 存储花园j摆放的花
             for j in range(1, 5):
                 if j not in s:

@@ -35,6 +35,9 @@
     1   3
          \
           4
+
+参考：https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/solution/er-cha-sou-suo-shu-zhong-de-cha-ru-cao-zuo-by-le-2/
+
 """
 class TreeNode:
     def __init__(self, x):
@@ -45,7 +48,7 @@ class TreeNode:
 class Solution:
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
         if not root:
-            return TreeNode(val)
+            return TreeNode(val)  # 这是最关键的地方
         if val > root.val:
             root.right = self.insertIntoBST(root.right, val)
         elif val < root.val:

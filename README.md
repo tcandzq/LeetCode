@@ -224,6 +224,7 @@
 * - [火柴拼正方形.py](DeepFirstSearch/MatchsticksToSquare.py)
 * - [字典序排数.py](DeepFirstSearch/LexicographicalNumbers.py)
 * - [层数最深叶子节点的和.py](DeepFirstSearch/DeepestLeavesSum.py)
+* - [祖玛游戏.py](DeepFirstSearch/ZumaGame.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

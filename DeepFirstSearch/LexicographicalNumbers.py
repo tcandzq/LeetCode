@@ -46,7 +46,7 @@ class Solution:
                     if 10*cur + i > n:
                         return
                     dfs(10*cur+i,n,res)
-        for i in range(1,10): # 注意从1开始
+        for i in range(1,10):  # 注意从1开始
             dfs(i,n,res)
         return res
 

@@ -95,6 +95,67 @@ class Solution:
             nums.append(tmp)
         return nums
 
+    # 迭代版
+    def levelOrder4(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        levels = []
+        if not root:
+            return levels
+
+        level = 0
+        queue = deque([root, ])
+        while queue:
+            # start the current level
+            levels.append([])
+            # number of elements in the current level
+            level_length = len(queue)
+
+            for i in range(level_length):
+                node = queue.popleft()
+                # fulfill the current level
+                levels[level].append(node.val)
+
+                # add child nodes of the current level
+                # in the queue for the next level
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+
+            # go to next level
+            level += 1
+
+        return levels
+
+    # 递归
+    def levelOrder5(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        levels = []
+        if not root:
+            return levels
+
+        def helper(node, level):
+            # start the current level
+            if len(levels) == level:
+                levels.append([])
+
+            # append the current node value
+            levels[level].append(node.val)
+
+            # process child nodes for the next level
+            if node.left:
+                helper(node.left, level + 1)
+            if node.right:
+                helper(node.right, level + 1)
+
+        helper(root, 0)
+        return levels
 
 
 if __name__ == '__main__':
@@ -103,14 +164,20 @@ if __name__ == '__main__':
     node2 = TreeNode(20)
     node3 = TreeNode(15)
     node4 = TreeNode(7)
+    node5 = TreeNode(8)
+    node6 = TreeNode(11)
+
 
     root.left = node1
     root.right = node2
     node2.left = node3
     node2.right = node4
+    node1.left = node5
+    node1.right = node6
+
 
     solution = Solution()
-    print(solution.levelOrder3(root))
+    print(solution.levelOrder5(root))
 
 
 

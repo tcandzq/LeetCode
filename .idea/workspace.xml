@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/BinaryTreeRightSideView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/RangeSumQuery2DImmutable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/LevelOrderTraversal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
       <recent name="D:\github_project\LeetCode\Trie" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LevelOrderTraversal">
+  <component name="RunManager" selected="Python.RangeSumQuery2DImmutable">
     <configuration name="BinaryTreeRightSideView" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +114,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RangeSumQuery2DImmutable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/RangeSumQuery2DImmutable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SequentialDigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,41 +156,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ValidateBinaryTreeNodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph/ValidateBinaryTreeNodes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.ValidateBinaryTreeNodes" />
       <item itemvalue="Python.SequentialDigits" />
       <item itemvalue="Python.LetterCombinationsOfAPhoneNumber" />
       <item itemvalue="Python.BinaryTreeRightSideView" />
       <item itemvalue="Python.LevelOrderTraversal" />
+      <item itemvalue="Python.RangeSumQuery2DImmutable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RangeSumQuery2DImmutable" />
         <item itemvalue="Python.LevelOrderTraversal" />
         <item itemvalue="Python.BinaryTreeRightSideView" />
         <item itemvalue="Python.LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Python.SequentialDigits" />
-        <item itemvalue="Python.ValidateBinaryTreeNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -221,61 +220,61 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578821827981" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581869826540" />
-    <state width="1899" height="2" key="GridCell.Tab.0.bottom" timestamp="1582984516150">
+    <state width="1899" height="159" key="GridCell.Tab.0.bottom" timestamp="1583076070650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582984516150" />
-    <state width="1899" height="2" key="GridCell.Tab.0.center" timestamp="1582984516150">
+    <state width="1899" height="159" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583076070650" />
+    <state width="1899" height="159" key="GridCell.Tab.0.center" timestamp="1583076070650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582984516150" />
-    <state width="1899" height="2" key="GridCell.Tab.0.left" timestamp="1582984516149">
+    <state width="1899" height="159" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583076070650" />
+    <state width="1899" height="159" key="GridCell.Tab.0.left" timestamp="1583076070650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582984516149" />
-    <state width="1899" height="2" key="GridCell.Tab.0.right" timestamp="1582984516150">
+    <state width="1899" height="159" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583076070650" />
+    <state width="1899" height="159" key="GridCell.Tab.0.right" timestamp="1583076070650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582984516150" />
-    <state width="1899" height="2" key="GridCell.Tab.1.bottom" timestamp="1582984517432">
+    <state width="1899" height="159" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583076070650" />
+    <state width="1899" height="230" key="GridCell.Tab.1.bottom" timestamp="1582993187214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582984517432" />
-    <state width="1899" height="2" key="GridCell.Tab.1.center" timestamp="1582984517432">
+    <state width="1899" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582993187214" />
+    <state width="1899" height="230" key="GridCell.Tab.1.center" timestamp="1582993187214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582984517432" />
-    <state width="1899" height="2" key="GridCell.Tab.1.left" timestamp="1582984517432">
+    <state width="1899" height="230" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582993187214" />
+    <state width="1899" height="230" key="GridCell.Tab.1.left" timestamp="1582993187214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582984517432" />
-    <state width="1899" height="2" key="GridCell.Tab.1.right" timestamp="1582984517432">
+    <state width="1899" height="230" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582993187214" />
+    <state width="1899" height="230" key="GridCell.Tab.1.right" timestamp="1582993187214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="269" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576949461547" />
-    <state width="1899" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582984517432" />
+    <state width="1899" height="230" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582993187214" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1579450658967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578667339401" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579450658967" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1582961260045">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583069064101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578970654909" />
     <state x="522" y="275" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577546611433" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582961260045" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583069064101" />
     <state x="413" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582967102219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

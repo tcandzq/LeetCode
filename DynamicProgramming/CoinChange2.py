@@ -33,23 +33,41 @@
 1 <= coin (硬币面额) <= 5000
 硬币种类不超过 500 种
 结果符合 32 位符号整数
+
+参考：https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-ii-by-leetcode/
+
 """
 from typing import List
 
 class Solution:
+
     def change(self, amount: int, coins: List[int]) -> int:
-        ans = []
-        def dfs(temp,conins):
-            if temp > amount:
-                return
-            if temp == amount:
-                ans.append(1)
-                return
-            for coin in coins:
-                dfs(temp+coin,conins)
-        dfs(0,coins)
-        print(ans)
-        return len(ans)
+        dp = [0] * (amount + 1)
+        dp[0] = 1
+
+        for coin in coins:
+            for x in range(coin, amount + 1):
+                dp[x] += dp[x - coin]
+        return dp[amount]
+
+
+    # 回溯(超时)
+    def change2(self, amount: int, coins: List[int]) -> int:
+        coins.sort()
+        size = len(coins)
+        res = []
+
+        def traceback(i, tmp_sum, tmp_list):
+            if tmp_sum == amount:
+                res.append(tmp_list)
+            for j in range(i, size):
+                if tmp_sum + coins[j] > amount:  # amount至少大于0
+                    break
+                traceback(j, tmp_sum + coins[j], tmp_list + [coins[j]])
+
+        traceback(0, 0, [])
+        print(res)
+        return len(res)
 
 
 if __name__ == '__main__':

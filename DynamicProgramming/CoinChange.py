@@ -55,7 +55,6 @@ class Solution:
         traceback(0, 0, [])
         return min([len(num_list) for num_list in res])
 
-        pass
 if __name__ == '__main__':
     coins = [186,419,83,408]
     amount = 6249

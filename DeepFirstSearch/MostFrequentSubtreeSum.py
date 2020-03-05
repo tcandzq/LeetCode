@@ -22,9 +22,12 @@
  /  \
 2   -5
 返回 [2]，只有 2 出现两次，-5 只出现 1 次。
+
+参考：https://leetcode.com/problems/most-frequent-subtree-sum/discuss/98675/JavaC%2B%2BPython-DFS-Find-Subtree-Sum
+
 """
 from typing import List
-
+import collections
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -33,5 +36,15 @@ class TreeNode:
 
 class Solution:
     def findFrequentTreeSum(self, root: TreeNode) -> List[int]:
-        pass
+        if not root: return []
+        def dfs(node):
+            if not node:
+                return 0
+            s = node.val + dfs(node.left) + dfs(node.right)
+            count[s] += 1
+            return s
+        count = collections.Counter()
+        dfs(root)
+        maxCount = max(count.values())
+        return [s for s in count if count[s] == maxCount]
 

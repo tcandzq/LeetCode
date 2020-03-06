@@ -60,10 +60,23 @@ votes[i] 中的所有字母都是唯一的
 votes[0] 中出现的所有字母 同样也 出现在 votes[j] 中，其中 1 <= j < votes.length
 """
 from typing import List
+import collections
 
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
-        pass
+        if not votes:
+            return ''
+        res = []
+        teams = len(votes[0])
+        for team in range(teams):
+            res.append(collections.Counter([s[team] for s in votes]).most_common(1)[0][0])
+        return ''.join(res)
 
 
-    
+if __name__ == '__main__':
+    votes =  ["ZMNAGUEDSJYLBOPHRQICWFXTVK"]
+    solution = Solution()
+    print(solution.rankTeams(votes))
+
+
+

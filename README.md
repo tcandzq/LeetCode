@@ -309,6 +309,7 @@
 * - [不邻接植花.py](Graph/FlowerPlantingWithNoAdjacent.py)
 * - [钥匙和房间.py](Graph/KeysAndRooms.py)
 * - [验证二叉树.py](Graph/ValidateBinaryTreeNodes.py)
+* - [冗余连接.py](Graph/RedundantConnection.py)
 ## [拓扑排序(及其相关结构)](TopologicalSort/)
 * - [课程表.py](TopologicalSort/CourseSchedule.py)
 * - [课程表II.py](TopologicalSort/CourseScheduleII.py)

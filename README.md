@@ -230,6 +230,7 @@
 * - [层数最深叶子节点的和.py](DeepFirstSearch/DeepestLeavesSum.py)
 * - [祖玛游戏.py](DeepFirstSearch/ZumaGame.py)
 * - [出现次数最多的子树元素和.py](DeepFirstSearch/MostFrequentSubtreeSum.py)
+* - [岛屿的最大面积.py](DeepFirstSearch/MaxAreaOfIsland.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

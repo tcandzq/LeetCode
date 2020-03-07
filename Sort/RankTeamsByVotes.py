@@ -58,23 +58,33 @@ votes[i].length == votes[j].length for 0 <= i, j < votes.length
 votes[i][j] 是英文 大写 字母
 votes[i] 中的所有字母都是唯一的
 votes[0] 中出现的所有字母 同样也 出现在 votes[j] 中，其中 1 <= j < votes.length
+
+参考：https://leetcode-cn.com/problems/rank-teams-by-votes/solution/tong-guo-tou-piao-dui-tuan-dui-pai-ming-by-leetcod/
+
+利用sort函数 对数组进行字典序排序
+
 """
 from typing import List
 import collections
 
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
-        if not votes:
-            return ''
-        res = []
-        teams = len(votes[0])
-        for team in range(teams):
-            res.append(collections.Counter([s[team] for s in votes]).most_common(1)[0][0])
-        return ''.join(res)
+        n = len(votes[0])
+        ranking = collections.defaultdict(lambda :[0]*n)
+        for vote in votes:
+            for i,vid in enumerate(vote):
+                ranking[vid][i] += 1
+        # 取出所有的键值对
+        result = list(ranking.items())
+        print(result)
+        # 排序
+        result.sort(key=lambda x: (x[1],-ord(x[0])),reverse=True)
+        print(result)
+        return "".join(vid for vid,rank in result)
 
 
 if __name__ == '__main__':
-    votes =  ["ZMNAGUEDSJYLBOPHRQICWFXTVK"]
+    votes = ["WXYZ","XYZW"]
     solution = Solution()
     print(solution.rankTeams(votes))
 

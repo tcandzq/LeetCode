@@ -34,9 +34,31 @@
 二维数组中的整数在1到N之间，其中N是输入数组的大小。
 更新(2017-09-26):
 我们已经重新检查了问题描述及测试用例，明确图是无向 图。对于有向图详见冗余连接II。对于造成任何不便，我们深感歉意。
+
+参考：https://leetcode.com/problems/redundant-connection/discuss/123819/Union-Find-with-Explanations-(Java-Python)
 """
 from typing import List
 
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
-        pass
+        parent = [0] * len(edges)
+
+        def find(x):
+            if parent[x] == 0:
+                return x
+            parent[x] = find(parent[x])
+            return parent[x]
+
+        def union(x, y):
+            rootX = find(x)
+            rootY = find(y)
+            if rootX == rootY:
+                return False
+            parent[rootX] = rootY
+            return True
+
+        for x, y in edges:
+            if not union(x - 1, y - 1):
+                return [x, y]
+
+        raise ValueError("Illegal input.")

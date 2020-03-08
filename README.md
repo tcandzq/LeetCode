@@ -29,6 +29,7 @@
 * - [K个一组翻转链表.py](LinkedList/ReverseNodesInKGroup.py)
 * - [分隔链表.py](LinkedList/PartitionList.py)
 * - [重排链表.py](LinkedList/ReorderList.py)
+* - [分隔链表.py](LinkedList/SplitLinkedListInParts.py)
 ## [二叉树(及其相关结构)](BinaryTree/)
 * - [二叉树的中序遍历.py](BinaryTree/BinaryTreeInorderTraversal.py)
 * - [二叉树的前序遍历.py](BinaryTree/BinaryTreePreorderTraversal.py)

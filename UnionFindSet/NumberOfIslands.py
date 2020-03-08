@@ -26,10 +26,15 @@
 
 输出: 3
 
+
+题目解读：是说“1”连成一片的地方有几处。比如例1，上面的“1”不都是连在一起的吗，这就算1个，例2上面连着的“1”不是有3处么，这个就算3，这个意思。
+
 多种解法：
 1.DFS
 2.BFS
 3.并查集
+
+参考：https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/
 
 """
 from typing import List

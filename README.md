@@ -277,6 +277,7 @@
 * - [单词规律.py](HashTable/WordPattern.py)
 * - [最长重复子串.py](HashTable/LongestDuplicateSubstring.py)
 * - [出现次数最多的子树元素和.py](DeepFirstSearch/MostFrequentSubtreeSum.py)
+* - [砖墙.py](HashTable/BrickWall.py)
 ## [分治算法(及其相关结构)](DivideAndConquer/)
 * - [求众数.py](DivideAndConquer/MajorityElement.py)
 * - [数组中的第K个最大元素.py](DivideAndConquer/KthLargestElementInAnArray.py)

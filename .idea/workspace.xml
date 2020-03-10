@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/BrickWall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/PancakeSorting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/BrickWall.py" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/BrickWall.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/SplitLinkedListInParts.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SplitLinkedListInParts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +162,8 @@
       <item itemvalue="Python.CoinChange2" />
       <item itemvalue="Python.CombinationSum" />
       <item itemvalue="Python.GroupThePeopleGivenTheGroupSizeTheyBelongTo" />
-      <item itemvalue="Python.RankTeamsByVotes" />
       <item itemvalue="Python.NumberOfIslands" />
+      <item itemvalue="Python.RankTeamsByVotes" />
     </list>
     <recent_temporary>
       <list>

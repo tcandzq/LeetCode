@@ -34,9 +34,23 @@
 
 1 <= A.length <= 100
 A[i] 是 [1, 2, ..., A.length] 的排列
+
+参考：https://leetcode.com/problems/pancake-sorting/discuss/214213/JavaC%2B%2BPython-Straight-Forward
+
 """
 from typing import List
 
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
-        pass
+        res = []
+        for x in range(len(A),1,-1):
+            i = A.index(x)
+            res.extend([i+1,x])
+            A = A[:i:-1] + A[:i]
+        return res
+
+
+if __name__ == '__main__':
+    A = [3,2,4,1]
+    solution = Solution()
+    print(solution.pancakeSort(A))

@@ -6,7 +6,7 @@
 题号 1358. 包含所有三种字符的子字符串数目
 给你一个字符串 s ，它只包含三种字符 a, b 和 c 。
 
-请你返回 a，b 和 c 都 至少 出现过一次的子字符串数目。
+请你返回 a，b 和 c都至少出现过一次的子字符串数目。
 
 
 
@@ -30,8 +30,25 @@
 
 3 <= s.length <= 5 x 10^4
 s 只包含字符 a，b 和 c 。
+
+参考：https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/discuss/516977/JavaC%2B%2BPython-Easy-and-Concise
+
 """
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
-        pass
+        res = i = 0
+        count = {c: 0 for c in 'abc'}
+        for j in range(len(s)):
+            count[s[j]] += 1
+            while all(count.values()):
+                count[s[i]] -= 1
+                i += 1
+            res += i
+        return res
+
+
+if __name__ == '__main__':
+    s = "aaacb"
+    solution = Solution()
+    print(solution.numberOfSubstrings(s))
 

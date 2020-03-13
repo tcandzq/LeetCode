@@ -304,6 +304,7 @@
 * - [移除无效的括号.py](Stack/MinimumRemoveToMakeValidParentheses.py)
 * - [反转每对括号间的子串.py](Stack/ReverseSubstringsBetweenEachPairOfParentheses.py)
 * - [使括号有效的最少添加.py](Stack/MinimumAddToMakeParenthesesValid.py)
+* - [删除字符串中的所有相邻重复项II.py](Stack/RemoveAllAdjacentDuplicatesInStringII.py)
 ## [经典算法(及其相关结构)](Algorithm/)
 * - [KMP.py](Algorithm/KMP.py)
 * - [堆.py](Algorithm/heap.py)

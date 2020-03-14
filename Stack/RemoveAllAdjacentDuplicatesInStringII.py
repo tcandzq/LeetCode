@@ -38,7 +38,18 @@
 1 <= s.length <= 10^5
 2 <= k <= 10^4
 s 中只含有小写英文字母。
+
+参考：https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/discuss/392933/JavaC%2B%2BPython-Two-Pointers-and-Stack-Solution
+
 """
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
-        pass
+        stack = [['#', 0]]
+        for c in s:
+            if stack[-1][0] == c:
+                stack[-1][1] += 1
+                if stack[-1][1] == k:
+                    stack.pop()
+            else:
+                stack.append([c, 1])
+        return ''.join(c * k for c, k in stack)

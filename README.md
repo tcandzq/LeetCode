@@ -234,6 +234,7 @@
 * - [出现次数最多的子树元素和.py](DeepFirstSearch/MostFrequentSubtreeSum.py)
 * - [岛屿的最大面积.py](DeepFirstSearch/MaxAreaOfIsland.py)
 * - [出现次数最多的子树元素和.py](DeepFirstSearch/MostFrequentSubtreeSum.py)
+* - [通知所有员工所需的时间.py](DeepFirstSearch/TimeNeededToInformAllEmployees.py)
 ## [贪心(及其相关结构)](Greedy/)
 * - [分糖果.py](Greedy/Candy.py)
 * - [跳跃游戏.py](Greedy/JumpGame.py)

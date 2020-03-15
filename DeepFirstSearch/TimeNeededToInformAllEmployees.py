@@ -66,9 +66,19 @@ informTime.length == n
 0 <= informTime[i] <= 1000
 如果员工 i 没有下属，informTime[i] == 0 。
 题目 保证 所有员工都可以收到通知。
+
+参考：https://leetcode.com/problems/time-needed-to-inform-all-employees/discuss/532560/JavaC%2B%2BPython-DFS
+
 """
 from typing import List
 
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
-        pass
+        children = [[] for i in range(n)]
+        for i, m in enumerate(manager):
+            if m >= 0: children[m].append(i)
+
+        def dfs(i):
+            return max([dfs(j) for j in children[i]] or [0]) + informTime[i]
+
+        return dfs(headID)

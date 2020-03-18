@@ -50,4 +50,13 @@ from typing import List
 
 class Solution:
     def totalFruit(self, tree: List[int]) -> int:
-        pass
+        d = {}
+        total_fruit = 0
+        if not tree:
+            return 0
+        for fruit in tree:
+            d[fruit] = d.get(fruit,0) + 1
+            if len(d) > 2:
+                total_fruit = max(total_fruit,sum(d.values()))
+
+        return total_fruit

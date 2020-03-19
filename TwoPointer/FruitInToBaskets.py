@@ -54,9 +54,20 @@ class Solution:
         total_fruit = 0
         if not tree:
             return 0
-        for fruit in tree:
+        if len(tree) <= 2:
+            return sum(tree)
+        left,right = 0,0
+
+        for i,fruit in enumerate(tree):
             d[fruit] = d.get(fruit,0) + 1
             if len(d) > 2:
-                total_fruit = max(total_fruit,sum(d.values()))
-
+                d.pop(tree[i-2])
+            else:
+                total_fruit = max(total_fruit, sum(d.values()))
         return total_fruit
+
+
+if __name__ == '__main__':
+    tree = [0,1,1,4,3]
+    solution = Solution()
+    print(solution.totalFruit(tree))

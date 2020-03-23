@@ -136,6 +136,7 @@
 * - [汇总区间.py](TwoPointer/SummaryRanges.py)
 * - [水果成篮.py](TwoPointer/FruitInToBaskets.py)
 * - [数组中的最长山脉.py](TwoPointer/LongestMountainInArray.py)
+* - [统计「优美子数组」.py](TwoPointer/CountNumberOfNiceSubarrays.py)
 ## [数组(及其相关结构)](Array/)
 * - [和为K的子数组.py](Array/SubarraySumEqualsK.py)
 * - [合并区间.py](Array/MergeIntervals.py)

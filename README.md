@@ -66,6 +66,7 @@
 * - [二叉搜索树中第K小的元素.py](BinarySearch/KthSmallestElementInABst.py)
 * - [寻找重复数.py](BinarySearch/FindTheDuplicateNumber.py)
 * - [x的平方根.py](BinarySearch/SqrtX.py)
+* - [找到 K个最接近的元素.py](BinarySearch/FindKClosestElements.py)
 ## [动态规划(及其相关结构)](DynamicProgramming/)
 * - [最长重复子数组.py](DynamicProgramming/MaximumLengthOfRepeatedSubarray.py)
 * - [不同的子序列.py](DynamicProgramming/DistinctSubsequences.py)

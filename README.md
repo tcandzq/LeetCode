@@ -118,6 +118,7 @@
 * - [等差数列划分.py](DynamicProgramming/ArithmeticSlices.py)
 * - [二维区域和检索 - 矩阵不可变.py](DynamicProgramming/RangeSumQuery2DImmutable.py)
 * - [最长递增子序列的个数.py](DynamicProgramming/NumberOfLongestIncreasingSubsequence.py)
+* - [划分为k个相等的子集.py](DynamicProgramming/PartitionToKEqualSumSubsets.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

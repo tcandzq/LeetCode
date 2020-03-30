@@ -389,3 +389,6 @@
 * - [随机数索引.py](ReservoirSampling/RandomPickIndex.py)
 ## [滑动窗口](SlidingWindow/)
 * - [替换后的最长重复字符.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)
+
+## [剑指offer系列](CodingInterview/)
+* - [面试题21.调整数组顺序使奇数位于偶数前面.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)

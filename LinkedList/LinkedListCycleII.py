@@ -5,9 +5,9 @@
 # @File    : LinkedListCycleII.py
 """
 题号 142 环形链表 II
-给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
+给定一个链表，返回链表开始入环的第一个节点。如果链表无环，则返回 null。
 
-为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
+为了表示给定链表中的环，我们使用整数 pos来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
 
 说明：不允许修改给定的链表。
 
@@ -75,7 +75,7 @@ class Solution:
             fast, slow = fast.next.next, slow.next  # fast指针的速度是slow指针速度的两倍
             if fast == slow: break  # 第一次相遇
         fast = head
-        while fast != slow:  # 第二次相遇 slow指针 位置不变 ，将fast指针重新 指向链表头部节点
+        while fast != slow:  # 第二次相遇 slow指针 位置不变 ，将fast指针重新指向链表头部节点
             fast, slow = fast.next, slow.next  # 快指针和慢指针的速度一致
         return fast
 

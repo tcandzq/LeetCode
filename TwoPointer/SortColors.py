@@ -55,7 +55,6 @@ class Solution:
         '''
         # 对于所有 index < p0 : nums[idx < p0] = 0
 
-
         # 对于所有 index > p2 : nums[idx > p2] = 2
 
         p0, curr, p2 = 0, 0, len(nums) - 1  # p0:指向0的最右边界，curr指向当前元素，p2指向2的最左边界

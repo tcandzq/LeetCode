@@ -112,9 +112,6 @@ class Solution:
         return q
 
 
-
-
-
 if __name__ == '__main__':
     root = TreeNode(3)
     node1 = TreeNode(5)

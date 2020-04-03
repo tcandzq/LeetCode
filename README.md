@@ -53,7 +53,7 @@
 * - [Pow(x, n).py](BinarySearch/PowxN.py)
 * - [寻找两个有序数组的中位数.py](BinarySearch/MedianOfTwoSortedArrays.py)
 * - [搜索二维矩阵.py](BinarySearch/SearchA2DMatrix.py)
-* - [和至少为 K 的最短子数组.py](BinarySearch/ShortestSubarrayWithSumAtLeastK.py)
+* - [和至少为K的最短子数组.py](BinarySearch/ShortestSubarrayWithSumAtLeastK.py)
 * - [搜索二维矩阵II.py](BinarySearch/SearchA2DMatrixII.py)
 * - [有序矩阵中第K小的元素.py](BinarySearch/KthSmallestElementInASortedMatrix.py)
 * - [分割数组的最大值.py](BinarySearch/SplitArrayLargestSum.py)
@@ -395,3 +395,4 @@
 * - [面试题48.最长不含重复字符的子字符串.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)
 * - [面试题25.合并两个排序的链表.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)
 * - [面试题09.用两个栈实现队列.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)
+* - [面试题42.连续子数组的最大和.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)

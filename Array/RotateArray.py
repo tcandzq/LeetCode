@@ -20,7 +20,7 @@
 说明:
 
 尽可能想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
-要求使用空间复杂度为 O(1) 的 原地 算法。
+要求使用空间复杂度为 O(1)的原地算法。
 
 参考：https://leetcode-cn.com/problems/rotate-array/solution/chao-duo-chong-fang-fa-by-powcai/
 

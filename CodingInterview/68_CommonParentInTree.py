@@ -1,10 +1,8 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2019/11/10 13:40
+# @File    : 68_CommonParentInTree.py
+# @Date    : 2020-04-12
 # @Author  : tc
-# @File    : LowestCommonAncestorOfABinarySearchTree.py
 """
-题号 235 二叉搜索树的最近公共祖先
 给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
 
 百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
@@ -27,10 +25,9 @@
 
 所有节点的值都是唯一的。
 p、q 为不同节点且均存在于给定的二叉搜索树中。
+注意：本题与主站 235 题相同：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
-参考:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian--2/
-
-极简解法参考:https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/python-2xing-by-knifezhu-3/
+参考：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian--2/
 
 """
 class TreeNode:
@@ -61,36 +58,29 @@ class Solution:
             return root
 
 
-
     def lowestCommonAncestor2(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        while (root.val - p.val) * (root.val - q.val) > 0:
-            root = (root.left, root.right)[p.val > root.val]
-        return root
+        # Value of p
+        p_val = p.val
 
+        # Value of q
+        q_val = q.val
 
+        # Start from the root node of the tree
+        node = root
 
-if __name__ == '__main__':
-    node0 = TreeNode(0)
-    node1 = TreeNode(1)
-    node2 = TreeNode(2)
-    node3 = TreeNode(3)
-    node4 = TreeNode(4)
-    node5 = TreeNode(5)
-    node6 = TreeNode(6)
-    node7 = TreeNode(7)
-    node8 = TreeNode(8)
-    node9 = TreeNode(9)
+        # Traverse the tree
+        while node:
 
-    node6.left = node2
-    node6.right = node8
-    node2.left = node0
-    node2.right = node4
-    node8.left = node7
-    node8.right = node9
-    node4.left =node3
-    node4.right = node5
+            # Value of current node or parent node.
+            parent_val = node.val
 
-    solution = Solution()
-    p = node2
-    q = node8
-    print(solution.lowestCommonAncestor(node6,p,q))
+            if p_val > parent_val and q_val > parent_val:
+                # If both p and q are greater than parent
+                node = node.right
+            elif p_val < parent_val and q_val < parent_val:
+                # If both p and q are lesser than parent
+                node = node.left
+            else:
+                # We have found the split point, i.e. the LCA node.
+                return node
+

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/42_GreatestSumOfSubarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/68_CommonParentInTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/RotateArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RotateArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/LowestCommonAncestorOfABinaryTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/09_QueueWithTwoStacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/09_QueueWithTwoStacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListCycleII.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedListCycleII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/LowestCommonAncestorOfABinarySearchTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoPointer/SortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointer/SortColors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../icme2019-bytedance-grand-challenge" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -218,30 +214,30 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578821827981" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585925179466" />
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom" timestamp="1585929584007">
+    <state width="1899" height="194" key="GridCell.Tab.0.bottom" timestamp="1585929768604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585929584007" />
-    <state width="1899" height="194" key="GridCell.Tab.0.center" timestamp="1585929584007">
+    <state width="1899" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585929768604" />
+    <state width="1899" height="194" key="GridCell.Tab.0.center" timestamp="1585929768604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585929584007" />
-    <state width="1899" height="194" key="GridCell.Tab.0.left" timestamp="1585929584007">
+    <state width="1899" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585929768604" />
+    <state width="1899" height="194" key="GridCell.Tab.0.left" timestamp="1585929768604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585929584007" />
-    <state width="1899" height="194" key="GridCell.Tab.0.right" timestamp="1585929584007">
+    <state width="1899" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585929768604" />
+    <state width="1899" height="194" key="GridCell.Tab.0.right" timestamp="1585929768604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1345" height="114" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578668406820" />
     <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577549724276" />
-    <state width="1899" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585929584007" />
+    <state width="1899" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585929768604" />
     <state width="1899" height="164" key="GridCell.Tab.1.bottom" timestamp="1584114543270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

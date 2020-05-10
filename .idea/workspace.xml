@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/50_02_FirstCharacterInStream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/47_MaxValueOfGifts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/50_02_FirstCharacterInStream.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/50_02_FirstCharacterInStream.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.50_02_FirstCharacterInStream">
+  <component name="RunManager" selected="Python.47_MaxValueOfGifts">
     <configuration name="42_GreatestSumOfSubarrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodingInterview/42_GreatestSumOfSubarrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="47_MaxValueOfGifts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodingInterview" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodingInterview/47_MaxValueOfGifts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,27 +136,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FruitInToBaskets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TwoPointer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TwoPointer/FruitInToBaskets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ReorderArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,17 +160,17 @@
     <list>
       <item itemvalue="Python.42_GreatestSumOfSubarrays" />
       <item itemvalue="Python.48_LongestSubstringWithoutDup" />
-      <item itemvalue="Python.FruitInToBaskets" />
       <item itemvalue="Python.ReorderArray" />
       <item itemvalue="Python.50_02_FirstCharacterInStream" />
+      <item itemvalue="Python.47_MaxValueOfGifts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.47_MaxValueOfGifts" />
         <item itemvalue="Python.50_02_FirstCharacterInStream" />
         <item itemvalue="Python.42_GreatestSumOfSubarrays" />
         <item itemvalue="Python.48_LongestSubstringWithoutDup" />
         <item itemvalue="Python.ReorderArray" />
-        <item itemvalue="Python.FruitInToBaskets" />
       </list>
     </recent_temporary>
   </component>
@@ -212,22 +213,22 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586764157001" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586917817539" />
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom" timestamp="1589041719901">
+    <state width="1899" height="194" key="GridCell.Tab.0.bottom" timestamp="1589125648323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589041719901" />
-    <state width="1899" height="194" key="GridCell.Tab.0.center" timestamp="1589041719901">
+    <state width="1899" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589125648323" />
+    <state width="1899" height="194" key="GridCell.Tab.0.center" timestamp="1589125648323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589041719901" />
-    <state width="1899" height="194" key="GridCell.Tab.0.left" timestamp="1589041719901">
+    <state width="1899" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589125648323" />
+    <state width="1899" height="194" key="GridCell.Tab.0.left" timestamp="1589125648323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589041719901" />
-    <state width="1899" height="194" key="GridCell.Tab.0.right" timestamp="1589041719901">
+    <state width="1899" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589125648323" />
+    <state width="1899" height="194" key="GridCell.Tab.0.right" timestamp="1589125648323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589041719901" />
+    <state width="1899" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589125648323" />
     <state width="1899" height="164" key="GridCell.Tab.1.bottom" timestamp="1584114543270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -391,11 +391,12 @@
 * - [替换后的最长重复字符.py](SlidingWindow/LongestRepeatingCharacterReplacement.py)
 
 ## [剑指offer系列](CodingInterview/)
-* - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
-* - [面试题48.最长不含重复字符的子字符串.py](CodingInterview/48_LongestSubstringWithoutDup.py)
-* - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
 * - [面试题09.用两个栈实现队列.py](CodingInterview/09_QueueWithTwoStacks.py)
-* - [面试题42.连续子数组的最大和.py](CodingInterview/42_GreatestSumOfSubarrays.py)
-* - [面试题68-I.二叉搜索树的最近公共祖先.py](CodingInterview/68_CommonParentInTree.py)
 * - [面试题11.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
+* - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
+* - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
+* - [面试题42.连续子数组的最大和.py](CodingInterview/42_GreatestSumOfSubarrays.py)
+* - [面试题47.礼物的最大价值.py](CodingInterview/47_MaxValueOfGifts.py)
+* - [面试题48.最长不含重复字符的子字符串.py](CodingInterview/48_LongestSubstringWithoutDup.py)
+* - [面试题68-I.二叉搜索树的最近公共祖先.py](CodingInterview/68_CommonParentInTree.py)
 

@@ -29,7 +29,7 @@ class Solution:
         dic = {}
         for c in s:
             dic[c] = not c in dic
-        for k,v in dic.items():
+        for k,v in dic.items(): # 注意：字典默认有序
             if v:
                 return k
         return ' '

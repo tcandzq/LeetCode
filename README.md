@@ -395,6 +395,7 @@
 * - [面试题11.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
 * - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
 * - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
+* - [面试题40. 最小的k个数.py](CodingInterview/40_KLeastNumbers.py)
 * - [面试题42.连续子数组的最大和.py](CodingInterview/42_GreatestSumOfSubarrays.py)
 * - [面试题45.把数组排成最小的数.py](CodingInterview/45_SortArrayForMinNumber.py)
 * - [面试题47.礼物的最大价值.py](CodingInterview/47_MaxValueOfGifts.py)

@@ -24,7 +24,7 @@
 
 直观方法的话，其实就是计数排序，注意可以使用python的默认字典
 
-优化方法参考:https://leetcode-cn.com/problems/sort-colors/solution/yan-se-fen-lei-by-leetcode/
+优化方法参考:https://leetcode-cn.com/problems/sort-colors/solution/kuai-su-pai-xu-partition-guo-cheng-she-ji-xun-huan/
 
 其实就是一个三指针问题。
 

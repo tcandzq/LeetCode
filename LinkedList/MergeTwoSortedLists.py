@@ -12,6 +12,9 @@ Output:1->1->2->3->4->4
                    2.当其中某个链表遍历结束后，由于链表是有序的，它包含的所有元素都比前面已经合并的链表中的所有元素都要大
                      这样我们就可以直接把非空链表接在合并链表的后面。
 
+
+参考：https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/yi-kan-jiu-hui-yi-xie-jiu-fei-xiang-jie-di-gui-by-/
+
 """
 class ListNode:
     def __init__(self, x):
@@ -56,6 +59,18 @@ def mergeTwoLists(l1, l2):
 
     return dummy.next
 
+class Solution:
+
+    # 优雅
+    def mergeTwoLists2(self,l1:ListNode,l2:ListNode) -> ListNode:
+        if not l1:return l2
+        if not l2:return l1
+        if l1.val <= l2.val:
+            l1.next = self.mergeTwoLists2(l1.next,l2)
+            return l1
+        else:
+            l2.next = self.mergeTwoLists2(l1,l2.next)
+            return l2
 if __name__ == '__main__':
     a = ListNode(1)
     b = ListNode(2)

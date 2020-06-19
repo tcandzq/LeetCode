@@ -16,6 +16,10 @@
 
 递归:记住递归要返回的是什么,以及递归出栈后,后面的代码要怎么写？
 
+不妨假设链表为1，2，3，4，5。按照递归，当执行reverseList（5）的时候返回了5这个节点，reverseList(4)中的p就是5这个节点，
+我们看看reverseList（4）接下来执行完之后，5->next = 4, 4->next = null。这时候返回了p这个节点，也就是链表5->4->null，
+接下来执行reverseList（3），代码解析为4->next = 3,3->next = null，这个时候p就变成了，5->4->3->null, reverseList(2),
+reverseList(1)依次类推，p就是:5->4->3->2->1->null
 
 """
 # Definition for singly-linked list.

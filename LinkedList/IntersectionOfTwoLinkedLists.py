@@ -38,9 +38,11 @@
 快慢指针,消除长度差
 
 优化版本：
-假设链表A比链表B长,长度分别为len(A)和len(B),同时开始遍历A和B,当B走到头时候,A已经走了B长的路,剩下A-B段路没有走.此时让B从头开始走A,
+假设链表A比链表B长,长度分别为len(A)和len(B),同时开始遍历A和B,当B走到头时候,A已经走了B长的路,剩下A-B段路没有走.此时让B从头开始走A的路,
 当A走完所有的路时,B已经走了A-B 此时 正好抵消了A B的长度差
 B已经走了
+
+若相交，链表A： a+c, 链表B : b+c. a+c+b+c = b+c+a+c 。则会在公共处c起点相遇。若不相交，a +b = b+a 。因此相遇处是NULL
 
 参考:https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/tu-jie-xiang-jiao-lian-biao-by-user7208t/
 

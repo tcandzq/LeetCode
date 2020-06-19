@@ -41,7 +41,7 @@ def __dfs(nums, start, path, res):
     res.append(path[:])
     for i in range(start, len(nums)):
         path.append(nums[i])
-        # 因为 nums 不包含重复元素，并且每一个元素只能使用一次
+        # 因为 nums不包含重复元素，并且每一个元素只能使用一次
         # 所以下一次搜索从 i + 1 开始
         __dfs(nums, i + 1, path, res)
         path.pop()

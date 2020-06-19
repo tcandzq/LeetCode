@@ -34,6 +34,14 @@ class Solution:
         return pow(3, a) * 2
 
     def integerBreak2(self, n: int) -> int:
+        dp = [0 for _ in range(n + 1)]
+        dp[2] = 1
+        for i in range(3,n+1):
+            for j in range(i):
+                dp[i] = max(dp[i],max((i - j) * j,j*dp[i -j]))
+        return dp[n]
+
+    def integerBreak3(self, n: int) -> int:
         dp = [1 for _ in range(n + 1)]
         dp[0] = 0
         dp[1] = 1
@@ -49,3 +57,4 @@ if __name__ == '__main__':
     solution = Solution()
     print(solution.integerBreak(n))
     print(solution.integerBreak2(n))
+    print(solution.integerBreak3(n))

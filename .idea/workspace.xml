@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/03_01_DuplicationInArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/SuperEggDrop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoPointer/LongestSubstringWithoutRepeatingCharacters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/14_CuttingRope.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Subsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Subsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/09_QueueWithTwoStacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/09_QueueWithTwoStacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicProgramming/LongestCommonSubsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/LongestCommonSubsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/IntersectionOfTwoLinkedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/IntersectionOfTwoLinkedLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/MergeKSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/MergeKSortedLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/IntegerBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/Math/IntegerBreak.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoPointer/SortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointer/SortColors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

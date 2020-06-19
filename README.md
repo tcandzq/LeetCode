@@ -396,6 +396,7 @@
 * - [面试题03.数组中重复的数字.py](CodingInterview/03_01_DuplicationInArray.py)
 * - [面试题09.用两个栈实现队列.py](CodingInterview/09_QueueWithTwoStacks.py)
 * - [面试题11.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
+* - [面试题14.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
 * - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
 * - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
 * - [面试题40. 最小的k个数.py](CodingInterview/40_KLeastNumbers.py)

@@ -121,6 +121,7 @@
 * - [划分为k个相等的子集.py](DynamicProgramming/PartitionToKEqualSumSubsets.py)
 * - [分裂二叉树的最大乘积.py](DynamicProgramming/MaximumProductOfSplittedBinaryTree.py)
 * - [鸡蛋掉落.py](DynamicProgramming/SuperEggDrop.py)
+* - [N天后的牢房.py](DynamicProgramming/PrisonCellsAfterNDays.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

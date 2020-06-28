@@ -72,10 +72,7 @@ class Solution:
         return cells
 
     def prisonAfterNDays2(self, cells: List[int], N: int) -> List[int]:
-        print(max(N - 1, 0) // 14 * 14)
         N -= max(N - 1, 0) // 14 * 14
-
-        print(N)
         for i in range(N):
             cells = [0] + [cells[i - 1] ^ cells[i + 1] ^ 1 for i in range(1, 7)] + [0]
         return cells
@@ -86,5 +83,3 @@ if __name__ == '__main__':
     N = 1000000000
     solution = Solution()
     print(solution.prisonAfterNDays2(cells,N))
-    a = 1000000000 - 1
-    print(a // 14 * 14)

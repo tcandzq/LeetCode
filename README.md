@@ -122,6 +122,7 @@
 * - [分裂二叉树的最大乘积.py](DynamicProgramming/MaximumProductOfSplittedBinaryTree.py)
 * - [鸡蛋掉落.py](DynamicProgramming/SuperEggDrop.py)
 * - [N天后的牢房.py](DynamicProgramming/PrisonCellsAfterNDays.py)
+* - [奇怪的打印机.py](DynamicProgramming/StrangePrinter.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

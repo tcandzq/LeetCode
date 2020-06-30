@@ -124,6 +124,7 @@
 * - [N天后的牢房.py](DynamicProgramming/PrisonCellsAfterNDays.py)
 * - [奇怪的打印机.py](DynamicProgramming/StrangePrinter.py)
 * - [移除盒子.py](DynamicProgramming/RemoveBoxes.py)
+* - [统计不同回文子序列.py](DynamicProgramming/CountDifferentPalindromicSubsequences.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

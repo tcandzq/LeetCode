@@ -264,6 +264,7 @@
 * - [划分字母区间.py](Greedy/PartitionLabels.py)
 * - [用户分组.py](Greedy/GroupThePeopleGivenTheGroupSizeTheyBelongTo.py)
 * - [划分数组为连续数字的集合.py](Greedy/DivideArrayInSetsOfKConsecutiveNumbers.py)
+* - [做菜顺序.py](Greedy/ReducingDishes.py)
 ## [数学(及其相关结构)](Math/)
 * - [有序队列.py](Math/OrderlyQueue.py)
 * - [回文数.py](Math/PalindromeNumber.py)

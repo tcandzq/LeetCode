@@ -45,8 +45,16 @@ n == hats.length
 1 <= hats[i].length <= 40
 1 <= hats[i][j] <= 40
 hats[i] 包含一个数字互不相同的整数列表。
+
+解法1参考：
+
+解法2参考：https://blog.csdn.net/zcz5566719/article/details/105901262
+
 """
 from typing import List
+from functools import lru_cache
+import collections
+
 
 class Solution:
     def numberWays(self, hats: List[List[int]]) -> int:
@@ -77,9 +85,42 @@ class Solution:
         return res
 
 
+
+    def numberWays2(self, hats: List[List[int]]) -> int:
+        # 总人数
+        n = len(hats)
+        dic = collections.defaultdict(list)
+        for i in range(n):
+            for hat in hats[i]:
+                dic[hat].append(i)
+        print(dic)
+
+        @lru_cache(None)
+        def dp(cur, pos):
+            # cur 代表当前轮到第cur顶帽子可供选择
+            # pos 代表当前戴帽的人有哪些，为二进制压缩状态形式
+            # 首先，如果当前所有人都带上了帽，则返回1
+            if pos == (1 << n) - 1:
+                return 1
+            # 若不满足所有人都戴上了帽，且当前也没有帽子了，则返回0
+            if cur > 40:
+                return 0
+            # 首先考虑不戴该顶帽子，直接考虑后一顶，则其值应为dp(cur+1, pos)
+            res = dp(cur + 1, pos)
+            # 考虑有人佩戴该顶帽子
+            for i in range(n):
+                # 找到喜欢该帽子的人，且这个人并没有戴其他帽子（即二进制pos中该位置为0）
+                if i in dic[cur + 1] and not pos & (1 << i):
+                    # 给这个人戴上帽子（该位置置1），并依序进行下去
+                    res += dp(cur + 1, pos + (1 << i))
+            return int(res % 1000000007)
+
+        return dp(0, 0)
+
+
 if __name__ == '__main__':
     hats = [[3,5,1],[3,5]]
     solution = Solution()
-    print(solution.numberWays(hats))
+    print(solution.numberWays2(hats))
 
 

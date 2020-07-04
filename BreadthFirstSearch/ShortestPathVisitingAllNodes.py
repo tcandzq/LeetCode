@@ -30,16 +30,21 @@ graph.length = N，且只有节点 i 和 j 连通时，j != i 在列表 graph[i]
 
 参考：https://leetcode.com/problems/shortest-path-visiting-all-nodes/discuss/147123/Python-8-lines-Heapq-and-BFS-and-Deque-solutions
 
+思路参考：https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes/solution/fang-wen-suo-you-jie-dian-de-zui-duan-lu-jing-by-l/
+
 """
 from typing import List
+import collections
 
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         memo, final, q, steps = set(), (1 << len(graph)) - 1, [(i, 1 << i) for i in range(len(graph))], 0
         while True:
             new = []
+            print(q)
             for node, state in q:
-                if state == final: return steps
+                if state == final:
+                    return steps
                 for v in graph[node]:
                     if (state | 1 << v, v) not in memo:
                         new.append((v, state | 1 << v))
@@ -47,7 +52,18 @@ class Solution:
             q = new
             steps += 1
 
-
+    def shortestPathLength2(self, graph):
+        memo, final, q = set(), (1 << len(graph)) - 1, collections.deque([(i, 0, 1 << i) for i in range(len(graph))])
+        while q:
+            node, steps, state = q.popleft()
+            if state == final:
+                return steps
+            for v in graph[node]:
+                if (state | 1 << v, v) not in memo:
+                    q.append((v, steps + 1, state | 1 << v))
+                    memo.add((state | 1 << v, v))
 
 if __name__ == '__main__':
-    pass
+    graph = [[1,2,3],[0],[0],[0]]
+    solution = Solution()
+    print(solution.shortestPathLength2(graph))

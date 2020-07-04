@@ -18,17 +18,24 @@
 解释: 最长递增子序列的长度是1，并且存在5个子序列的长度为1，因此输出5。
 注意: 给定的数组长度不超过 2000 并且结果一定是32位有符号整数。
 
-参考：https://leetcode.com/problems/longest-mountain-in-array/discuss/135593/C%2B%2BJavaPython-1-pass-and-O(1)-space
+参考：https://leetcode.com/problems/number-of-longest-increasing-subsequence/discuss/107320/Python-DP-with-explanation-(Beats-88)
 
 """
 from typing import List
 
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
-        res = up = down = 0
-        for i in range(1, len(nums)):
-            if down and nums[i - 1] < nums[i] or nums[i - 1] == nums[i]: up = down = 0
-            up += nums[i - 1] < nums[i]
-            down += nums[i - 1] > nums[i]
-            if up and down: res = max(res, up + down + 1)
-        return res
+        dp = [[1, 1] for i in range(len(nums))]
+        max_for_all = 1
+        for i, num in enumerate(nums):
+            max_len, count = 1, 0
+            for j in range(i):
+                if nums[j] < num:
+                    if dp[j][0] + 1 > max_len:
+                        max_len = dp[j][0] + 1
+                        count = 0
+                    if dp[j][0] == max_len - 1:
+                        count += dp[j][1]
+            dp[i] = [max_len, max(count, dp[i][1])]
+            max_for_all = max(max_len, max_for_all)
+        return sum([item[1] for item in dp if item[0] == max_for_all])

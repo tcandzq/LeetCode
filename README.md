@@ -128,6 +128,7 @@
 * - [每个人戴不同帽子的方案数.py](DynamicProgramming/NumberOfWaysToWearDifferentHatsToEachOther.py)
 * - [优美的排列.py](DynamicProgramming/BeautifulArrangement.py)
 * - [最长递增子序列的个数.py](DynamicProgramming/BeautifulArrangement.py)
+* - [让字符串成为回文串的最少插入次数.py](DynamicProgramming/BeautifulArrangement.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

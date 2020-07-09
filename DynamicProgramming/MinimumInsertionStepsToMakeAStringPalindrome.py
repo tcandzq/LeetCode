@@ -10,8 +10,6 @@
 
 「回文串」是正读和反读都相同的字符串。
 
-
-
 示例 1：
 
 输入：s = "zzazz"
@@ -44,13 +42,25 @@ s 中所有字符都是小写字母。
 
 参考：https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/discuss/470706/JavaC%2B%2BPython-Longest-Common-Sequence
 
+将问题转化为最长公共序列的长度：
+(1)初始化dp[n+1][n+1]，其中dp[i][j]表示s1的第一个字母i与s2的第一个字母j之间的最长公共序列的长度
+(2)计算s1和s2的最长公共序列，其中s1=s，s2=reversed(s)
+(3)返回 n - dp[n][n]
+
 """
 
 class Solution:
     def minInsertions(self, s: str) -> int:
         n = len(s)
-        dp = [[0] * (n + 1) for i in range(n + 1)]
+        dp = [[0] * (n + 1) for _ in range(n + 1)]
         for i in range(n):
             for j in range(n):
                 dp[i + 1][j + 1] = dp[i][j] + 1 if s[i] == s[~j] else max(dp[i][j + 1], dp[i + 1][j])
         return n - dp[n][n]
+
+
+if __name__ == '__main__':
+    s = "leetcode"
+    solution = Solution()
+    print(solution.minInsertions(s))
+    print(~0)

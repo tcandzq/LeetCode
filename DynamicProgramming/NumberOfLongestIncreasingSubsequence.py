@@ -47,9 +47,9 @@ class Solution:
 
     def findNumberOfLIS2(self, nums: List[int]) -> int:
         """
-                :type nums: List[int]
-                :rtype: int
-                """
+        :type nums: List[int]
+        :rtype: int
+        """
         # Time: O(n^2)
         # Space: O(n)
         dp, longest = [[1, 1] for i in range(len(nums))], 1
@@ -68,4 +68,4 @@ class Solution:
 if __name__ == '__main__':
     nums = [1, 3, 5, 4, 7]
     solution = Solution()
-    print(solution.findNumberOfLIS(nums))
+    print(solution.findNumberOfLIS2(nums))

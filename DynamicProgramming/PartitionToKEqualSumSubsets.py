@@ -26,7 +26,7 @@ from typing import List
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         sums = [0] * k
-        subsum = sum(nums) / k
+        sub_sum = sum(nums) / k
         nums.sort(reverse=True)
         l = len(nums)
 
@@ -35,7 +35,7 @@ class Solution:
                 return len(set(sums)) == 1
             for j in range(k):
                 sums[j] += nums[i]
-                if sums[j] <= subsum and walk(i + 1):
+                if sums[j] <= sub_sum and walk(i + 1):
                     return True
                 sums[j] -= nums[i]
                 if sums[j] == 0:
@@ -43,5 +43,11 @@ class Solution:
             return False
 
         return walk(0)
+
+if __name__ == '__main__':
+    nums = [4, 3, 2, 3, 5, 2, 1]
+    k = 4
+    solution = Solution()
+    print(solution.canPartitionKSubsets(nums,k))
 
 

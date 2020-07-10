@@ -130,6 +130,7 @@
 * - [让字符串成为回文串的最少插入次数.py](DynamicProgramming/MinimumInsertionStepsToMakeAStringPalindrome.py)
 * - [最后一块石头的重量II.py](DynamicProgramming/LastStoneWeightII.py)
 * - [划分为k个相等的子集.py](DynamicProgramming/PartitionToKEqualSumSubsets.py)
+* - [使用最小花费爬楼梯.py](DynamicProgramming/MinCostClimbingStairs.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

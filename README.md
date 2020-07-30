@@ -132,6 +132,7 @@
 * - [划分为k个相等的子集.py](DynamicProgramming/PartitionToKEqualSumSubsets.py)
 * - [使用最小花费爬楼梯.py](DynamicProgramming/MinCostClimbingStairs.py)
 * - [大礼包.py](DynamicProgramming/MinCostClimbingStairs.py)
+* - [使序列递增的最小交换次数.py](DynamicProgramming/MinimumSwapsToMakeSequencesIncreasing.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

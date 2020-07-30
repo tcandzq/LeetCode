@@ -61,7 +61,6 @@ class Solution:
             return val
         return dfs(needs)
 
-
 if __name__ == '__main__':
     price = [2, 5]
     special = [[3, 0, 5], [1, 2, 10]]

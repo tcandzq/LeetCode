@@ -135,6 +135,7 @@
 * - [使序列递增的最小交换次数.py](DynamicProgramming/MinimumSwapsToMakeSequencesIncreasing.py)
 * - [香槟塔.py](DynamicProgramming/ChampagneTower.py)
 * - [删除与获得点数.py](DynamicProgramming/DeleteAndEarn.py)
+* - [最大平均值和的分组.py](DynamicProgramming/DeleteAndEarn.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

@@ -31,6 +31,9 @@
 
 1 <= arr1.length, arr2.length <= 2000
 0 <= arr1[i], arr2[i] <= 10^9
+
+参考：https://leetcode.com/problems/make-array-strictly-increasing/discuss/377403/Python-DP-solution-with-explanation.
+
 """
 from typing import List
 import collections

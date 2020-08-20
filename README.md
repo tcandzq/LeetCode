@@ -137,6 +137,7 @@
 * - [删除与获得点数.py](DynamicProgramming/DeleteAndEarn.py)
 * - [最大平均值和的分组.py](DynamicProgramming/DeleteAndEarn.py)
 * - [使数组严格递增.py](DynamicProgramming/MakeArrayStrictlyIncreasing.py)
+* - [两个子序列的最大点积.py](DynamicProgramming/MakeArrayStrictlyIncreasing.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

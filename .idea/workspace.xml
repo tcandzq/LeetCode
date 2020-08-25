@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/LongestStringChain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/FindTwoNonOverlappingSubArraysEachWithTargetSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -51,8 +51,8 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MinimumSwapsToMakeSequencesIncreasing">
-    <configuration name="LastStoneWeightII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum">
+    <configuration name="FindTwoNonOverlappingSubArraysEachWithTargetSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/LastStoneWeightII.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/FindTwoNonOverlappingSubArraysEachWithTargetSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.LastStoneWeightII" />
       <item itemvalue="Python.MinCostClimbingStairs" />
       <item itemvalue="Python.PartitionToKEqualSumSubsets" />
       <item itemvalue="Python.ShoppingOffers" />
       <item itemvalue="Python.MinimumSwapsToMakeSequencesIncreasing" />
+      <item itemvalue="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum" />
         <item itemvalue="Python.MinimumSwapsToMakeSequencesIncreasing" />
         <item itemvalue="Python.ShoppingOffers" />
         <item itemvalue="Python.MinCostClimbingStairs" />
         <item itemvalue="Python.PartitionToKEqualSumSubsets" />
-        <item itemvalue="Python.LastStoneWeightII" />
       </list>
     </recent_temporary>
   </component>
@@ -205,25 +205,25 @@
     </state>
     <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597725026205" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593924772233" />
-    <state width="1345" height="6" key="GridCell.Tab.0.bottom" timestamp="1596127367730">
+    <state width="1345" height="233" key="GridCell.Tab.0.bottom" timestamp="1598374347737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="6" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596127367730" />
+    <state width="1345" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598374347737" />
     <state width="1899" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594355098624" />
-    <state width="1345" height="6" key="GridCell.Tab.0.center" timestamp="1596127367730">
+    <state width="1345" height="233" key="GridCell.Tab.0.center" timestamp="1598374347737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="6" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596127367730" />
+    <state width="1345" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598374347737" />
     <state width="1899" height="177" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594355098624" />
-    <state width="1345" height="6" key="GridCell.Tab.0.left" timestamp="1596127367730">
+    <state width="1345" height="233" key="GridCell.Tab.0.left" timestamp="1598374347737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="6" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596127367730" />
+    <state width="1345" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598374347737" />
     <state width="1899" height="177" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594355098624" />
-    <state width="1345" height="6" key="GridCell.Tab.0.right" timestamp="1596127367730">
+    <state width="1345" height="233" key="GridCell.Tab.0.right" timestamp="1598374347737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="6" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596127367730" />
+    <state width="1345" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598374347737" />
     <state width="1899" height="177" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594355098624" />
     <state width="1899" height="176" key="GridCell.Tab.1.bottom" timestamp="1594478519201">
       <screen x="0" y="0" width="1366" height="728" />
@@ -249,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591438369320" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1598285784701">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1598374017577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598285784701" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598374017577" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594192200424" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591461407342">
       <screen x="0" y="0" width="1920" height="1040" />

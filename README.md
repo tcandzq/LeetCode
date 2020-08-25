@@ -141,6 +141,7 @@
 * - [和为目标值的最大数目不重叠非空子数组数目.py](DynamicProgramming/MaximumProductSubarray.py)
 * - [吃掉N个橘子的最少天数.py](DynamicProgramming/MinimumNumberOfDaysToEatNnOranges.py)
 * - [最长字符串链.py](DynamicProgramming/LongestStringChain.py)
+* - [找两个和为目标值且不重叠的子数组.py](DynamicProgramming/FindTwoNonOverlappingSubArraysEachWithTargetSum.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

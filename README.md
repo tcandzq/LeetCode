@@ -142,6 +142,7 @@
 * - [吃掉N个橘子的最少天数.py](DynamicProgramming/MinimumNumberOfDaysToEatNnOranges.py)
 * - [最长字符串链.py](DynamicProgramming/LongestStringChain.py)
 * - [找两个和为目标值且不重叠的子数组.py](DynamicProgramming/FindTwoNonOverlappingSubArraysEachWithTargetSum.py)
+* - [带限制的子序列和.py](DynamicProgramming/ConstrainedSubsequenceSum.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

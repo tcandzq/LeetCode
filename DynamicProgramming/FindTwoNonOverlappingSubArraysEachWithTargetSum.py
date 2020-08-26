@@ -44,6 +44,9 @@
 1 <= arr.length <= 10^5
 1 <= arr[i] <= 1000
 1 <= target <= 10^8
+
+参考：https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/discuss/685470/Python-One-pass-prefix-sum-O(n)
+
 """
 from typing import List
 import math

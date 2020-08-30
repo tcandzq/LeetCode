@@ -3,7 +3,7 @@
 # @Date    : 2020-08-30
 # @Author  : tc
 """
-题号 1340. 跳跃游戏 V
+题号 1340. 跳跃游戏V
 给你一个整数数组 arr 和一个整数 d 。每一步你可以从下标 i 跳到：
 
 i + x ，其中 i + x < arr.length 且 0 < x <= d 。
@@ -48,6 +48,9 @@ i - x ，其中 i - x >= 0 且 0 < x <= d 。
 1 <= arr.length <= 1000
 1 <= arr[i] <= 10^5
 1 <= d <= arr.length
+
+参考：https://leetcode.com/problems/jump-game-v/discuss/501439/O(N)-Solution-is-Gone
+
 """
 from typing import List
 

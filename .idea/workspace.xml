@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/LongestHappyString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/JumpGameV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum">
+  <component name="RunManager" selected="Python.JumpGameV">
     <configuration name="FindTwoNonOverlappingSubArraysEachWithTargetSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +65,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/FindTwoNonOverlappingSubArraysEachWithTargetSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JumpGameV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/JumpGameV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,27 +136,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PartitionToKEqualSumSubsets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/PartitionToKEqualSumSubsets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ShoppingOffers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,18 +159,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.MinCostClimbingStairs" />
-      <item itemvalue="Python.PartitionToKEqualSumSubsets" />
       <item itemvalue="Python.ShoppingOffers" />
       <item itemvalue="Python.MinimumSwapsToMakeSequencesIncreasing" />
       <item itemvalue="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum" />
+      <item itemvalue="Python.JumpGameV" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JumpGameV" />
         <item itemvalue="Python.FindTwoNonOverlappingSubArraysEachWithTargetSum" />
         <item itemvalue="Python.MinimumSwapsToMakeSequencesIncreasing" />
         <item itemvalue="Python.ShoppingOffers" />
         <item itemvalue="Python.MinCostClimbingStairs" />
-        <item itemvalue="Python.PartitionToKEqualSumSubsets" />
       </list>
     </recent_temporary>
   </component>
@@ -249,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591438369320" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1598550966308">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1598776701509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598550966308" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598776701509" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594192200424" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591461407342">
       <screen x="0" y="0" width="1920" height="1040" />

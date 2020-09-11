@@ -149,6 +149,7 @@
 * - [下降路径最小和.py](DynamicProgramming/MinimumFallingPathSum.py)
 * - [摘樱桃II.py](DynamicProgramming/CherryPickupII.py)
 * - [删除一次得到子数组最大和.py](DynamicProgramming/MaximumSubarraySumWithOneDeletion.py)
+* - [最短公共超序列.py](DynamicProgramming/ShortestCommonSupersequence.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

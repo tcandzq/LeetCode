@@ -151,6 +151,8 @@
 * - [删除一次得到子数组最大和.py](DynamicProgramming/MaximumSubarraySumWithOneDeletion.py)
 * - [最短公共超序列.py](DynamicProgramming/ShortestCommonSupersequence.py)
 * - [K站中转内最便宜的航班.py](DynamicProgramming/CheapestFlightsWithinKStops.py)
+* - [灌溉花园的最少水龙头数目.py](DynamicProgramming/MinimumNumberOfTapsToOpenToWaterAGarden.py)
+* - [K次串联后最大子数组之和.py](DynamicProgramming/KConcatenationMaximumSum.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

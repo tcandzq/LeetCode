@@ -154,6 +154,7 @@
 * - [灌溉花园的最少水龙头数目.py](DynamicProgramming/MinimumNumberOfTapsToOpenToWaterAGarden.py)
 * - [K次串联后最大子数组之和.py](DynamicProgramming/KConcatenationMaximumSum.py)
 * - [不同的子序列II.py](DynamicProgramming/DistinctSubsequencesII.py)
+* - [安排邮筒.py](DynamicProgramming/AllocateMailboxes.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

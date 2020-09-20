@@ -156,6 +156,7 @@
 * - [不同的子序列II.py](DynamicProgramming/DistinctSubsequencesII.py)
 * - [安排邮筒.py](DynamicProgramming/AllocateMailboxes.py)
 * - [计算各个位数不同的数字个数.py](DynamicProgramming/CountNumbersWithUniqueDigits.py)
+* - [播放列表的数量.py](DynamicProgramming/NumberOfMusicPlaylists.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

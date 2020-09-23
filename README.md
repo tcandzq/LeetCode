@@ -159,6 +159,7 @@
 * - [播放列表的数量.py](DynamicProgramming/NumberOfMusicPlaylists.py)
 * - [给房子涂色III.py](DynamicProgramming/PaintHouseIII.py)
 * - [分隔数组以得到最大和.py](DynamicProgramming/PartitionArrayForMaximumSum.py)
+* - [最低票价.py](DynamicProgramming/MinimumCostForTickets.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

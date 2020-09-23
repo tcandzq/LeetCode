@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/PartitionArrayForMaximumSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MinimumCostForTickets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -245,10 +245,10 @@
     </state>
     <state width="1899" height="176" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594478519201" />
     <state width="1899" height="176" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594223287734" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1600791821101">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1600877009954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600791821101" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600877009954" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594192200424" />
   </component>
   <component name="XDebuggerManager">

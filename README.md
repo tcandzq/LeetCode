@@ -160,6 +160,7 @@
 * - [给房子涂色III.py](DynamicProgramming/PaintHouseIII.py)
 * - [分隔数组以得到最大和.py](DynamicProgramming/PartitionArrayForMaximumSum.py)
 * - [最低票价.py](DynamicProgramming/MinimumCostForTickets.py)
+* - [最长的斐波那契子序列的长度.py](DynamicProgramming/LengthOfLongestFibonacciSubsequence.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

@@ -49,12 +49,25 @@ cost = [3,4,3]
 你无法返回 2 号加油站，因为返程需要消耗 4 升汽油，但是你的油箱只有 3 升汽油。
 因此，无论怎样，你都不可能绕环路行驶一周。
 
+参考：https://leetcode-cn.com/problems/gas-station/solution/jia-you-zhan-by-leetcode/
+
 """
 from typing import List
 
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-        pass
+        n = len(gas)
+
+        total_tank,curr_tank = 0,0
+        starting_station = 0
+        for i in range(n):
+            total_tank += gas[i] - cost[i]
+            curr_tank += gas[i] - cost[i]
+            if curr_tank < 0:
+                starting_station = i + 1
+                curr_tank = 0
+        return starting_station if total_tank >=0 else -1
+
 
 
 

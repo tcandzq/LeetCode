@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MinimumDifficultyOfAJobSchedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/StickersToSpellWord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy/GasStation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/GasStation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,10 +245,10 @@
     </state>
     <state width="1899" height="176" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594478519201" />
     <state width="1899" height="176" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594223287734" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1602156905438">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1602257074504">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602156905438" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602257074504" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594192200424" />
   </component>
   <component name="XDebuggerManager">

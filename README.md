@@ -165,6 +165,7 @@
 * - [最长等差数列.py](DynamicProgramming/LongestArithmeticSubsequence.py)
 * - [工作计划的最低难度.py](DynamicProgramming/MinimumDifficultyOfAJobSchedule.py)
 * - [贴纸拼词.py](DynamicProgramming/StickersToSpellWord.py)
+* - [统计全为1的正方形子矩阵.py](DynamicProgramming/CountSquareSubmatricesWithAllOnes.py)
 ## [双指针(及其相关结构)](TwoPointer/)
 * - [长度最小的子数组.py](TwoPointer/MinimumSizeSubarraySum.py)
 * - [最小覆盖子串.py](TwoPointer/MinimumWindowSubstring.py)

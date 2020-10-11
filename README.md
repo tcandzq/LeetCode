@@ -444,6 +444,7 @@
 * - [面试题03.数组中重复的数字.py](CodingInterview/03_01_DuplicationInArray.py)
 * - [面试题04.二维数组中的查找.py](CodingInterview/04_FindInPartiallySortedMatrix.py)
 * - [面试题05.替换空格.py](CodingInterview/04_FindInPartiallySortedMatrix.py)
+* - [面试题06.从尾到头打印链表.py](CodingInterview/06_PrintListInReversedOrder.py)
 * - [面试题09.用两个栈实现队列.py](CodingInterview/09_QueueWithTwoStacks.py)
 * - [面试题11.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
 * - [面试题14-I.剪绳子.py](CodingInterview/14_CuttingRope.py)

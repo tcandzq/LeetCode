@@ -451,6 +451,7 @@
 * - [面试题10-I.斐波那契数列.py](CodingInterview/10_Fibonacci.py)
 * - [面试题10-II.青蛙跳台阶问题.py](CodingInterview/10_ClimbingStairs.py)
 * - [面试题11.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
+* - [面试题12.旋转数组的最小数字.py](CodingInterview/11_MinNumberInRotatedArray.py)
 * - [面试题14-I.剪绳子.py](CodingInterview/14_CuttingRope.py)
 * - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
 * - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)

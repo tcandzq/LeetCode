@@ -456,6 +456,7 @@
 * - [面试题14-I.剪绳子.py](CodingInterview/14_CuttingRope.py)
 * - [面试题14-II.剪绳子.py](CodingInterview/14_CuttingRopeII.py)
 * - [面试题15二进制中1的个数.py](CodingInterview/15_NumberOf1InBinary.py)
+* - [面试题15二进制中1的个数.py](CodingInterview/15_NumberOf1InBinary.py)
 * - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
 * - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
 * - [面试题40. 最小的k个数.py](CodingInterview/40_KLeastNumbers.py)

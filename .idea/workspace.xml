@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/12_StringPathInMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/13_RobotMove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/14_CuttingRopeII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/12_StringPathInMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/12_StringPathInMatrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/14_CuttingRope.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/14_CuttingRope.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,10 +203,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="195" key="FileChooserDialogImpl" timestamp="1600482614124">
+    <state x="526" y="195" key="FileChooserDialogImpl" timestamp="1602991037604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600482614124" />
+    <state x="526" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602991037604" />
     <state width="1345" height="338" key="GridCell.Tab.0.bottom" timestamp="1602415649604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

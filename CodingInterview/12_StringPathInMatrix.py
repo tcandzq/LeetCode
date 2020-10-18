@@ -26,14 +26,18 @@
 1 <= board[i].length <= 200
 注意：本题与主站 79 题相同：https://leetcode-cn.com/problems/word-search/
 
+参考：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/solution/mian-shi-ti-12-ju-zhen-zhong-de-lu-jing-shen-du-yo/
+
 """
 from typing import List
 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         def dfs(i,j,k):
-            if not 0 <= i < len(board) or not 0 <= j <= len(board[0]) or board[i][j] != word[k]:return False
-            if k == len(word) - 1: return True
+            if not 0 <= i < len(board) or not 0 <= j <= len(board[0]) or board[i][j] != word[k]:
+                return False
+            if k == len(word) - 1:
+                return True
             tmp, board[i][j] = board[i][j], '/'
             res = dfs(i + 1, j, k + 1) or dfs(i - 1, j, k + 1) or dfs(i, j + 1, k + 1) or dfs(i, j - 1, k + 1)
             board[i][j] = tmp
@@ -41,7 +45,8 @@ class Solution:
 
         for i in range(len(board)):
             for j in range(len(board[0])):
-                if dfs(i, j, 0): return True
+                if dfs(i, j, 0):
+                    return True
         return False
 
 if __name__ == '__main__':

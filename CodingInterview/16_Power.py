@@ -3,7 +3,7 @@
 # @Date    : 2020-10-18
 # @Author  : tc
 """
-剑指 Offer 16. 数值的整数次方
+剑指 Offer 16.数值的整数次方
 实现函数double Power(double base, int exponent)，求base的exponent次方。不得使用库函数，同时不需要考虑大数问题。
 
 

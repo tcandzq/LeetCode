@@ -63,14 +63,17 @@ class Solution:
 
     # 优雅
     def mergeTwoLists2(self,l1:ListNode,l2:ListNode) -> ListNode:
-        if not l1:return l2
-        if not l2:return l1
+        if not l1:
+            return l2
+        if not l2:
+            return l1
         if l1.val <= l2.val:
-            l1.next = self.mergeTwoLists2(l1.next,l2)
+            l1.next = self.mergeTwoLists2(l1.next, l2)
             return l1
         else:
-            l2.next = self.mergeTwoLists2(l1,l2.next)
+            l2.next = self.mergeTwoLists2(l1, l2.next)
             return l2
+
 if __name__ == '__main__':
     a = ListNode(1)
     b = ListNode(2)

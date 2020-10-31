@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/39_MoreThanHalfNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/24_ReverseList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/16_Power.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/16_Power.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/25_MergeSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/25_MergeSortedLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/ReverseLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,10 +239,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="338" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602415649604" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1603900090441">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1604118934849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603900090441" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604118934849" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

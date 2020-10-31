@@ -461,6 +461,8 @@
 * - [面试题22.链表中倒数第k个节点.py](CodingInterview/22_KthNodeFromEnd.py)
 * - [面试题24.反转链表.py](CodingInterview/24_ReverseList.py)
 * - [面试题25.合并两个排序的链表.py](CodingInterview/25_MergeSortedLists.py)
+* - [面试题32-I.从上到下打印二叉树.py](CodingInterview/32_01_PrintTreeFromTopToBottom.py)
+* - [面试题32-II.从上到下打印二叉树II.py](CodingInterview/32_01_PrintTreeFromTopToBottom.py)
 * - [面试题39.数组中出现次数超过一半的数字.py](CodingInterview/39_MoreThanHalfNumber.py)
 * - [面试题40.最小的k个数.py](CodingInterview/40_KLeastNumbers.py)
 * - [面试题42.连续子数组的最大和.py](CodingInterview/42_GreatestSumOfSubarrays.py)

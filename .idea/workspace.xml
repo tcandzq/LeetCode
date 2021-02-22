@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/MiddleOfTheLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -200,10 +200,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1613745410284">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1613829656823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1613745410284" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613829656823" />
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom" timestamp="1613750536890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613750536890" />
+    <state width="1345" height="2" key="GridCell.Tab.0.center" timestamp="1613750536889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613750536889" />
+    <state width="1345" height="2" key="GridCell.Tab.0.left" timestamp="1613750536889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613750536889" />
+    <state width="1345" height="2" key="GridCell.Tab.0.right" timestamp="1613750536890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613750536890" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1614007080459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614007080459" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

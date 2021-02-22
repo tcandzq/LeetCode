@@ -458,6 +458,7 @@
 * - [面试题14-II.剪绳子.py](CodingInterview/14_CuttingRopeII.py)
 * - [面试题15二进制中1的个数.py](CodingInterview/15_NumberOf1InBinary.py)
 * - [面试题16.数值的整数次方.py](CodingInterview/16_Power.py)
+* - [面试题18-I.删除链表的节点.py](CodingInterview/18_01_DeleteNodeInList.py)
 * - [面试题21.调整数组顺序使奇数位于偶数前面.py](CodingInterview/ReorderArray.py)
 * - [面试题22.链表中倒数第k个节点.py](CodingInterview/22_KthNodeFromEnd.py)
 * - [面试题24.反转链表.py](CodingInterview/24_ReverseList.py)

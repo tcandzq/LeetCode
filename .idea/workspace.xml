@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/33_EntryNodeInListLoop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,10 +223,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613750536890" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1614007080459">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1615739797914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614007080459" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615739797914" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

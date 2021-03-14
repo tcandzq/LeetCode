@@ -15,6 +15,9 @@ Output:1->1->2->3->4->4
 
 参考：https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/yi-kan-jiu-hui-yi-xie-jiu-fei-xiang-jie-di-gui-by-/
 
+两个有序链表的排序，实际上可以看成一个单链表使用归并排序的最后一个环节：
+“将两个排好序的子序列合并为一个子序列：每次都是从未比较的两个子序列的最小值中选出一个更小值”。
+
 """
 class ListNode:
     def __init__(self, x):

@@ -467,6 +467,7 @@
 * - [面试题32-I.从上到下打印二叉树.py](CodingInterview/32_01_PrintTreeFromTopToBottom.py)
 * - [面试题32-II.从上到下打印二叉树II.py](CodingInterview/32_02_PrintTreesInLines.py)
 * - [面试题32-III.从上到下打印二叉树III.py](CodingInterview/32_03_PrintTreesInZigzag.py)
+* - [面试题33-III.从上到下打印二叉树III.py](CodingInterview/32_03_PrintTreesInZigzag.py)
 * - [面试题38.字符串的排列.py](CodingInterview/38_StringPermutation.py)
 * - [面试题39.数组中出现次数超过一半的数字.py](CodingInterview/39_MoreThanHalfNumber.py)
 * - [面试题40.最小的k个数.py](CodingInterview/40_KLeastNumbers.py)

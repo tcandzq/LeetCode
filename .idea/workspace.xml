@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/33_EntryNodeInListLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DivideAndConquer/ExpressionAddOperators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/18_01_DeleteNodeInList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/AddTwoNumbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/MergeTwoSortedLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DivideAndConquer/KthLargestElementInAnArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MiddleOfTheLinkedList">
+  <component name="RunManager" selected="Python.ExpressionAddOperators">
     <configuration name="16_Power" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="JumpGameV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ExpressionAddOperators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DynamicProgramming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DivideAndConquer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DynamicProgramming/JumpGameV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DivideAndConquer/ExpressionAddOperators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,17 +161,17 @@
     <list>
       <item itemvalue="Python.16_Power" />
       <item itemvalue="Python.CheapestFlightsWithinKStops" />
-      <item itemvalue="Python.JumpGameV" />
       <item itemvalue="Python.MaxPointsOnALine" />
       <item itemvalue="Python.MiddleOfTheLinkedList" />
+      <item itemvalue="Python.ExpressionAddOperators" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ExpressionAddOperators" />
         <item itemvalue="Python.MiddleOfTheLinkedList" />
         <item itemvalue="Python.16_Power" />
         <item itemvalue="Python.MaxPointsOnALine" />
         <item itemvalue="Python.CheapestFlightsWithinKStops" />
-        <item itemvalue="Python.JumpGameV" />
       </list>
     </recent_temporary>
   </component>
@@ -203,30 +201,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1613829656823">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1623253245064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1613829656823" />
-    <state width="1345" height="2" key="GridCell.Tab.0.bottom" timestamp="1613750536890">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613750536890" />
-    <state width="1345" height="2" key="GridCell.Tab.0.center" timestamp="1613750536889">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613750536889" />
-    <state width="1345" height="2" key="GridCell.Tab.0.left" timestamp="1613750536889">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613750536889" />
-    <state width="1345" height="2" key="GridCell.Tab.0.right" timestamp="1613750536890">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613750536890" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1615739797914">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615739797914" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1623253245064" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

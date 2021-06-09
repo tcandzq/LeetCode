@@ -345,6 +345,7 @@
 * - [求众数.py](DivideAndConquer/MajorityElement.py)
 * - [数组中的第K个最大元素.py](DivideAndConquer/KthLargestElementInAnArray.py)
 * - [至少有K个重复字符的最长子串.py](DivideAndConquer/LongestSubstringWithAtLeastKRepeatingCharacters.py)
+* - [给表达式添加运算符.py](DivideAndConquer/ExpressionAddOperators.py)
 ## [堆(及其相关结构)](Heap/)
 * - [滑动窗口最大值.py](Heap/SlidingWindowMaximum.py)
 * - [前K个高频元素.py](Heap/TopKFrequentElements.py)

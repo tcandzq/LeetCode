@@ -35,6 +35,8 @@ cur: current result of "temp" string
 last: last multiply-level number in "temp". if next operator is "multiply", "cur" and "last" will be updated
 res: result to return
 
+参考：https://leetcode.com/problems/expression-add-operators/discuss/71968/Clean-Python-DFS-with-comments
+
 """
 from typing import List
 

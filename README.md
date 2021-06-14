@@ -47,6 +47,7 @@
 * - [二叉树的锯齿形层次遍历.py](BinaryTree/BinaryTreeZigZagLevelOrderTraversal.py)
 * - [最大二叉树.py](BinaryTree/MaximumBinaryTree.py)
 * - [二叉树最大宽度.py](BinaryTree/MaximumWidthOfBinaryTree.py)
+* - [.py](BinaryTree/MaximumWidthOfBinaryTree.py)
 ## [二分查找(及其相关结构)](BinarySearch/)
 * - [二分查找.py](BinarySearch/BinarySearch.py)
 * - [搜索插入位置.py](BinarySearch/SearchInsertPosition.py)

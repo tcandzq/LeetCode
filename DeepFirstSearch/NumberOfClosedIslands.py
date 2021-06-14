@@ -12,19 +12,13 @@
 
 请返回封闭岛屿的数目。
 
-
-
 示例 1：
-
-
 
 输入：grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
 输出：2
 解释：
 灰色区域的岛屿是封闭岛屿，因为这座岛屿完全被水域包围（即被 1 区域包围）。
 示例 2：
-
-
 
 输入：grid = [[0,0,1,0,0],[0,1,0,1,0],[0,1,1,1,0]]
 输出：1
@@ -39,42 +33,38 @@
              [1,1,1,1,1,1,1]]
 输出：2
 
-
 提示：
 
 1 <= grid.length, grid[0].length <= 100
 0 <= grid[i][j] <=1
 
-参考：https://leetcode.com/problems/number-of-closed-islands/discuss/425122/Python-easy-understand-DFS-solution
+
+参考：https://leetcode-cn.com/problems/number-of-closed-islands/solution/yi-ti-kan-tou-dfs-he-dfs-by-xiao-xiao-suan-fa/
+
+使用DFS+标记位置，注意已经访问过的岛屿要标记，否则会无限堆栈，导致失败。
 
 """
 from typing import List
 
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:
-        if not grid or not grid[0]:
-            return 0
-
-        m, n = len(grid), len(grid[0])
-
-        def dfs(i, j, val):
-            if 0 <= i < m and 0 <= j < n and grid[i][j] == 0:
-                grid[i][j] = val
-                dfs(i, j + 1, val)
-                dfs(i + 1, j, val)
-                dfs(i - 1, j, val)
-                dfs(i, j - 1, val)
-
-        for i in range(m):
-            for j in range(n):
-                if (i == 0 or j == 0 or i == m - 1 or j == n - 1) and grid[i][j] == 0:
-                    dfs(i, j, 1)
-
-        res = 0
-        for i in range(m):
-            for j in range(n):
+        ret = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
                 if grid[i][j] == 0:
-                    dfs(i, j, 1)
-                    res += 1
+                    ret += self.dfs(grid,i,j)
+        return ret
 
-        return res
+
+    def dfs(self,grid,r,c):
+        if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]):
+            return 0
+        if grid[r][c] == 1:
+            return 1
+        grid[r][c] = 1
+        vr = [0, -1, 0, 1]
+        vc = [1, 0, -1, 0]
+        ret = 1
+        for i in range(4):
+            ret = min(ret, self.dfs(grid, r + vr[i], c + vc[i]))
+        return ret

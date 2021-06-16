@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/MajorityElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/PartitionArrayIntoThreePartsWithEqualSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinaryTree/UniqueBinarySearchTrees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/DiagonalTraverse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/24-game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/UniquePaths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/ContiguousArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Random/ImplementRand10UsingRand7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/MultiplyStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/KthLargestElementInAStream.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepFirstSearch/NumberOfClosedIslands.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepFirstSearch/NumberOfClosedIslands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/33_EntryNodeInListLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/33_EntryNodeInListLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/UniquePaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/UniquePaths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

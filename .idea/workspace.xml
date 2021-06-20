@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CodingInterview/36_ConvertBinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/53_01_NumberOfK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/60_DicesProbability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/61_ContinousCards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/63_MaximalProfit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/65_AddTwoNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/SuperUglyNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/50_01_FirstNodeRepeatingChar.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/50_01_FirstNodeRepeatingChar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/51_InversePairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/51_InversePairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/52_FirstCommonNodeInLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/52_FirstCommonNodeInLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/53_02_MissingNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/53_02_MissingNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/54_KthNodeInBST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/55_01_TreeDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/55_01_TreeDepth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/56_01_NumbersAppearOnce.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/56_01_NumbersAppearOnce.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/57_01_TwoNumbersWithSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/57_01_TwoNumbersWithSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/57_02_ContinuousSequenceWithSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/57_02_ContinuousSequenceWithSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/58_01_ReverseWordsInSentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/58_01_ReverseWordsInSentence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/62_LastNumberInCircle.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/62_LastNumberInCircle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/66_ConstuctArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/66_ConstuctArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/68_02_CommonParentInTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/68_02_CommonParentInTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,10 +226,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1623950182262">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1624078545511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1623950182262" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1624078545511" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1624186207672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1624186207672" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/36_ConvertBinarySearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/53_01_NumberOfK.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/60_DicesProbability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/61_ContinousCards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/63_MaximalProfit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/65_AddTwoNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/SuperUglyNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/27_MirrorOfBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/28_SymmetricalBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/29_PrintMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/55_02_BalancedBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodingInterview/56_02_NumberAppearingOnce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/26_SubstructureInTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/26_SubstructureInTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

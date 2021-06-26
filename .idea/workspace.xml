@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodingInterview/27_MirrorOfBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/28_SymmetricalBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/29_PrintMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/55_02_BalancedBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingInterview/56_02_NumberAppearingOnce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/PopulatingNextRightPointersInEachNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/26_SubstructureInTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/26_SubstructureInTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodingInterview/59_01_MaxInSlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/59_01_MaxInSlidingWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1624078545511">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1624704056057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1624078545511" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1624704056057" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1624186207672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

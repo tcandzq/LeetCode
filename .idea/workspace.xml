@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinaryTree/PopulatingNextRightPointersInEachNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/PathWithMaximumGold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/SumOfSquareNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/FlipEquivalentBinaryTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindow/LongestSubarrayOf1sAfterDeletingOneElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/SumOfSubarrayMinimums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointer/ShortestDistanceToACharacter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterview/59_01_MaxInSlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterview/59_01_MaxInSlidingWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/RemoveAllAdjacentDuplicatesInStringII.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/RemoveAllAdjacentDuplicatesInStringII.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

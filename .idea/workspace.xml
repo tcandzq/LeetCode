@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/ReplaceElementsWithGreatestElementOnRightSide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/RestoreIpAddresses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/FindInMountainArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/PeakIndexInAMountainArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/ImplementStackUsingQueues.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/ValidParenthesisString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/InterleavingString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MaximumSwap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointer/NextGreaterElementIII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -40,20 +37,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/github_project/My-LeetCode/Backtracking/Permutations.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TwoPointer" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\LeetCode\TwoPointer" />
+      <recent name="D:\github_project\LeetCode\百度" />
+      <recent name="C:\github_project\My-LeetCode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github_project\LeetCode\Greedy" />
       <recent name="D:\github_project\LeetCode\DeepFirstSearch" />
       <recent name="D:\github_project\LeetCode\Sort" />
       <recent name="D:\github_project\LeetCode\SlidingWindow" />
       <recent name="D:\github_project\LeetCode\TwoPointer" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github_project\LeetCode\百度" />
-      <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
   <component name="RunManager" selected="Python.PascalsTriangle">
@@ -225,10 +223,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1624704056057">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1625310063786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1624704056057" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1625310063786" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1624186207672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

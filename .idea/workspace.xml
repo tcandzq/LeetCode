@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch/KthSmallestNumberInMultiplicationTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/MinimumAbsoluteDifferenceInBst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/MinimumDistanceBetweenBstNodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/RecoverBinarySearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/ScoreAfterFlippingMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/ExcelSheetColumnTitle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/LargestMultipleOfThree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindow/FindKClosestElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/FinalPricesWithASpecialDiscountInAShop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/LargestPerimeterTriangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MinimumPossibleIntegerAfterAtMostKAdjacentSwapsOnDigits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -229,10 +222,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1625414022104">
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1628524095280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1625414022104" />
+    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1628524095280" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1624186207672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

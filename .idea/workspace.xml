@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Greedy/LargestPerimeterTriangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/MinimumPossibleIntegerAfterAtMostKAdjacentSwapsOnDigits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,9 +158,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.16_Power" />
+      <item itemvalue="Python.ExpressionAddOperators" />
       <item itemvalue="Python.MaxPointsOnALine" />
       <item itemvalue="Python.MiddleOfTheLinkedList" />
-      <item itemvalue="Python.ExpressionAddOperators" />
       <item itemvalue="Python.PascalsTriangle" />
     </list>
     <recent_temporary>
@@ -202,34 +199,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1623672763213">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1654624485853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623672763213" />
-    <state width="1345" height="204" key="GridCell.Tab.0.bottom" timestamp="1623864794015">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1654624485853" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1654626606213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state width="1345" height="204" key="GridCell.Tab.0.center" timestamp="1623864794015">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state width="1345" height="204" key="GridCell.Tab.0.left" timestamp="1623864794015">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state width="1345" height="204" key="GridCell.Tab.0.right" timestamp="1623864794015">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1623864794015" />
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1628524095280">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="464" y="243" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1628524095280" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1624186207672">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1624186207672" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1654626606213" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

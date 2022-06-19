@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/ArithmeticSlicesIISubsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/ConcatenatedWords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/IntegerReplacement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/SlidingWindowMedian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -40,17 +40,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github_project\LeetCode\TwoPointer" />
-      <recent name="D:\github_project\LeetCode\百度" />
-      <recent name="C:\github_project\My-LeetCode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\LeetCode\DynamicProgramming" />
       <recent name="D:\github_project\LeetCode\Stack" />
       <recent name="D:\github_project\LeetCode\Greedy" />
       <recent name="D:\github_project\LeetCode\DeepFirstSearch" />
       <recent name="D:\github_project\LeetCode\Sort" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\LeetCode\TwoPointer" />
+      <recent name="D:\github_project\LeetCode\百度" />
+      <recent name="C:\github_project\My-LeetCode" />
     </key>
   </component>
   <component name="RunManager" selected="Python.PascalsTriangle">
@@ -202,10 +202,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1655313234436">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1655647223015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1655313234436" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1655647223015" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1654626606213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

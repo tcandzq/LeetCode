@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/MaxConsecutiveOnes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/RemoveCoveredIntervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch/SingleElementInASortedArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/BattleshipsInABoard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/KnightProbabilityInChessboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/OpenTheLock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/DesignHashmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/LFUCache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/DecodeWaysII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/LargestDivisibleSubset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/NonNegativeIntegersWithoutConsecutiveOnes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometry/ErectTheFence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/AdvantageShuffle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/FindTheClosestPalindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/IPO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap/SmallestRangeCoveringElementsFromKLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindow/MaxConsecutiveOnesIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/ValidNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoPointer/SortArrayByParityII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/MaximumProductOfThreeNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/SmallestSubsequenceOfDistinctCharacters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>

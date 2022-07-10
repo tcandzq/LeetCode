@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/ShortestPathInAGridWithObstaclesElimination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/SubtreeOfAnotherTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/DesignCircularQueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/MonotoneIncreasingDigits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/DegreeOfAnArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashTable/FindCommonCharacters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LCCI/MaxSubmatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrefixSum/MaximumSumOfTwoNonOverlappingSubarrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindow/MinimumOperationsToReduceXToZero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/FindRightInterval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/PopulatingNextRightPointersInEachNodeII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math/SuperPow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Randomized/ShuffleAnArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindow/SubarrayProductLessThanK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trie/KThSmallestInLexicographicalOrder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -209,10 +206,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1655647223015">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1657470479594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1655647223015" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1657470479594" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1655774474562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

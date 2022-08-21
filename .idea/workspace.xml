@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d18769-0c0a-4d5d-83f1-ffb37600de44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/1BitAnd2BitCharacters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/PowerOfFour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/TrimABinarySearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/TwoSumIvInputIsABst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BitManipulation/SortIntegersByTheNumberOf1Bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/AverageOfLevelsInBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/NumbersWithSameConsecutiveDifferences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepFirstSearch/VerticalOrderTraversalOfABinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design/InsertDeleteGetrandomO1DuplicatesAllowed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enumeration/ConsecutiveNumbersSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enumeration/LargestTimeForGivenDigits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/LongestChunkedPalindromeDecomposition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/ReorganizeString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/MergeInBetweenLinkedLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/ThreeEqualParts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonotonicStack/NetGreaterNodeInLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MonotonicStack/NextGreaterElementI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrefixSum/CorporateFlightBookings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/RepeatedSubstringPattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoPointer/LongestWordInDictionaryThroughDeleting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoPointer/NumberOfSubsequencesThatSatisfyTheGivenSumCondition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnionFindSet/CouplesHoldingHands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/ShortestSubarrayToBeRemovedToMakeArraySorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitManipulation/ConvertANumberToHexadecimal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BreadthFirstSearch/KSimilarStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/Largest1BorderedSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MaximumLengthOfPairChain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/MinimumCostToMergeStones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/NetworkDelayTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/BoatsToSavePeople.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/CourseScheduleIII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MinimumInitialEnergyToFinishTasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/MinimumNumberOfRefuelingStops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/BestPokerHand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/EqualRowAndColumnPairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/FirstLetterToAppearTwice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/MaximumNumberOfPairsInArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/SmallestNumberInInfiniteSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrefixSum/BinarySubarraysWithSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindow/MaximumNumberOfVowelsInASubstringOfGivenLength.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointer/SortArrayByParity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/StickersToSpellWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/StickersToSpellWord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/ContiguousArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrefixSum/ContiguousArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +65,11 @@
       <recent name="C:\github_project\My-LeetCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LeetCode\HashTable" />
+      <recent name="D:\LeetCode\PrefixSum" />
       <recent name="D:\LeetCode\Array" />
       <recent name="D:\LeetCode\BinarySearch" />
       <recent name="D:\LeetCode\DynamicProgramming" />
-      <recent name="D:\github_project\LeetCode\Stack" />
-      <recent name="D:\github_project\LeetCode\Greedy" />
     </key>
   </component>
   <component name="RunManager" selected="Python.PascalsTriangle">
@@ -226,10 +225,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1660482564651" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1655774474562">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1661069316251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1655774474562" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1661069316251" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

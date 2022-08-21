@@ -22,6 +22,15 @@
 2.使用前缀和，如果两个前缀和的值一样，表明这两个前缀和对应下标之间的数组和为0;
 3.考虑极端情况，比如[0，1],需要index=0时的前缀为{0：-1}
 
+算法步骤：
+创建一个哈希表，用 key来储存cur值, value来储存当前index。
+假设我们碰到0就将cur decrement (减一), 碰到1则increment (加一)。
+如果我们能在哈希表中找到当前的 cur值, 则取出对应的pos, 在看当前的 index - pos 是否比 ans 大, 取其中的最优解。
+核心：由于以上碰1加一，碰0减一的操作，当0与1数量一致时(连续数组), 其连续数组的和为零。
+因此我们知道数组前面的cur值是什么，在到达该连续数组尾部时就不会变。
+因此我们只需要检查哈希表中是否存在其相同的 cur值即可！(多读几遍)
+
+
 参考；https://leetcode-cn.com/problems/contiguous-array/solution/dong-tu-yan-shi-qian-zhui-he-si-xiang-by-z2no/
 """
 from typing import List
